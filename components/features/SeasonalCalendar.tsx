@@ -2,6 +2,8 @@
 
 import { useState } from "react";
 import Image from "next/image";
+import Link from "next/link";
+import { ArrowRight } from "lucide-react";
 import { Card } from "@/components/ui/Card";
 import type { CalendarDay, SeasonalEvent, Season } from "@/types/calendar";
 
@@ -254,9 +256,13 @@ function EventIndicator({
 /** Detalhe completo de um evento no painel inferior */
 function EventDetail({ event }: { event: SeasonalEvent }) {
   if (event.tipo === "aniversario") {
-    // TypeScript estreita para BirthdayEvent: presentes_amados é string[] (não undefined)
+    // TypeScript estreita para BirthdayEvent — card clicável vai para /personagens/<slug>
     return (
-      <div className="pt-2 first:pt-0 flex gap-3">
+      <Link
+        href={`/personagens/${event.npc_slug}`}
+        className="group pt-2 first:pt-0 -mx-3 px-3 py-2 flex gap-3 rounded-sm [@media(hover:hover)]:hover:bg-paper-deep transition-colors"
+        aria-label={`Ver perfil completo de ${event.nome}`}
+      >
         {event.retrato ? (
           <Image
             src={`/sprites/npcs/${event.retrato}`}
@@ -272,9 +278,11 @@ function EventDetail({ event }: { event: SeasonalEvent }) {
             🎂
           </div>
         )}
-        <div className="flex flex-col gap-1 min-w-0">
+        <div className="flex flex-col gap-1 min-w-0 flex-1">
           <div className="flex items-center gap-2 flex-wrap">
-            <span className="font-display text-base text-ink">{event.nome}</span>
+            <span className="font-display text-base text-ink [@media(hover:hover)]:group-hover:text-wood-dark transition-colors">
+              {event.nome}
+            </span>
             <span className="text-xs text-ink-soft font-mono bg-paper-deep border border-wood-dark/30 rounded-sm px-1.5 py-0.5">
               🎂 aniversário
             </span>
@@ -288,8 +296,12 @@ function EventDetail({ event }: { event: SeasonalEvent }) {
               </span>
             </div>
           )}
+          <span className="inline-flex items-center gap-1 text-[11px] font-semibold text-water mt-0.5 [@media(hover:hover)]:group-hover:text-ink-shadow">
+            Ver perfil completo
+            <ArrowRight size={11} className="transition-transform [@media(hover:hover)]:group-hover:translate-x-0.5" />
+          </span>
         </div>
-      </div>
+      </Link>
     );
   }
 
