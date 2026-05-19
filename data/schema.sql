@@ -1,5 +1,6 @@
--- Habilitar extensão uuid
+-- Habilitar extensões
 create extension if not exists "pgcrypto";
+create extension if not exists "vector";
 
 -- =====================
 -- Tabela: npcs
@@ -86,7 +87,7 @@ create table if not exists missoes (
 create table if not exists ids (
   id              uuid primary key default gen_random_uuid(),
   nome            text not null,
-  codigo          text not null,
+  codigo          text not null unique,
   string_id       text,
   categoria       text not null,
   descricao       text,
@@ -99,6 +100,69 @@ create index if not exists ids_categoria_idx on ids (categoria);
 create index if not exists ids_codigo_idx on ids (codigo);
 
 -- =====================
+-- Embeddings (pgvector) — 384 dim (compatível com all-MiniLM-L6-v2)
+-- =====================
+alter table macetes add column if not exists embedding vector(384);
+alter table bugs    add column if not exists embedding vector(384);
+alter table missoes add column if not exists embedding vector(384);
+
+create index if not exists macetes_embedding_idx on macetes using ivfflat (embedding vector_cosine_ops) with (lists = 50);
+create index if not exists bugs_embedding_idx    on bugs    using ivfflat (embedding vector_cosine_ops) with (lists = 50);
+create index if not exists missoes_embedding_idx on missoes using ivfflat (embedding vector_cosine_ops) with (lists = 50);
+
+-- Função de busca semântica unificada (retorna top-k de cada tipo)
+create or replace function match_content(query_embedding vector(384), match_count int default 5)
+returns table (
+  type text,
+  slug text,
+  titulo text,
+  descricao text,
+  similarity float
+)
+language sql stable as $$
+  (select 'macete' as type, m.slug, m.titulo, m.descricao,
+          1 - (m.embedding <=> query_embedding) as similarity
+   from macetes m where m.embedding is not null
+   order by m.embedding <=> query_embedding asc limit match_count)
+  union all
+  (select 'bug' as type, b.slug, b.titulo, b.descricao,
+          1 - (b.embedding <=> query_embedding) as similarity
+   from bugs b where b.embedding is not null
+   order by b.embedding <=> query_embedding asc limit match_count)
+  union all
+  (select 'missao' as type, ms.slug, ms.titulo, ms.descricao,
+          1 - (ms.embedding <=> query_embedding) as similarity
+   from missoes ms where ms.embedding is not null
+   order by ms.embedding <=> query_embedding asc limit match_count);
+$$;
+
+-- =====================
+-- Tabela: macete_votes (votação "ainda funciona?")
+-- =====================
+create table if not exists macete_votes (
+  id           uuid primary key default gen_random_uuid(),
+  macete_slug  text not null,
+  vote         text not null check (vote in ('works','broken')),
+  session_id   text not null,
+  created_at   timestamptz default now(),
+  unique (macete_slug, session_id)
+);
+create index if not exists macete_votes_slug_idx on macete_votes (macete_slug);
+
+-- =====================
+-- Tabela: chat_messages
+-- =====================
+create table if not exists chat_messages (
+  id          uuid primary key default gen_random_uuid(),
+  session_id  text not null,
+  role        text not null check (role in ('user','assistant')),
+  content     text not null,
+  results     jsonb,
+  created_at  timestamptz default now()
+);
+create index if not exists chat_messages_session_idx on chat_messages (session_id, created_at);
+
+-- =====================
 -- RLS
 -- =====================
 alter table npcs enable row level security;
@@ -106,6 +170,8 @@ alter table macetes enable row level security;
 alter table bugs enable row level security;
 alter table missoes enable row level security;
 alter table ids enable row level security;
+alter table chat_messages enable row level security;
+alter table macete_votes enable row level security;
 
 -- Leitura pública
 create policy "public read npcs" on npcs for select using (true);
@@ -113,3 +179,6 @@ create policy "public read macetes" on macetes for select using (true);
 create policy "public read bugs" on bugs for select using (true);
 create policy "public read missoes" on missoes for select using (true);
 create policy "public read ids" on ids for select using (true);
+-- chat_messages e macete_votes: acesso via API server-side com service role (bypassa RLS)
+-- Para leitura agregada pública, criar policy específica abaixo
+create policy "public read vote counts" on macete_votes for select using (true);

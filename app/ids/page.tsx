@@ -68,22 +68,21 @@ export default function IdsPage() {
   };
 
   return (
-    <div className="mx-auto max-w-7xl px-4 py-10 sm:px-6">
-      <div className="mb-8">
-        <div className="flex items-center gap-2 mb-2">
-          <Hash size={24} className="text-accent-grass" />
-          <h1 className="font-display text-4xl text-text-parchment">IDs DE ITENS</h1>
-        </div>
-        <p className="text-text-muted">
-          Códigos para usar no exploit de nome do personagem. Clique para copiar.
+    <div className="mx-auto max-w-7xl px-3 sm:px-6 py-6 sm:py-8">
+      <header className="mb-6">
+        <span className="pixel-header">IDs de Itens</span>
+        <p className="mt-2 text-sm text-ink-soft">
+          Códigos para o truque do nome do personagem. Toque para copiar.
         </p>
-      </div>
+      </header>
+
+      <div className="pixel-divider mb-4" />
 
       {/* Filtros */}
-      <div className="flex flex-col gap-4 mb-6">
+      <div className="flex flex-col gap-3 mb-4">
         <Input
           leftIcon={<Search size={14} />}
-          placeholder="Buscar por nome ou código..."
+          placeholder="busque por nome ou código..."
           value={query}
           onChange={(e) => setQuery(e.target.value)}
         />
@@ -93,10 +92,10 @@ export default function IdsPage() {
               key={c}
               onClick={() => setCategoria(c)}
               className={cn(
-                "rounded-full border px-3 py-1 text-xs capitalize transition-colors",
+                "rounded-sm border-2 px-3 py-1 text-xs font-semibold uppercase tracking-wide transition-all",
                 categoria === c
-                  ? "border-accent-grass bg-accent-grass/15 text-accent-grass"
-                  : "border-white/10 text-text-muted hover:border-white/30 hover:text-text-parchment"
+                  ? "border-wood-dark bg-grass/30 text-grass-dark shadow-[inset_0_0_0_2px_var(--color-gold-soft)]"
+                  : "border-wood-dark/40 bg-paper-soft text-ink-soft hover:bg-paper-deep hover:border-wood-dark"
               )}
             >
               {c === "todas" ? "Todas" : c}
@@ -105,51 +104,57 @@ export default function IdsPage() {
         </div>
       </div>
 
-      <p className="text-xs text-text-dim mb-4">{filtered.length} itens encontrados</p>
+      <p className="text-xs text-ink-soft mb-3">{filtered.length} itens encontrados</p>
 
-      {/* Tabela */}
-      <div className="overflow-x-auto rounded-xl border border-white/10">
+      {/* Mobile: cards. Desktop: tabela */}
+      <div className="md:hidden grid gap-2">
+        {filtered.map((item) => (
+          <button
+            key={item.codigo}
+            onClick={() => copyCode(item.codigo, item.nome)}
+            className="wood-frame rounded-sm px-3 py-2.5 text-left flex items-center gap-2 active:translate-y-px hover:bg-paper-deep transition-colors"
+            aria-label={`Copiar [${item.codigo}]`}
+          >
+            <code className="font-mono text-wood-dark font-bold text-sm shrink-0">[{item.codigo}]</code>
+            <div className="flex-1 min-w-0">
+              <p className="font-semibold text-ink truncate">{item.nome}</p>
+              <div className="flex items-center gap-2 text-[10px] text-ink-soft">
+                <Tag color={catColor[item.categoria] ?? "muted"} className="text-[10px]">{item.categoria}</Tag>
+                {item.preco_venda != null && <span>{item.preco_venda}g</span>}
+              </div>
+            </div>
+            <Copy size={14} className="text-ink-soft shrink-0" />
+          </button>
+        ))}
+      </div>
+
+      <div className="hidden md:block wood-frame rounded-sm overflow-x-auto p-0">
         <table className="w-full text-sm">
-          <thead className="bg-bg-deep border-b border-white/10">
+          <thead className="bg-wood text-paper-soft">
             <tr>
-              <th className="px-4 py-3 text-left text-text-muted font-medium">Código</th>
-              <th className="px-4 py-3 text-left text-text-muted font-medium">String ID</th>
-              <th className="px-4 py-3 text-left text-text-muted font-medium">Nome</th>
-              <th className="px-4 py-3 text-left text-text-muted font-medium">Categoria</th>
-              <th className="px-4 py-3 text-right text-text-muted font-medium">Preço</th>
-              <th className="px-4 py-3 text-center text-text-muted font-medium">Copiar</th>
+              <th className="px-3 py-2 text-left font-display text-base tracking-wide">Código</th>
+              <th className="px-3 py-2 text-left font-display text-base tracking-wide">String ID</th>
+              <th className="px-3 py-2 text-left font-display text-base tracking-wide">Nome</th>
+              <th className="px-3 py-2 text-left font-display text-base tracking-wide">Categoria</th>
+              <th className="px-3 py-2 text-right font-display text-base tracking-wide">Preço</th>
+              <th className="px-3 py-2 text-center font-display text-base tracking-wide">Copiar</th>
             </tr>
           </thead>
-          <tbody className="divide-y divide-white/5">
-            {filtered.map((item) => (
-              <tr
-                key={item.codigo}
-                className="hover:bg-white/3 transition-colors group"
-              >
-                <td className="px-4 py-3">
-                  <code className="font-mono text-accent-gold">[{item.codigo}]</code>
-                </td>
-                <td className="px-4 py-3">
-                  <code className="font-mono text-text-dim text-xs">
-                    {item.string_id ?? "—"}
-                  </code>
-                </td>
-                <td className="px-4 py-3 text-text-parchment font-medium">{item.nome}</td>
-                <td className="px-4 py-3">
-                  <Tag color={catColor[item.categoria] ?? "muted"} className="text-xs">
-                    {item.categoria}
-                  </Tag>
-                </td>
-                <td className="px-4 py-3 text-right text-text-muted">
-                  {item.preco_venda != null ? `${item.preco_venda}g` : "—"}
-                </td>
-                <td className="px-4 py-3 text-center">
+          <tbody className="divide-y divide-wood-dark/20">
+            {filtered.map((item, i) => (
+              <tr key={item.codigo} className={cn("transition-colors hover:bg-paper-deep group", i % 2 === 0 ? "bg-paper-soft" : "bg-paper")}>
+                <td className="px-3 py-2"><code className="font-mono text-wood-dark font-bold">[{item.codigo}]</code></td>
+                <td className="px-3 py-2"><code className="font-mono text-ink-soft text-xs">{item.string_id ?? "—"}</code></td>
+                <td className="px-3 py-2 text-ink font-medium">{item.nome}</td>
+                <td className="px-3 py-2"><Tag color={catColor[item.categoria] ?? "muted"} className="text-[10px]">{item.categoria}</Tag></td>
+                <td className="px-3 py-2 text-right text-ink-soft font-mono">{item.preco_venda != null ? `${item.preco_venda}g` : "—"}</td>
+                <td className="px-3 py-2 text-center">
                   <button
                     onClick={() => copyCode(item.codigo, item.nome)}
-                    className="rounded p-1.5 text-text-muted hover:bg-white/10 hover:text-accent-gold transition-colors opacity-0 group-hover:opacity-100"
+                    className="inline-flex items-center gap-1 rounded-sm border-2 border-wood-dark/40 bg-paper px-2 py-1 text-xs font-semibold text-ink-soft hover:border-wood-dark hover:text-ink"
                     aria-label={`Copiar [${item.codigo}]`}
                   >
-                    <Copy size={14} />
+                    <Copy size={12} /> copiar
                   </button>
                 </td>
               </tr>
@@ -157,7 +162,7 @@ export default function IdsPage() {
           </tbody>
         </table>
         {filtered.length === 0 && (
-          <p className="py-12 text-center text-text-muted">Nenhum item encontrado.</p>
+          <p className="py-12 text-center text-ink-soft">Nenhum item encontrado.</p>
         )}
       </div>
     </div>

@@ -12,9 +12,9 @@ export function ChatFAB() {
     <Link
       href="/chat"
       aria-label="Abrir assistente"
-      className="fixed bottom-6 right-6 z-40 flex h-14 w-14 items-center justify-center rounded-full bg-accent-gold shadow-lg shadow-accent-gold/30 text-bg-deep transition-transform hover:scale-110 active:scale-95 focus:outline-none focus-visible:ring-2 focus-visible:ring-accent-gold"
+      className="fixed bottom-5 right-5 z-40 flex h-12 w-12 sm:h-14 sm:w-14 items-center justify-center rounded-sm bg-gold text-ink-shadow border-2 border-wood-dark shadow-[inset_0_0_0_2px_var(--color-gold-soft),0_3px_0_var(--color-wood-dark)] transition-transform hover:scale-105 active:translate-y-px focus:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2 focus-visible:ring-offset-paper"
     >
-      <MessageCircle size={24} />
+      <MessageCircle size={22} />
     </Link>
   );
 }

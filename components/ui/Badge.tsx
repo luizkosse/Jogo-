@@ -3,10 +3,10 @@ import { cn } from "@/lib/utils";
 type BadgeVariant = "ativo" | "corrigido" | "parcial" | "default";
 
 const variants: Record<BadgeVariant, string> = {
-  ativo: "bg-accent-danger/20 text-accent-danger border-accent-danger/30",
-  corrigido: "bg-accent-grass/20 text-accent-grass border-accent-grass/30",
-  parcial: "bg-accent-gold/20 text-accent-gold border-accent-gold/30",
-  default: "bg-white/5 text-text-muted border-white/10",
+  ativo: "bg-berry/20 text-berry border-berry/50",
+  corrigido: "bg-grass/20 text-grass-dark border-grass-dark/50",
+  parcial: "bg-gold/30 text-ink-shadow border-wood-dark/40",
+  default: "bg-paper-deep text-ink-soft border-wood-dark/30",
 };
 
 interface BadgeProps {
@@ -19,7 +19,7 @@ export function Badge({ variant = "default", className, children }: BadgeProps) 
   return (
     <span
       className={cn(
-        "inline-flex items-center rounded border px-2 py-0.5 text-xs font-medium",
+        "inline-flex items-center rounded-sm border-2 px-2 py-0.5 text-xs font-bold uppercase tracking-wide",
         variants[variant],
         className
       )}

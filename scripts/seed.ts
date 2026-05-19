@@ -1,8 +1,15 @@
 /**
  * Script de seed para popular o Supabase com os dados verificados.
- * Execute com: pnpm tsx scripts/seed.ts
+ * Execute com: pnpm seed
  * Requer SUPABASE_SERVICE_ROLE_KEY no .env.local
  */
+
+import { config } from "dotenv";
+import { resolve } from "path";
+
+// Carrega .env.local primeiro (mais específico), depois .env como fallback
+config({ path: resolve(process.cwd(), ".env.local") });
+config({ path: resolve(process.cwd(), ".env") });
 
 import { createClient } from "@supabase/supabase-js";
 import macetesData from "../data/seed/macetes.json";

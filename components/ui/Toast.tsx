@@ -1,8 +1,8 @@
 "use client";
 
 import { cn } from "@/lib/utils";
-import { CheckCircle, X } from "lucide-react";
-import { createContext, useCallback, useContext, useState } from "react";
+import { CheckCircle } from "lucide-react";
+import { createContext, useCallback, useContext, useRef, useState } from "react";
 
 interface ToastItem {
   id: number;
@@ -22,9 +22,10 @@ export function useToast() {
 
 export function ToastProvider({ children }: { children: React.ReactNode }) {
   const [toasts, setToasts] = useState<ToastItem[]>([]);
+  const idRef = useRef(0);
 
   const toast = useCallback((message: string, type: "success" | "error" = "success") => {
-    const id = Date.now();
+    const id = ++idRef.current;
     setToasts((prev) => [...prev, { id, message, type }]);
     setTimeout(() => setToasts((prev) => prev.filter((t) => t.id !== id)), 3000);
   }, []);
@@ -32,20 +33,19 @@ export function ToastProvider({ children }: { children: React.ReactNode }) {
   return (
     <ToastContext.Provider value={{ toast }}>
       {children}
-      <div className="fixed bottom-4 right-4 z-50 flex flex-col gap-2 pointer-events-none">
+      <div className="fixed bottom-4 left-1/2 -translate-x-1/2 sm:bottom-5 sm:left-auto sm:right-5 sm:translate-x-0 z-50 flex flex-col gap-2 pointer-events-none w-[calc(100vw-2rem)] max-w-sm">
         {toasts.map((t) => (
           <div
             key={t.id}
             className={cn(
-              "flex items-center gap-2 rounded-lg border px-4 py-3 text-sm shadow-xl pointer-events-auto",
-              "animate-in slide-in-from-bottom-2 duration-200",
+              "wood-frame rounded-sm px-3 py-2.5 text-sm font-medium flex items-center gap-2 pointer-events-auto",
               t.type === "error"
-                ? "bg-accent-danger/90 border-accent-danger text-white"
-                : "bg-bg-twilight border-accent-gold/40 text-text-parchment"
+                ? "!bg-berry/30 text-ink-shadow"
+                : "text-ink"
             )}
           >
-            <CheckCircle size={16} className="text-accent-gold shrink-0" />
-            {t.message}
+            <CheckCircle size={14} className={t.type === "error" ? "text-berry" : "text-grass-dark"} />
+            <span className="flex-1">{t.message}</span>
           </div>
         ))}
       </div>

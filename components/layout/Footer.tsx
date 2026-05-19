@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { Sword } from "lucide-react";
 
 const links = [
   { href: "/macetes", label: "Macetes" },
@@ -11,36 +10,31 @@ const links = [
 
 export function Footer() {
   return (
-    <footer className="border-t border-white/10 bg-bg-deep py-8 mt-16">
-      <div className="mx-auto max-w-7xl px-4 sm:px-6">
-        <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
-          <div className="flex items-center gap-2">
-            <Sword size={16} className="text-accent-gold" />
-            <span className="font-display text-lg text-accent-gold">
-              Stardew Supremo
-            </span>
-          </div>
-
-          <nav className="flex flex-wrap justify-center gap-4">
+    <footer className="mt-12 bg-paper-deep border-t-4 border-wood-dark">
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 py-6">
+        <div className="flex flex-col sm:flex-row items-center justify-between gap-3">
+          <span className="font-display text-xl text-ink tracking-wide">
+            Stardew Supremo
+          </span>
+          <nav className="flex flex-wrap justify-center gap-3">
             {links.map((l) => (
               <Link
                 key={l.href}
                 href={l.href}
-                className="text-sm text-text-muted hover:text-text-parchment transition-colors"
+                className="text-sm font-medium text-ink-soft hover:text-ink transition-colors"
               >
                 {l.label}
               </Link>
             ))}
           </nav>
         </div>
-
-        <p className="mt-6 text-center text-xs text-text-dim">
+        <p className="mt-4 text-center text-xs text-ink-soft">
           Conteúdo verificado contra{" "}
           <a
             href="https://stardewvalleywiki.com"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-accent-water hover:underline"
+            className="text-water underline-offset-2 hover:underline"
           >
             stardewvalleywiki.com
           </a>

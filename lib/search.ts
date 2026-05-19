@@ -13,7 +13,12 @@ export function createSearch(data: {
   missoes: Missao[];
   ids: ItemId[];
 }) {
-  const fuseOptions = { threshold: 0.4, includeScore: true };
+  const fuseOptions = {
+    threshold: 0.45,
+    includeScore: true,
+    ignoreLocation: true,
+    minMatchCharLength: 2,
+  };
 
   const fuseMacetes = new Fuse(data.macetes, {
     ...fuseOptions,

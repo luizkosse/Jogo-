@@ -9,6 +9,11 @@ export type Json =
 export interface Database {
   public: {
     Tables: {
+      chat_messages: {
+        Row: ChatMessage;
+        Insert: Omit<ChatMessage, "id" | "created_at">;
+        Update: Partial<Omit<ChatMessage, "id" | "created_at">>;
+      };
       macetes: {
         Row: Macete;
         Insert: Omit<Macete, "id" | "created_at">;
@@ -36,6 +41,16 @@ export interface Database {
       };
     };
   };
+}
+
+export interface ChatMessage {
+  id: string;
+  session_id: string;
+  role: "user" | "assistant";
+  content: string;
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  results: any;
+  created_at: string;
 }
 
 export interface Macete {

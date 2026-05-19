@@ -12,163 +12,148 @@ export const metadata: Metadata = {
 };
 
 const quickLinks = [
-  {
-    href: "/macetes",
-    icon: <Zap size={24} className="text-accent-gold" />,
-    title: "Macetes",
-    desc: "Exploits, truques e estratégias de ouro.",
-    color: "hover:border-accent-gold/40",
-  },
-  {
-    href: "/bugs",
-    icon: <Bug size={24} className="text-accent-danger" />,
-    title: "Bugs",
-    desc: "Glitches ativos e histórico de correções.",
-    color: "hover:border-accent-danger/40",
-  },
-  {
-    href: "/missoes",
-    icon: <Map size={24} className="text-accent-water" />,
-    title: "Missões",
-    desc: "Story quests, NPCs e recompensas.",
-    color: "hover:border-accent-water/40",
-  },
-  {
-    href: "/ids",
-    icon: <Hash size={24} className="text-accent-grass" />,
-    title: "IDs de Itens",
-    desc: "Código de cada item para usar no exploit.",
-    color: "hover:border-accent-grass/40",
-  },
+  { href: "/macetes", icon: Zap, title: "Macetes", desc: "Truques, atalhos e estratégias de ouro.", color: "text-gold" },
+  { href: "/bugs", icon: Bug, title: "Bugs", desc: "Falhas ativas e histórico de correções.", color: "text-berry" },
+  { href: "/missoes", icon: Map, title: "Missões", desc: "Missões da história, NPCs e recompensas.", color: "text-water" },
+  { href: "/ids", icon: Hash, title: "IDs", desc: "Códigos de itens para o truque do nome.", color: "text-grass-dark" },
 ];
 
 export default function Home() {
-  const topMacetes = macetesData
-    .sort((a, b) => b.popularidade - a.popularidade)
-    .slice(0, 3);
-
+  const topMacetes = [...macetesData].sort((a, b) => b.popularidade - a.popularidade).slice(0, 3);
   const activeBugs = bugsData.filter((b) => b.status === "ativo").slice(0, 3);
 
   return (
-    <>
+    <div className="mx-auto max-w-7xl px-3 sm:px-6 py-4 sm:py-6">
       {/* Hero */}
-      <section className="relative overflow-hidden bg-bg-night px-4 py-20 text-center sm:py-32">
-        <div
-          className="pointer-events-none absolute inset-0 opacity-30"
-          style={{
-            background:
-              "radial-gradient(ellipse 80% 60% at 50% 0%, #f4c43020 0%, transparent 70%), radial-gradient(ellipse 60% 40% at 80% 80%, #7cb34215 0%, transparent 60%)",
-          }}
-        />
-        <div className="relative mx-auto max-w-3xl">
-          <h1 className="font-display text-5xl text-accent-gold sm:text-7xl mb-4 tracking-wide">
+      <section className="wood-frame relative overflow-hidden rounded-sm">
+        {/* Céu + colinas — sem animais */}
+        <div className="relative h-44 sm:h-56 md:h-64" aria-hidden="true">
+          <div className="absolute inset-0" style={{ background: "linear-gradient(to bottom, #aedaf2 0%, #c9e3a8 65%, #7bb53f 100%)" }} />
+          {/* Sol */}
+          <div className="absolute top-4 right-6 sm:right-12 w-12 h-12 sm:w-16 sm:h-16 rounded-full bg-gold shadow-[0_0_0_4px_var(--color-gold-soft)]" />
+          {/* Colinas */}
+          <svg viewBox="0 0 800 200" preserveAspectRatio="none" className="absolute bottom-0 left-0 w-full h-2/3">
+            <path d="M 0 140 Q 100 80 200 110 T 400 100 T 600 120 T 800 100 L 800 200 L 0 200 Z" fill="#9bbf6a" />
+            <path d="M 0 170 Q 80 130 180 160 T 380 150 T 600 165 T 800 145 L 800 200 L 0 200 Z" fill="#7bb53f" />
+            {/* Árvores estilizadas */}
+            {[80, 220, 360, 520, 680].map((cx, i) => (
+              <g key={i} transform={`translate(${cx} ${130 + (i % 2) * 8})`}>
+                <ellipse cx="0" cy="0" rx="14" ry="18" fill="#3d6b1c" />
+                <rect x="-2" y="14" width="4" height="10" fill="#5b3a1f" />
+              </g>
+            ))}
+          </svg>
+          {/* Cerca pixel */}
+          <div className="absolute bottom-0 left-0 right-0 h-3" style={{ background: "repeating-linear-gradient(90deg, #5b3a1f 0 4px, #a76e3b 4px 14px)" }} />
+        </div>
+
+        {/* Título sobreposto */}
+        <div className="absolute inset-0 flex flex-col items-center justify-center text-center px-4">
+          <h1 className="font-display text-4xl sm:text-6xl md:text-7xl text-ink-shadow drop-shadow-[2px_2px_0_var(--color-gold-soft)] tracking-wider">
             STARDEW SUPREMO
           </h1>
-          <p className="text-text-parchment text-lg sm:text-xl mb-8 max-w-xl mx-auto">
-            Macetes, missões, bugs e segredos de Stardew Valley em um só lugar.
-          </p>
-          <div className="flex flex-wrap justify-center gap-3">
-            <Button asChild size="lg">
-              <Link href="/macetes">
-                Ver macetes <ArrowRight size={16} />
-              </Link>
-            </Button>
-            <Button asChild variant="secondary" size="lg">
-              <Link href="/chat">
-                <MessageCircle size={16} /> Abrir assistente
-              </Link>
-            </Button>
+          <div className="mt-2 inline-block bg-ink/90 text-paper-soft border-2 border-wood-dark rounded-sm px-3 py-1 text-xs sm:text-sm font-mono">
+            macetes · missões · bugs · segredos
           </div>
         </div>
       </section>
 
-      <div className="mx-auto max-w-7xl px-4 sm:px-6 pb-16">
-        {/* Quick links */}
-        <PixelDivider />
-        <section>
-          <h2 className="font-display text-3xl text-text-parchment mb-6">
-            EXPLORAR
-          </h2>
-          <div className="grid grid-cols-2 gap-4 sm:grid-cols-4">
-            {quickLinks.map((ql) => (
-              <Link key={ql.href} href={ql.href}>
-                <Card
-                  hover
-                  className={`flex flex-col gap-2 h-full transition-colors ${ql.color}`}
-                >
-                  {ql.icon}
-                  <p className="font-semibold text-text-parchment">{ql.title}</p>
-                  <p className="text-xs text-text-muted">{ql.desc}</p>
-                </Card>
-              </Link>
-            ))}
-          </div>
-        </section>
-
-        <PixelDivider />
-
-        {/* Top macetes */}
-        <section>
-          <div className="flex items-center justify-between mb-6">
-            <h2 className="font-display text-3xl text-text-parchment">
-              MACETES POPULARES
-            </h2>
-            <Link
-              href="/macetes"
-              className="flex items-center gap-1 text-sm text-accent-water hover:text-text-parchment transition-colors"
-            >
-              Ver todos <ArrowRight size={14} />
-            </Link>
-          </div>
-          <div className="grid gap-4 sm:grid-cols-3">
-            {topMacetes.map((m) => (
-              <Link key={m.slug} href={`/macetes/${m.slug}`}>
-                <Card hover className="flex flex-col gap-2 h-full">
-                  <span className="text-xs text-accent-gold font-medium uppercase tracking-wide">
-                    {m.categoria}
-                  </span>
-                  <p className="font-semibold text-text-parchment">{m.titulo}</p>
-                  <p className="text-sm text-text-muted line-clamp-2">
-                    {m.descricao}
-                  </p>
-                </Card>
-              </Link>
-            ))}
-          </div>
-        </section>
-
-        <PixelDivider />
-
-        {/* Bugs ativos */}
-        <section>
-          <div className="flex items-center justify-between mb-6">
-            <h2 className="font-display text-3xl text-text-parchment">
-              BUGS ATIVOS
-            </h2>
-            <Link
-              href="/bugs"
-              className="flex items-center gap-1 text-sm text-accent-water hover:text-text-parchment transition-colors"
-            >
-              Ver todos <ArrowRight size={14} />
-            </Link>
-          </div>
-          <div className="grid gap-4 sm:grid-cols-3">
-            {activeBugs.map((b) => (
-              <Link key={b.slug} href={`/bugs#${b.slug}`}>
-                <Card hover className="flex flex-col gap-2 h-full border-accent-danger/20">
-                  <span className="inline-flex w-fit rounded border border-accent-danger/30 bg-accent-danger/10 px-2 py-0.5 text-xs text-accent-danger">
-                    {b.versao}
-                  </span>
-                  <p className="font-semibold text-text-parchment">{b.titulo}</p>
-                  <p className="text-sm text-text-muted line-clamp-2">
-                    {b.descricao}
-                  </p>
-                </Card>
-              </Link>
-            ))}
-          </div>
-        </section>
+      {/* CTAs */}
+      <div className="mt-4 flex flex-wrap justify-center gap-3">
+        <Button asChild size="lg">
+          <Link href="/macetes">
+            <Zap size={16} /> Ver macetes
+          </Link>
+        </Button>
+        <Button asChild variant="secondary" size="lg">
+          <Link href="/chat">
+            <MessageCircle size={16} /> Abrir assistente
+          </Link>
+        </Button>
       </div>
-    </>
+
+      <PixelDivider />
+
+      {/* Quick links */}
+      <section className="mb-6">
+        <div className="flex items-center justify-between mb-4">
+          <span className="pixel-header">Explorar</span>
+          <span className="hidden sm:inline text-xs text-ink-soft italic">quatro caminhos para se perder em Pelican Town</span>
+        </div>
+        <div className="grid grid-cols-2 lg:grid-cols-4 gap-3">
+          {quickLinks.map((ql) => {
+            const Icon = ql.icon;
+            return (
+              <Link key={ql.href} href={ql.href}>
+                <Card hover className="flex flex-col gap-2 h-full">
+                  <div className={`inline-flex h-10 w-10 items-center justify-center rounded-sm bg-paper-deep border-2 border-wood-dark ${ql.color}`}>
+                    <Icon size={20} />
+                  </div>
+                  <p className="font-display text-2xl uppercase tracking-wide text-ink leading-none mt-1">{ql.title}</p>
+                  <p className="text-xs text-ink-soft">{ql.desc}</p>
+                </Card>
+              </Link>
+            );
+          })}
+        </div>
+      </section>
+
+      <PixelDivider />
+
+      {/* Top macetes */}
+      <section className="mb-6">
+        <div className="flex items-center justify-between mb-4 gap-2">
+          <span className="pixel-header">Macetes populares</span>
+          <Link href="/macetes" className="inline-flex items-center gap-1 text-sm font-semibold text-water hover:text-ink transition-colors">
+            ver todos <ArrowRight size={14} />
+          </Link>
+        </div>
+        <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+          {topMacetes.map((m) => (
+            <Link key={m.slug} href={`/macetes/${m.slug}`}>
+              <Card hover className="flex flex-col gap-2 h-full">
+                <span className="inline-flex w-fit items-center rounded-sm border-2 border-wood-dark bg-gold/30 px-2 py-0.5 text-xs font-bold uppercase tracking-wide text-ink-shadow">
+                  {m.categoria}
+                </span>
+                <p className="font-display text-xl text-ink leading-tight">{m.titulo}</p>
+                <p className="text-sm text-ink-soft line-clamp-3">{m.descricao}</p>
+                <div className="flex flex-wrap gap-1 mt-auto pt-1">
+                  {m.tags.slice(0, 3).map((tag) => (
+                    <span key={tag} className="rounded-sm border border-wood-dark/30 bg-paper-deep px-1.5 py-0.5 text-[10px] font-mono text-ink-soft">
+                      #{tag}
+                    </span>
+                  ))}
+                </div>
+              </Card>
+            </Link>
+          ))}
+        </div>
+      </section>
+
+      <PixelDivider />
+
+      {/* Bugs ativos */}
+      <section>
+        <div className="flex items-center justify-between mb-4 gap-2">
+          <span className="pixel-header">Bugs ativos</span>
+          <Link href="/bugs" className="inline-flex items-center gap-1 text-sm font-semibold text-water hover:text-ink transition-colors">
+            ver todos <ArrowRight size={14} />
+          </Link>
+        </div>
+        <div className="grid gap-3 sm:grid-cols-3">
+          {activeBugs.map((b) => (
+            <Link key={b.slug} href={`/bugs#${b.slug}`}>
+              <Card hover className="flex flex-col gap-2 h-full">
+                <span className="inline-flex w-fit items-center rounded-sm border-2 border-berry/60 bg-berry/15 px-2 py-0.5 text-xs font-bold uppercase tracking-wide text-berry">
+                  v{b.versao}
+                </span>
+                <p className="font-display text-xl text-ink leading-tight">{b.titulo}</p>
+                <p className="text-sm text-ink-soft line-clamp-2">{b.descricao}</p>
+              </Card>
+            </Link>
+          ))}
+        </div>
+      </section>
+    </div>
   );
 }

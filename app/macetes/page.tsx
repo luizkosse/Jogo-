@@ -1,28 +1,20 @@
 "use client";
 
-import { useState, useMemo } from "react";
-import { Zap, Search } from "lucide-react";
+import { useState, useMemo, useEffect } from "react";
+import { Heart, Search } from "lucide-react";
 import { MaceteCard } from "@/components/features/MaceteCard";
 import { Input } from "@/components/ui/Input";
 import { cn } from "@/lib/utils";
 import macetesData from "@/data/seed/macetes.json";
 import type { Macete } from "@/types/db";
+import { catLabel } from "@/lib/constants/macetes";
 
 const CATEGORIES = ["todas", "dinheiro", "itens", "energia", "tempo", "combate", "fazenda"] as const;
-
-const catLabel: Record<string, string> = {
-  todas: "Todas",
-  dinheiro: "💰 Dinheiro",
-  itens: "📦 Itens",
-  energia: "⚡ Energia",
-  tempo: "⏰ Tempo",
-  combate: "⚔️ Combate",
-  fazenda: "🌾 Fazenda",
-};
+const catLabelWithAll: Record<string, string> = { todas: "Todas", ...catLabel };
 
 const FAVORITES_KEY = "sds:favoritos";
 
-function getFavorites(): Set<string> {
+function loadFavorites(): Set<string> {
   if (typeof window === "undefined") return new Set();
   try {
     const raw = localStorage.getItem(FAVORITES_KEY);
@@ -39,8 +31,10 @@ function saveFavorites(favs: Set<string>) {
 export default function MacetesPage() {
   const [query, setQuery] = useState("");
   const [categoria, setCategoria] = useState("todas");
-  const [favorites, setFavorites] = useState<Set<string>>(getFavorites);
+  const [favorites, setFavorites] = useState<Set<string>>(new Set());
   const [showFavOnly, setShowFavOnly] = useState(false);
+
+  useEffect(() => { setFavorites(loadFavorites()); }, []);
 
   const filtered = useMemo(() => {
     return (macetesData as Macete[]).filter((m) => {
@@ -69,62 +63,59 @@ export default function MacetesPage() {
   };
 
   return (
-    <div className="mx-auto max-w-7xl px-4 py-10 sm:px-6">
-      <div className="mb-8">
-        <div className="flex items-center gap-2 mb-2">
-          <Zap size={24} className="text-accent-gold" />
-          <h1 className="font-display text-4xl text-text-parchment">MACETES</h1>
-        </div>
-        <p className="text-text-muted">
+    <div className="mx-auto max-w-7xl px-3 sm:px-6 py-6 sm:py-8">
+      <header className="mb-6">
+        <span className="pixel-header">Macetes</span>
+        <p className="mt-2 text-sm text-ink-soft">
           Exploits, truques e estratégias verificados para Stardew Valley 1.6+
         </p>
-      </div>
+      </header>
 
       {/* Filtros */}
-      <div className="flex flex-col gap-3 mb-8">
+      <div className="flex flex-col gap-3 mb-6">
         <Input
           leftIcon={<Search size={14} />}
-          placeholder="Buscar macetes, tags..."
+          placeholder="filtre por texto..."
           value={query}
           onChange={(e) => setQuery(e.target.value)}
         />
-        <div className="flex flex-wrap gap-1.5 items-center">
+        <div className="flex flex-wrap gap-1.5">
           {CATEGORIES.map((c) => (
             <button
               key={c}
               onClick={() => setCategoria(c)}
               className={cn(
-                "rounded-full border px-3 py-1 text-xs transition-colors",
+                "rounded-sm border-2 px-3 py-1 text-xs font-semibold uppercase tracking-wide transition-all",
                 categoria === c
-                  ? "border-accent-gold bg-accent-gold/15 text-accent-gold"
-                  : "border-white/10 text-text-muted hover:border-white/30 hover:text-text-parchment"
+                  ? "border-wood-dark bg-gold text-ink-shadow shadow-[inset_0_0_0_2px_var(--color-gold-soft)]"
+                  : "border-wood-dark/40 bg-paper-soft text-ink-soft hover:bg-paper-deep hover:border-wood-dark"
               )}
             >
-              {catLabel[c]}
+              {catLabelWithAll[c]}
             </button>
           ))}
           <button
             onClick={() => setShowFavOnly(!showFavOnly)}
             className={cn(
-              "rounded-full border px-3 py-1 text-xs transition-colors",
+              "inline-flex items-center gap-1 rounded-sm border-2 px-3 py-1 text-xs font-semibold uppercase tracking-wide transition-all",
               showFavOnly
-                ? "border-accent-gold bg-accent-gold/15 text-accent-gold"
-                : "border-white/10 text-text-muted hover:border-white/30 hover:text-text-parchment"
+                ? "border-wood-dark bg-berry/30 text-berry shadow-[inset_0_0_0_2px_var(--color-gold-soft)]"
+                : "border-wood-dark/40 bg-paper-soft text-ink-soft hover:bg-paper-deep hover:border-wood-dark"
             )}
           >
-            ♥ Favoritos
+            <Heart size={11} className={showFavOnly ? "fill-berry" : ""} /> Favoritos
           </button>
         </div>
       </div>
 
-      <p className="text-xs text-text-dim mb-4">{filtered.length} macetes encontrados</p>
+      <p className="text-xs text-ink-soft mb-4">{filtered.length} macetes encontrados</p>
 
       {filtered.length === 0 ? (
-        <p className="py-12 text-center text-text-muted">
+        <p className="py-12 text-center text-ink-soft">
           Nenhum macete encontrado com esses filtros.
         </p>
       ) : (
-        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
           {filtered.map((m) => (
             <MaceteCard
               key={m.slug}
