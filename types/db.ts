@@ -121,7 +121,16 @@ export interface ItemId {
     | "especial"
     | "semente"
     | "barra"
-    | "slime-egg";
+    | "slime-egg"
+    | "anel"
+    | "fossil"
+    | "geodo"
+    | "flor"
+    | "equipamento"
+    | "construcao"
+    | "fertilizante"
+    | "lixo"
+    | "tempero";
   descricao: string | null;
   preco_venda: number | null;
   fonte_obtencao: string | null;
