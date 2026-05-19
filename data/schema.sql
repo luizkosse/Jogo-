@@ -94,6 +94,7 @@ create table if not exists ids (
   preco_venda     int,
   fonte_obtencao  text,
   fonte_url       text,
+  imagem          text,
   created_at      timestamptz default now()
 );
 create index if not exists ids_categoria_idx on ids (categoria);

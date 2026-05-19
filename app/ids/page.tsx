@@ -5,6 +5,7 @@ import { Hash, Copy, Search } from "lucide-react";
 import { Input } from "@/components/ui/Input";
 import { Tag } from "@/components/ui/Tag";
 import { useToast } from "@/components/ui/Toast";
+import { ItemSprite } from "@/components/features/ItemSprite";
 import { cn } from "@/lib/utils";
 import idsData from "@/data/seed/ids.json";
 
@@ -130,9 +131,10 @@ export default function IdsPage() {
           <button
             key={item.codigo}
             onClick={() => copyCode(item.codigo, item.nome)}
-            className="wood-frame rounded-sm px-3 py-2.5 text-left flex items-center gap-2 active:translate-y-px hover:bg-paper-deep transition-colors"
+            className="wood-frame rounded-sm px-3 py-2.5 text-left flex items-center gap-2.5 active:translate-y-px [@media(hover:hover)]:hover:bg-paper-deep transition-colors"
             aria-label={`Copiar [${item.codigo}]`}
           >
+            <ItemSprite imagem={item.imagem} alt={item.nome} categoria={item.categoria} size={40} />
             <code className="font-mono text-wood-dark font-bold text-sm shrink-0">[{item.codigo}]</code>
             <div className="flex-1 min-w-0">
               <p className="font-semibold text-ink truncate">{item.nome}</p>
@@ -150,6 +152,7 @@ export default function IdsPage() {
         <table className="w-full text-sm">
           <thead className="bg-wood text-paper-soft">
             <tr>
+              <th className="px-2 py-2 text-left font-display text-base tracking-wide w-12">Img</th>
               <th className="px-3 py-2 text-left font-display text-base tracking-wide">Código</th>
               <th className="px-3 py-2 text-left font-display text-base tracking-wide">String ID</th>
               <th className="px-3 py-2 text-left font-display text-base tracking-wide">Nome</th>
@@ -160,7 +163,8 @@ export default function IdsPage() {
           </thead>
           <tbody className="divide-y divide-wood-dark/20">
             {filtered.map((item, i) => (
-              <tr key={item.codigo} className={cn("transition-colors hover:bg-paper-deep group", i % 2 === 0 ? "bg-paper-soft" : "bg-paper")}>
+              <tr key={item.codigo} className={cn("transition-colors [@media(hover:hover)]:hover:bg-paper-deep group", i % 2 === 0 ? "bg-paper-soft" : "bg-paper")}>
+                <td className="px-2 py-1.5"><ItemSprite imagem={item.imagem} alt={item.nome} categoria={item.categoria} size={32} /></td>
                 <td className="px-3 py-2"><code className="font-mono text-wood-dark font-bold">[{item.codigo}]</code></td>
                 <td className="px-3 py-2"><code className="font-mono text-ink-soft text-xs">{item.string_id ?? "—"}</code></td>
                 <td className="px-3 py-2 text-ink font-medium">{item.nome}</td>

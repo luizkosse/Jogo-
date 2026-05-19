@@ -135,6 +135,7 @@ export interface ItemId {
   preco_venda: number | null;
   fonte_obtencao: string | null;
   fonte_url: string | null;
+  imagem: string | null;
   created_at: string;
 }
 
