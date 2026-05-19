@@ -1,0 +1,113 @@
+{
+  "_fonte": "https://pt.stardewvalleywiki.com/Marriage",
+  "_descricao": "Informações de casamento para os 12 NPCs romanceáveis: presentes pós-casamento, benefícios diários e quartos de spouse.",
+  "etapas": {
+    "namoro": {
+      "label": "Namoro (Bouquet)",
+      "requisito": "8 corações + Bouquet (800g em Pierre's General Store)",
+      "efeito": "NPC fica em estado 'dating'. Permite eventos 8 corações."
+    },
+    "noivado": {
+      "label": "Noivado (Mermaid's Pendant)",
+      "requisito": "10 corações + Mermaid's Pendant (3.000g) + casa upgraded (Robin's first upgrade)",
+      "como_obter": "Old Mariner aparece na praia em Outono 12-15 e dias chuvosos quando você tem 10 corações com 1+ NPC romanceável."
+    },
+    "casamento": {
+      "label": "Casamento",
+      "delay": "3 dias após dar o Pendant",
+      "efeito": "Cerimônia na praça às 9h. NPC se muda para sua fazenda. Cônjuge tem quarto próprio anexo à casa."
+    },
+    "filhos": {
+      "label": "Filhos",
+      "requisito": "12+ corações + casa nível 2",
+      "tempo": "Pergunta após ~7 dias. 14 dias para nascer. Limite: 2 crianças."
+    },
+    "divorcio": {
+      "label": "Divórcio",
+      "requisito": "50.000g no Mayor's Manor",
+      "efeito": "Cônjuge volta à casa original. Wilted Bouquet também reverte amizade."
+    }
+  },
+  "conjuges": {
+    "alex": {
+      "presentes_diarios": ["Salmon Dinner", "Pumpkin Soup", "Sashimi"],
+      "beneficio_unico": "Faz exercício e fala sobre virar treinador de esportes para crianças.",
+      "stardrop": "Após 12.5 corações no Stardrop Saloon (do Gus, por 2.000g).",
+      "quarto": "Decorado com pesos e poster de gridball.",
+      "personalidade_casado": "Carinhoso e mais maduro. Reconhece insegurança do passado."
+    },
+    "elliott": {
+      "presentes_diarios": ["Tom Kha Soup", "Salad", "Pizza"],
+      "beneficio_unico": "Escreve livro inspirado no jogador. Apresenta capítulos.",
+      "quarto": "Estante de livros + ondas pintadas na parede + carpete azul.",
+      "personalidade_casado": "Romântico, recita poemas frequentemente."
+    },
+    "harvey": {
+      "presentes_diarios": ["Spaghetti", "Pickles", "Pancakes"],
+      "beneficio_unico": "Verifica sua saúde — restaura energia ocasionalmente.",
+      "quarto": "Mini clínica + balão de ar quente miniatura.",
+      "personalidade_casado": "Atencioso, sempre se preocupa com saúde."
+    },
+    "sam": {
+      "presentes_diarios": ["Maki Roll", "Pizza", "Joja Cola"],
+      "beneficio_unico": "Ensaios da banda na garagem da fazenda. Banda eventualmente faz show.",
+      "quarto": "Skate + guitarra + posters de bandas.",
+      "personalidade_casado": "Animado, gosta de surpresas; cuida de Vincent vez ou outra."
+    },
+    "sebastian": {
+      "presentes_diarios": ["Sashimi", "Frozen Tear", "Obsidian"],
+      "beneficio_unico": "Convida Sam e Abigail para hangouts ocasionais.",
+      "quarto": "Computador + moto + mesa de RPG.",
+      "personalidade_casado": "Mais aberto, mas ainda introspectivo."
+    },
+    "shane": {
+      "presentes_diarios": ["Pepper Poppers", "Pizza", "Beer"],
+      "beneficio_unico": "Cuida das galinhas da fazenda. Galinha azul pode aparecer.",
+      "quarto": "Galinha azul de pelúcia + Joja branded items + decoração rústica.",
+      "personalidade_casado": "Continua sóbrio (se manteve sóbrio pré-casamento). Mais alegre."
+    },
+    "abigail": {
+      "presentes_diarios": ["Spicy Eel", "Pumpkin", "Amethyst"],
+      "beneficio_unico": "Toca flauta no fim do dia. Explora minas com jogador às vezes.",
+      "quarto": "Tabuleiro Ouija + tambor + espada de prática.",
+      "personalidade_casado": "Aventureira, quer expandir horizontes."
+    },
+    "emily": {
+      "presentes_diarios": ["Survival Burger", "Cloth", "Wool"],
+      "beneficio_unico": "Cria peças de roupa para jogador. Tear na fazenda.",
+      "quarto": "Tear + cristais + plantas de papagaio.",
+      "personalidade_casado": "Espiritual, fala muito sobre vibrações positivas."
+    },
+    "haley": {
+      "presentes_diarios": ["Fruit Salad", "Sunflower", "Coconut"],
+      "beneficio_unico": "Tira fotos da fazenda — você pode olhar o álbum.",
+      "quarto": "Câmera fotográfica + ursinho + decoração rosa.",
+      "personalidade_casado": "Surpreendentemente terna; abandonou superficialidade."
+    },
+    "leah": {
+      "presentes_diarios": ["Salad", "Stir Fry", "Goat Cheese"],
+      "beneficio_unico": "Cria esculturas na fazenda — você pode vendê-las.",
+      "quarto": "Cavalete + esculturas + tora de madeira.",
+      "personalidade_casado": "Artisticamente expressiva, sustenta sua arte."
+    },
+    "maru": {
+      "presentes_diarios": ["Cheese Cauliflower", "Pepper Poppers", "Strawberry"],
+      "beneficio_unico": "Constrói invenções na fazenda. Ocasionalmente regenera Energy.",
+      "quarto": "Bancada de inventor + computador + droid de carinho.",
+      "personalidade_casado": "Pragmática, frequentemente cita ciência."
+    },
+    "penny": {
+      "presentes_diarios": ["Roots Platter", "Poppyseed Muffin", "Diamond"],
+      "beneficio_unico": "Limpa a casa de vez em quando — itens organizados.",
+      "quarto": "Estante de livros + flores + decoração modesta.",
+      "personalidade_casado": "Doce, sempre quer ajudar com tarefas domésticas."
+    },
+    "krobus": {
+      "presentes_diarios": ["Void Egg", "Diamond", "Void Mayonnaise"],
+      "beneficio_unico": "NÃO é casamento — é convivência (roommate). Dá Void Egg semanal.",
+      "quarto": "Decoração 'sombria' do esgoto — totens + cristais escuros.",
+      "personalidade_casado": "Quieto, agradecido por ser aceito acima do solo.",
+      "nota": "Krobus é o único 'spouse não-romântico'. Não pode ter filhos."
+    }
+  }
+}

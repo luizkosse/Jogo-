@@ -1,10 +1,15 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { ArrowLeft, Cake, Heart, MapPin, ExternalLink, Sparkles } from "lucide-react";
+import { ArrowLeft, Cake, Heart, MapPin, ExternalLink, Sparkles, Calendar } from "lucide-react";
 import { Card } from "@/components/ui/Card";
 import { NpcPortrait } from "@/components/features/NpcPortrait";
 import { GiftList } from "@/components/features/GiftList";
+import { HeartTracker } from "@/components/features/HeartTracker";
+import { HeartEventList } from "@/components/features/HeartEventList";
+import { MarriageInfo } from "@/components/features/MarriageInfo";
 import npcsData from "@/data/seed/npcs.json";
+import heartEventsData from "@/data/seed/heart-events.json";
+import marriageData from "@/data/seed/marriage.json";
 import type { Metadata } from "next";
 import type { Npc } from "@/types/db";
 
@@ -39,6 +44,16 @@ export default async function NpcDetail({ params }: Props) {
 
   const semDados =
     amados.length + apreciados.length + neutros.length + naoGostam.length + odiados.length === 0;
+
+  const eventos = (heartEventsData.eventos as Record<string, { hearts: number; local: string; condicao: string; resumo: string }[]>)[slug] ?? [];
+  const casamento = (marriageData.conjuges as Record<string, {
+    presentes_diarios?: string[];
+    beneficio_unico?: string;
+    stardrop?: string;
+    quarto?: string;
+    personalidade_casado?: string;
+    nota?: string;
+  }>)[slug];
 
   return (
     <div className="mx-auto max-w-3xl px-3 sm:px-6 py-6 sm:py-8">
@@ -79,6 +94,11 @@ export default async function NpcDetail({ params }: Props) {
         </div>
       </div>
 
+      {/* Heart tracker — sempre visível */}
+      <div className="mb-6">
+        <HeartTracker slug={n.slug} romanceable={n.romanceable} />
+      </div>
+
       {/* Listas de presentes */}
       {semDados ? (
         <Card className="text-center text-ink-soft">
@@ -109,6 +129,34 @@ export default async function NpcDetail({ params }: Props) {
             💡 Dica: presente entregue no aniversário do NPC vale 8x amizade. Limite: 2 presentes/semana.
           </p>
         </>
+      )}
+
+      {/* Heart Events */}
+      {eventos.length > 0 && (
+        <section className="mt-8">
+          <div className="flex items-center gap-2 mb-3">
+            <Calendar size={18} className="text-berry" />
+            <h2 className="font-display text-2xl text-ink leading-none">Eventos de coração</h2>
+          </div>
+          <p className="text-xs text-ink-soft mb-3 italic">
+            Cutscenes que disparam ao atingir os corações indicados. Verifique condições de hora/local.
+          </p>
+          <HeartEventList eventos={eventos} />
+        </section>
+      )}
+
+      {/* Marriage info — apenas para romanceáveis */}
+      {n.romanceable && casamento && (
+        <section className="mt-8">
+          <div className="flex items-center gap-2 mb-3">
+            <Heart size={18} className="text-berry fill-berry" />
+            <h2 className="font-display text-2xl text-ink leading-none">Pós-casamento</h2>
+          </div>
+          <p className="text-xs text-ink-soft mb-3 italic">
+            O que esperar após dar o Mermaid&apos;s Pendant (10❤ + casa upgrade).
+          </p>
+          <MarriageInfo data={casamento} nome={n.nome} />
+        </section>
       )}
 
       {n.fonte_url && (

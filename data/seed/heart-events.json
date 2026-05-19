@@ -1,0 +1,110 @@
+{
+  "_fonte": "https://pt.stardewvalleywiki.com (curado manualmente)",
+  "_descricao": "Cutscenes que disparam ao atingir certos níveis de amizade. Cada evento tem condições de localização, hora e clima.",
+  "eventos": {
+    "alex": [
+      { "hearts": 2, "local": "Casa de Alex (1 Willow Lane)", "condicao": "8h-16h", "resumo": "Alex faz exercícios e fala sobre virar jogador de gridball." },
+      { "hearts": 4, "local": "Beach", "condicao": "Dia ensolarado, 10h-15h", "resumo": "Alex demonstra inseguranças sobre o passado e tenta esconder vulnerabilidade." },
+      { "hearts": 5, "local": "Casa de Alex", "condicao": "Quarta-feira após receber Bouquet", "resumo": "Alex compartilha memórias sobre a mãe." },
+      { "hearts": 6, "local": "Beach", "condicao": "Verão, 10h-19h", "resumo": "Alex pratica gridball; jogador o desafia." },
+      { "hearts": 8, "local": "Casa de Alex", "condicao": "Após 18h", "resumo": "Confronto com George (avô) sobre futuro." },
+      { "hearts": 10, "local": "Sua fazenda", "condicao": "Dia ensolarado", "resumo": "Alex se declara apaixonado pelo jogador. Evento de Bouquet." }
+    ],
+    "elliott": [
+      { "hearts": 2, "local": "Cabana do Elliott (praia)", "condicao": "12h-19h", "resumo": "Elliott discute sobre seu livro em progresso." },
+      { "hearts": 4, "local": "Stardrop Saloon", "condicao": "20h-24h", "resumo": "Elliott toca piano para o jogador." },
+      { "hearts": 6, "local": "Beach", "condicao": "Verão, dia ensolarado, 12h-17h", "resumo": "Elliott pede opinião sobre o gênero do livro." },
+      { "hearts": 8, "local": "Cabana do Elliott", "condicao": "Após 19h", "resumo": "Elliott terminou o livro e quer ler para o jogador." },
+      { "hearts": 10, "local": "Beach", "condicao": "Verão, dia ensolarado", "resumo": "Passeio romântico ao pôr do sol. Elliott confessa amor." }
+    ],
+    "harvey": [
+      { "hearts": 2, "local": "Clínica (Harvey's Clinic)", "condicao": "9h-17h, Ter/Qui", "resumo": "Harvey faz check-up médico no jogador." },
+      { "hearts": 4, "local": "Mountain (perto da clínica)", "condicao": "Domingo 14h-16h", "resumo": "Harvey faz hobby de balão de ar quente." },
+      { "hearts": 6, "local": "Clínica (cozinha)", "condicao": "Após 17h", "resumo": "Harvey serve café para o jogador." },
+      { "hearts": 8, "local": "Pelican Town (praça)", "condicao": "Festival do Spirit's Eve (10/24/26)", "resumo": "Harvey participa de evento comunitário." },
+      { "hearts": 10, "local": "Mountain Lake", "condicao": "Ensolarado, manhã", "resumo": "Harvey ensina jogador a pilotar avião sem motor." }
+    ],
+    "sam": [
+      { "hearts": 2, "local": "Casa do Sam (1 Willow Lane)", "condicao": "Após 16h", "resumo": "Sam toca guitarra; jogador faz duet." },
+      { "hearts": 4, "local": "Pelican Town", "condicao": "Sex 16h-19h", "resumo": "Sam e Sebastian fazem skate. Jogador escolhe time." },
+      { "hearts": 6, "local": "Casa do Sam", "condicao": "16h-18h", "resumo": "Sam mostra novo som da banda." },
+      { "hearts": 8, "local": "Mountain Lake", "condicao": "Verão, sex 18h-21h", "resumo": "Sam e Sebastian organizam show da banda." },
+      { "hearts": 10, "local": "Mountain Bridge", "condicao": "Manhã", "resumo": "Sam confessa amor; promete dedicar canção." }
+    ],
+    "sebastian": [
+      { "hearts": 2, "local": "Casa de Robin (porão)", "condicao": "Após 21h, dias úteis", "resumo": "Sebastian trabalha em código; jogador interrompe." },
+      { "hearts": 4, "local": "Mountain Lake", "condicao": "Inverno", "resumo": "Sebastian fuma na ponte. Discute solidão." },
+      { "hearts": 6, "local": "Casa de Robin (porão)", "condicao": "Chuva", "resumo": "Sebastian se exercita com sua moto." },
+      { "hearts": 8, "local": "Mountain", "condicao": "Após 18h, sem chuva", "resumo": "Sebastian convida para passeio de moto até a praia." },
+      { "hearts": 10, "local": "Cindersap Forest", "condicao": "Verão noite", "resumo": "Sebastian confessa amor sob as estrelas." }
+    ],
+    "shane": [
+      { "hearts": 2, "local": "Cindersap Forest (penhasco)", "condicao": "Após 21h, dias chuvosos", "resumo": "Cena pesada: Shane está bebendo e tenta se machucar." },
+      { "hearts": 4, "local": "Marnie's Ranch (cozinha)", "condicao": "20h-23h", "resumo": "Shane recebe carta da Joja Co. Demitido." },
+      { "hearts": 6, "local": "Cindersap Forest", "condicao": "Sex 8h-16h", "resumo": "Shane apresenta sua galinha azul (blue chicken)." },
+      { "hearts": 7, "local": "Stardrop Saloon", "condicao": "Não recebido Bouquet ainda", "resumo": "Shane diz que está sóbrio há semanas. Marco de recuperação." },
+      { "hearts": 8, "local": "Pelican Town", "condicao": "Após Bouquet", "resumo": "Shane convida para encontro casual." }
+    ],
+    "abigail": [
+      { "hearts": 2, "local": "Loja do Pierre (atrás)", "condicao": "Após 18h", "resumo": "Abigail toca flauta no fundo da loja." },
+      { "hearts": 4, "local": "Cemitério (cima da clínica)", "condicao": "Tarde", "resumo": "Abigail tenta contatar fantasmas." },
+      { "hearts": 6, "local": "The Mines (entrada)", "condicao": "Domingo 8h-12h", "resumo": "Abigail quer ser aventureira. Joga rocks." },
+      { "hearts": 8, "local": "Sua fazenda", "condicao": "Espada equipada", "resumo": "Abigail mostra que sabe usar espada. Duela com o jogador." },
+      { "hearts": 10, "local": "Mountain Lake", "condicao": "Verão", "resumo": "Abigail revela sentimentos durante o pôr do sol." }
+    ],
+    "emily": [
+      { "hearts": 2, "local": "Casa de Emily (2 Willow Lane)", "condicao": "9h-15h", "resumo": "Emily medita e fala sobre cristais." },
+      { "hearts": 4, "local": "Stardrop Saloon", "condicao": "Sex 18h-22h", "resumo": "Emily dança e ensina jogador a dançar." },
+      { "hearts": 6, "local": "Casa de Emily", "condicao": "20h-23h", "resumo": "Emily sonha com papagaios — visão profética." },
+      { "hearts": 8, "local": "Pelican Town", "condicao": "Após 9h", "resumo": "Emily quer criar peça de roupa única para o jogador (pede 1 cloth)." },
+      { "hearts": 10, "local": "Casa de Emily", "condicao": "Manhã", "resumo": "Emily confessa amor e canta canção." }
+    ],
+    "haley": [
+      { "hearts": 2, "local": "Pelican Town (praça)", "condicao": "8h-18h", "resumo": "Haley perde sua câmera fotográfica. Pede ajuda para encontrar." },
+      { "hearts": 4, "local": "Beach", "condicao": "Verão, dia ensolarado, 14h-18h", "resumo": "Haley faz ensaio fotográfico na praia." },
+      { "hearts": 6, "local": "Casa de Haley (2 Willow Lane)", "condicao": "10h-17h", "resumo": "Haley mostra álbum de fotos da família." },
+      { "hearts": 8, "local": "Cindersap Forest", "condicao": "Após 12h", "resumo": "Haley se enfia em arbusto procurando luva. Jogador ajuda." },
+      { "hearts": 10, "local": "Casa de Haley", "condicao": "Após 19h", "resumo": "Haley revela sentimentos genuínos por trás da fachada." }
+    ],
+    "leah": [
+      { "hearts": 2, "local": "Cabana da Leah (Cindersap Forest)", "condicao": "10h-15h", "resumo": "Leah trabalha em uma escultura. Jogador ajuda." },
+      { "hearts": 4, "local": "Cindersap Forest", "condicao": "Outono, 8h-16h", "resumo": "Leah coleta forrageiros para se sustentar." },
+      { "hearts": 6, "local": "Stardrop Saloon", "condicao": "Sex 18h-22h", "resumo": "Ex-namorado/namorada de Leah aparece. Cena dramática." },
+      { "hearts": 8, "local": "Cabana da Leah", "condicao": "Após exibição na cidade", "resumo": "Leah expõe suas esculturas em galeria." },
+      { "hearts": 10, "local": "Cindersap Forest", "condicao": "Manhã", "resumo": "Leah confessa amor enquanto pinta retrato do jogador." }
+    ],
+    "maru": [
+      { "hearts": 2, "local": "Casa de Robin (oficina de Maru)", "condicao": "Após 18h", "resumo": "Maru mostra invento ao jogador." },
+      { "hearts": 4, "local": "Clínica", "condicao": "Ter/Qui 9h-15h", "resumo": "Maru auxilia Harvey em check-up." },
+      { "hearts": 6, "local": "Mountain", "condicao": "Sex 19h-23h, sem chuva", "resumo": "Maru observa estrelas com telescópio." },
+      { "hearts": 8, "local": "Casa de Robin (oficina)", "condicao": "Após 17h", "resumo": "Maru constrói robô parceiro." },
+      { "hearts": 10, "local": "Carpenter's Shop", "condicao": "Manhã", "resumo": "Maru e jogador acendem velas — declaração romântica." }
+    ],
+    "penny": [
+      { "hearts": 2, "local": "Cemitério", "condicao": "Sex/Dom 10h-13h", "resumo": "Penny ensina Vincent e Jas." },
+      { "hearts": 4, "local": "Trailer da Pam", "condicao": "Após 18h", "resumo": "Penny serve refeição para Pam (mãe). Conflito leve." },
+      { "hearts": 6, "local": "Pelican Town", "condicao": "Verão, 14h-19h", "resumo": "Penny leva crianças para piquenique." },
+      { "hearts": 8, "local": "Stardrop Saloon (cozinha)", "condicao": "Manhã", "resumo": "Penny cozinha jantar surpresa para a mãe sóbria." },
+      { "hearts": 10, "local": "Cindersap Forest", "condicao": "Verão", "resumo": "Penny confessa amor durante caminhada." }
+    ],
+    "linus": [
+      { "hearts": 4, "local": "Beach", "condicao": "21h-24h", "resumo": "Linus pesca durante a noite. Compartilha refeição com jogador." },
+      { "hearts": 6, "local": "Tenda do Linus (Mountain)", "condicao": "Manhã", "resumo": "Linus prepara comida com forrageiros. Ensina receita de Bait." },
+      { "hearts": 8, "local": "Stardrop Saloon", "condicao": "Após escolher comer fora", "resumo": "Linus é xingado por moradores. Jogador defende." },
+      { "hearts": 10, "local": "Mountain (perto da tenda)", "condicao": "Verão", "resumo": "Linus revela razões de viver na natureza. Presente especial." }
+    ],
+    "krobus": [
+      { "hearts": 4, "local": "Sewers", "condicao": "Após Wilted Bouquet (separação) ou solteiro", "resumo": "Krobus mostra coleção de itens raros do esgoto." },
+      { "hearts": 8, "local": "Sewers", "condicao": "Manhã", "resumo": "Krobus quer presentear jogador. Dá receita especial." },
+      { "hearts": 10, "local": "Pelican Town", "condicao": "Inverno (festival)", "resumo": "Krobus aceita ser companheiro de casa (não casamento, mas convivência)." }
+    ],
+    "marnie": [
+      { "hearts": 6, "local": "Marnie's Ranch", "condicao": "Domingo 10h-12h", "resumo": "Marnie fala dos sentimentos secretos pelo Mayor Lewis." },
+      { "hearts": 8, "local": "Marnie's Ranch", "condicao": "Após Lewis's Lucky Purple Shorts", "resumo": "Marnie e Lewis interagem (segredo revelado)." }
+    ],
+    "kent": [
+      { "hearts": 3, "local": "Casa da Jodi (1 Willow Lane)", "condicao": "Após 19h", "resumo": "Kent tem flashback da guerra. Cena pesada." },
+      { "hearts": 8, "local": "Casa da Jodi", "condicao": "Manhã", "resumo": "Kent prepara pipoca, mas barulho desencadeia trauma." }
+    ]
+  }
+}
