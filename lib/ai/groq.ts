@@ -21,8 +21,8 @@ export async function streamGroqChat(messages: ChatTurn[]): Promise<ReadableStre
       model: process.env.GROQ_MODEL ?? "llama-3.3-70b-versatile",
       messages,
       stream: true,
-      temperature: 0.4,
-      max_tokens: 800,
+      temperature: 0.5,
+      max_tokens: 1500,
     }),
   });
 
