@@ -11,6 +11,7 @@ const navLinks = [
   { href: "/macetes", label: "Macetes" },
   { href: "/bugs", label: "Bugs" },
   { href: "/missoes", label: "Missões" },
+  { href: "/personagens", label: "Personagens" },
   { href: "/ids", label: "IDs" },
   { href: "/chat", label: "Assistente" },
 ];

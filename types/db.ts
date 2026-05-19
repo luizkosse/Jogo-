@@ -147,8 +147,12 @@ export interface Npc {
   localizacao: string | null;
   aniversario: string | null;
   presentes_amados: string[];
+  presentes_apreciados: string[];
+  presentes_neutros: string[];
+  presentes_nao_gostam: string[];
   presentes_odiados: string[];
   romanceable: boolean;
+  retrato: string | null;
   fonte_url: string | null;
   created_at: string;
 }

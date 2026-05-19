@@ -6,17 +6,21 @@ create extension if not exists "vector";
 -- Tabela: npcs
 -- =====================
 create table if not exists npcs (
-  id                  uuid primary key default gen_random_uuid(),
-  slug                text unique not null,
-  nome                text not null,
-  descricao           text,
-  localizacao         text,
-  aniversario         text,
-  presentes_amados    text[] default '{}',
-  presentes_odiados   text[] default '{}',
-  romanceable         boolean default false,
-  fonte_url           text,
-  created_at          timestamptz default now()
+  id                     uuid primary key default gen_random_uuid(),
+  slug                   text unique not null,
+  nome                   text not null,
+  descricao              text,
+  localizacao            text,
+  aniversario            text,
+  presentes_amados       text[] default '{}',
+  presentes_apreciados   text[] default '{}',
+  presentes_neutros      text[] default '{}',
+  presentes_nao_gostam   text[] default '{}',
+  presentes_odiados      text[] default '{}',
+  romanceable            boolean default false,
+  retrato                text,
+  fonte_url              text,
+  created_at             timestamptz default now()
 );
 
 -- =====================

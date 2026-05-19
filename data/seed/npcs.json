@@ -1,233 +1,1391 @@
 [
   {
+    "slug": "abigail",
+    "nome": "Abigail",
+    "descricao": "Filha de Pierre e Caroline. Aventureira, ama tocar bateria e explorar o mundo.",
+    "localizacao": "Loja do Pierre — Pierre's General Store",
+    "aniversario": "Outono 13",
+    "presentes_amados": [
+      "Pumpkin",
+      "Amethyst",
+      "Pufferfish",
+      "Chocolate Cake",
+      "Spicy Eel",
+      "Blackberry Cobbler",
+      "Banana Pudding"
+    ],
+    "presentes_odiados": [
+      "Clay",
+      "Holly"
+    ],
+    "romanceable": true,
+    "fonte_url": "https://stardewvalleywiki.com/Abigail",
+    "presentes_apreciados": [
+      "Quartz"
+    ],
+    "presentes_neutros": [
+      "Leek",
+      "Hazelnut",
+      "Dandelion",
+      "Ginger",
+      "Snow Yam",
+      "Daffodil",
+      "Winter Root"
+    ],
+    "presentes_nao_gostam": [
+      "Sugar",
+      "Wild Horseradish"
+    ],
+    "retrato": "abigail.png"
+  },
+  {
     "slug": "alex",
     "nome": "Alex",
     "descricao": "Jovem atlético que sonha em ser jogador profissional de gridball. Vive com os avós George e Evelyn.",
     "localizacao": "1 Willow Lane (casa de George/Evelyn)",
-    "aniversario": "Summer 13",
-    "presentes_amados": ["Complete Breakfast", "Salmon Dinner"],
-    "presentes_odiados": ["Holly", "Quartz"],
+    "aniversario": "Verão 13",
+    "presentes_amados": [
+      "Complete Breakfast",
+      "Salmon Dinner"
+    ],
+    "presentes_odiados": [
+      "Holly",
+      "Quartz"
+    ],
     "romanceable": true,
-    "fonte_url": "https://stardewvalleywiki.com/Alex"
+    "fonte_url": "https://stardewvalleywiki.com/Alex",
+    "presentes_apreciados": [],
+    "presentes_neutros": [
+      "Leek",
+      "Hazelnut",
+      "Dandelion",
+      "Ginger",
+      "Snow Yam",
+      "Daffodil",
+      "Winter Root"
+    ],
+    "presentes_nao_gostam": [
+      "Salmonberry",
+      "Wild Horseradish"
+    ],
+    "retrato": "alex.png"
+  },
+  {
+    "slug": "caroline",
+    "nome": "Caroline",
+    "descricao": "Esposa do Pierre, mãe da Abigail. Pratica yoga e tem um jardim secreto.",
+    "localizacao": "Pierre's General Store (atrás)",
+    "aniversario": "Inverno 7",
+    "romanceable": false,
+    "fonte_url": "https://pt.stardewvalleywiki.com/Caroline",
+    "presentes_amados": [
+      "Green Tea",
+      "Tropical Curry",
+      "Summer Spangle",
+      "Fish Taco"
+    ],
+    "presentes_apreciados": [
+      "Tea Leaves",
+      "Daffodil"
+    ],
+    "presentes_neutros": [],
+    "presentes_nao_gostam": [
+      "Leek",
+      "Amaranth",
+      "Hazelnut",
+      "Holly",
+      "Dandelion",
+      "Ginger",
+      "Snow Yam",
+      "Mayonnaise",
+      "Duck Mayonnaise",
+      "Wild Horseradish",
+      "Winter Root"
+    ],
+    "presentes_odiados": [
+      "Salmonberry",
+      "Quartz"
+    ],
+    "retrato": "caroline.png"
+  },
+  {
+    "slug": "clint",
+    "nome": "Clint",
+    "descricao": "Ferreiro local. Apaixonado pela Emily mas tímido demais para se declarar.",
+    "localizacao": "Blacksmith — Pelican Town",
+    "aniversario": "Inverno 26",
+    "romanceable": false,
+    "fonte_url": "https://pt.stardewvalleywiki.com/Clint",
+    "presentes_amados": [
+      "Aquamarine",
+      "Amethyst",
+      "Iridium Bar",
+      "Gold Bar",
+      "Emerald",
+      "Jade",
+      "Artichoke Dip",
+      "Omni Geode",
+      "Fiddlehead Risotto",
+      "Ruby",
+      "Topaz"
+    ],
+    "presentes_apreciados": [
+      "Copper Bar",
+      "Iron Bar"
+    ],
+    "presentes_neutros": [
+      "Leek",
+      "Hazelnut",
+      "Coal",
+      "Dandelion",
+      "Ginger",
+      "Snow Yam",
+      "Iridium Ore",
+      "Gold Ore",
+      "Daffodil",
+      "Refined Quartz",
+      "Winter Root"
+    ],
+    "presentes_nao_gostam": [
+      "Salmonberry",
+      "Quartz",
+      "Wild Horseradish"
+    ],
+    "presentes_odiados": [
+      "Holly"
+    ],
+    "retrato": "clint.png"
+  },
+  {
+    "slug": "demetrius",
+    "nome": "Demetrius",
+    "descricao": "Cientista marido de Robin. Estuda flora e fauna do vale.",
+    "localizacao": "Carpenter's Shop — Mountain",
+    "aniversario": "Verão 19",
+    "romanceable": false,
+    "fonte_url": "https://pt.stardewvalleywiki.com/Demetrius",
+    "presentes_amados": [
+      "Strawberry",
+      "Bean Hotpot",
+      "Rice Pudding",
+      "Ice Cream"
+    ],
+    "presentes_apreciados": [
+      "Purple Mushroom"
+    ],
+    "presentes_neutros": [
+      "Leek",
+      "Hazelnut",
+      "Dandelion",
+      "Ginger",
+      "Snow Yam",
+      "Daffodil",
+      "Wild Horseradish",
+      "Winter Root"
+    ],
+    "presentes_nao_gostam": [
+      "Quartz"
+    ],
+    "presentes_odiados": [
+      "Holly"
+    ],
+    "retrato": "demetrius.png"
+  },
+  {
+    "slug": "dwarf",
+    "nome": "Dwarf",
+    "descricao": "Habitante das Minas. Fala dwarvish — precisa de Dwarvish Translation Guide.",
+    "localizacao": "Minas (floor 100, depois Mountain)",
+    "aniversario": "Verão 22",
+    "romanceable": false,
+    "fonte_url": "https://pt.stardewvalleywiki.com/Dwarf",
+    "presentes_amados": [
+      "Aquamarine",
+      "Amethyst",
+      "Emerald",
+      "Jade",
+      "Omni Geode",
+      "Lemon Stone",
+      "Ruby",
+      "Topaz"
+    ],
+    "presentes_apreciados": [
+      "Cave Carrot",
+      "Quartz"
+    ],
+    "presentes_neutros": [
+      "Void Essence",
+      "Solar Essence"
+    ],
+    "presentes_nao_gostam": [
+      "Leek",
+      "Salmonberry",
+      "Hazelnut",
+      "Holly",
+      "Dandelion",
+      "Ginger",
+      "Snow Yam",
+      "Daffodil",
+      "Wild Horseradish",
+      "Winter Root"
+    ],
+    "presentes_odiados": [],
+    "retrato": "dwarf.png"
   },
   {
     "slug": "elliott",
     "nome": "Elliott",
     "descricao": "Escritor sonhador que vive em uma cabana na praia. Ama música e literatura.",
     "localizacao": "Cabana na praia — leste da cidade",
-    "aniversario": "Fall 5",
-    "presentes_amados": ["Crab Cakes", "Duck Feather", "Lobster", "Pomegranate", "Tom Kha Soup"],
-    "presentes_odiados": ["Holly"],
+    "aniversario": "Outono 5",
+    "presentes_amados": [
+      "Crab Cakes",
+      "Lobster",
+      "Duck Feather",
+      "Pomegranate",
+      "Tom Kha Soup",
+      "Squid Ink"
+    ],
+    "presentes_odiados": [
+      "Amaranth",
+      "Salmonberry",
+      "Sea Cucumber",
+      "Quartz"
+    ],
     "romanceable": true,
-    "fonte_url": "https://stardewvalleywiki.com/Elliott"
-  },
-  {
-    "slug": "harvey",
-    "nome": "Harvey",
-    "descricao": "Médico da cidade. Introvertido e dedicado, ama rádio e aviação.",
-    "localizacao": "Clínica médica — centro de Pelican Town",
-    "aniversario": "Winter 14",
-    "presentes_amados": ["Coffee", "Pickles", "Super Meal", "Truffle Oil", "Wine"],
-    "presentes_odiados": ["Holly"],
-    "romanceable": true,
-    "fonte_url": "https://stardewvalleywiki.com/Harvey"
-  },
-  {
-    "slug": "sam",
-    "nome": "Sam",
-    "descricao": "Jovem músico descontraído. Adora skate e junk food.",
-    "localizacao": "1 Willow Lane",
-    "aniversario": "Summer 17",
-    "presentes_amados": ["Cactus Fruit", "Maple Bar", "Pizza", "Tigerseye"],
-    "presentes_odiados": ["Artichoke Dip", "Holly", "Sashimi"],
-    "romanceable": true,
-    "fonte_url": "https://stardewvalleywiki.com/Sam"
-  },
-  {
-    "slug": "sebastian",
-    "nome": "Sebastian",
-    "descricao": "Programador recluso que adora motocicletas, RPGs e ficção científica. Meio-irmão de Maru.",
-    "localizacao": "24 Mountain Road (casa de Robin)",
-    "aniversario": "Winter 10",
-    "presentes_amados": ["Frozen Tear", "Obsidian", "Pumpkin Soup", "Sashimi", "Void Egg"],
-    "presentes_odiados": ["Holly"],
-    "romanceable": true,
-    "fonte_url": "https://stardewvalleywiki.com/Sebastian"
-  },
-  {
-    "slug": "shane",
-    "nome": "Shane",
-    "descricao": "Trabalha no JojaMart e mora na fazenda da Marnie. Luta contra depressão, ama frango e futebol.",
-    "localizacao": "Fazenda da Marnie (Marnie's Ranch)",
-    "aniversario": "Spring 20",
-    "presentes_amados": ["Beer", "Hot Pepper", "Pepper Poppers", "Pizza"],
-    "presentes_odiados": ["Holly"],
-    "romanceable": true,
-    "fonte_url": "https://stardewvalleywiki.com/Shane"
-  },
-  {
-    "slug": "abigail",
-    "nome": "Abigail",
-    "descricao": "Filha de Pierre e Caroline. Aventureira, ama tocar bateria e explorar o mundo.",
-    "localizacao": "Loja do Pierre — Pierre's General Store",
-    "aniversario": "Fall 13",
-    "presentes_amados": ["Amethyst", "Blackberry Cobbler", "Chocolate Cake", "Pufferfish", "Pumpkin", "Spicy Eel"],
-    "presentes_odiados": ["Holly"],
-    "romanceable": true,
-    "fonte_url": "https://stardewvalleywiki.com/Abigail"
+    "fonte_url": "https://stardewvalleywiki.com/Elliott",
+    "presentes_apreciados": [
+      "Squid",
+      "Octopus"
+    ],
+    "presentes_neutros": [],
+    "presentes_nao_gostam": [
+      "Leek",
+      "Hazelnut",
+      "Holly",
+      "Dandelion",
+      "Ginger",
+      "Snow Yam",
+      "Daffodil",
+      "Pizza",
+      "Wild Horseradish",
+      "Winter Root"
+    ],
+    "retrato": "elliott.png"
   },
   {
     "slug": "emily",
     "nome": "Emily",
     "descricao": "Trabalha no saloon do Gus. Espiritual, ama costura e cristais.",
     "localizacao": "2 Willow Lane",
-    "aniversario": "Spring 27",
-    "presentes_amados": ["Amethyst", "Aquamarine", "Cloth", "Emerald", "Jade", "Ruby", "Survival Burger", "Topaz", "Wool"],
-    "presentes_odiados": ["Holly"],
+    "aniversario": "Primavera 27",
+    "presentes_amados": [
+      "Aquamarine",
+      "Amethyst",
+      "Emerald",
+      "Survival Burger",
+      "Jade",
+      "Wool",
+      "Ruby",
+      "Cloth",
+      "Topaz"
+    ],
+    "presentes_odiados": [
+      "Holly",
+      "Salmon Dinner",
+      "Maki Roll",
+      "Sashimi",
+      "Fish Taco"
+    ],
     "romanceable": true,
-    "fonte_url": "https://stardewvalleywiki.com/Emily"
+    "fonte_url": "https://stardewvalleywiki.com/Emily",
+    "presentes_apreciados": [
+      "Daffodil",
+      "Quartz"
+    ],
+    "presentes_neutros": [
+      "Leek",
+      "Hazelnut",
+      "Dandelion",
+      "Ginger",
+      "Snow Yam",
+      "Wild Horseradish",
+      "Winter Root"
+    ],
+    "presentes_nao_gostam": [
+      "Salmonberry",
+      "Fried Eel",
+      "Spicy Eel",
+      "Rice Pudding",
+      "Ice Cream"
+    ],
+    "retrato": "emily.png"
   },
   {
-    "slug": "haley",
-    "nome": "Haley",
-    "descricao": "Irmã de Emily. Obcecada com moda e fotografia, parece superficial no início mas tem profundidade.",
-    "localizacao": "2 Willow Lane",
-    "aniversario": "Spring 14",
-    "presentes_amados": ["Coconut", "Fruit Salad", "Pink Cake", "Sunflower"],
-    "presentes_odiados": ["Holly", "Mushroom"],
-    "romanceable": true,
-    "fonte_url": "https://stardewvalleywiki.com/Haley"
-  },
-  {
-    "slug": "leah",
-    "nome": "Leah",
-    "descricao": "Artista que vive em uma cabana na floresta. Ama a natureza e escultura.",
-    "localizacao": "Cabana na Cindersap Forest",
-    "aniversario": "Winter 23",
-    "presentes_amados": ["Goat Cheese", "Poppyseed Muffin", "Salad", "Stir Fry", "Truffle", "Vegetable Medley", "Wine"],
-    "presentes_odiados": ["Holly"],
-    "romanceable": true,
-    "fonte_url": "https://stardewvalleywiki.com/Leah"
-  },
-  {
-    "slug": "maru",
-    "nome": "Maru",
-    "descricao": "Filha de Robin e Demetrius. Gênio da eletrônica e medicina, irmã de Sebastian.",
-    "localizacao": "24 Mountain Road (casa de Robin)",
-    "aniversario": "Summer 10",
-    "presentes_amados": ["Battery Pack", "Cauliflower", "Cheese Cauliflower", "Diamond", "Gold Bar", "Iridium Bar", "Miner's Treat", "Pepper Poppers", "Radioactive Bar", "Strawberry"],
-    "presentes_odiados": ["Holly"],
-    "romanceable": true,
-    "fonte_url": "https://stardewvalleywiki.com/Maru"
-  },
-  {
-    "slug": "penny",
-    "nome": "Penny",
-    "descricao": "Filha da Pam. Dá aulas às crianças da cidade, sonha com uma vida estável.",
-    "localizacao": "Trailer da Pam",
-    "aniversario": "Fall 2",
-    "presentes_amados": ["Diamond", "Emerald", "Melon", "Poppy", "Poppyseed Muffin", "Red Plate", "Roots Platter", "Sandfish", "Tom Kha Soup"],
-    "presentes_odiados": ["Holly"],
-    "romanceable": true,
-    "fonte_url": "https://stardewvalleywiki.com/Penny"
-  },
-  {
-    "slug": "robin",
-    "nome": "Robin",
-    "descricao": "Carpinteira e construtora da cidade. Mãe de Sebastian e Maru, casada com Demetrius.",
-    "localizacao": "24 Mountain Road — Carpenter Shop",
-    "aniversario": "Fall 21",
-    "presentes_amados": ["Goat Cheese", "Peach", "Spaghetti"],
-    "presentes_odiados": ["Holly"],
+    "slug": "evelyn",
+    "nome": "Evelyn",
+    "descricao": "'Granny'. Avó do Alex, esposa do George. Doce velhinha que cuida do jardim da cidade.",
+    "localizacao": "1 River Road — Pelican Town",
+    "aniversario": "Inverno 20",
     "romanceable": false,
-    "fonte_url": "https://stardewvalleywiki.com/Robin"
+    "fonte_url": "https://pt.stardewvalleywiki.com/Evelyn",
+    "presentes_amados": [
+      "Beet",
+      "Chocolate Cake",
+      "Diamond",
+      "Stuffing",
+      "Fairy Rose",
+      "Tulip"
+    ],
+    "presentes_apreciados": [
+      "Daffodil"
+    ],
+    "presentes_neutros": [
+      "Leek",
+      "Hazelnut",
+      "Dandelion",
+      "Ginger",
+      "Snow Yam",
+      "Winter Root"
+    ],
+    "presentes_nao_gostam": [
+      "Quartz",
+      "Wild Horseradish"
+    ],
+    "presentes_odiados": [
+      "Garlic",
+      "Salmonberry",
+      "Clay",
+      "Holly",
+      "Spice Berry",
+      "Clam",
+      "Coral",
+      "Fried Eel",
+      "Spicy Eel",
+      "Maki Roll",
+      "Sashimi",
+      "Trout Soup"
+    ],
+    "retrato": "evelyn.png"
   },
   {
-    "slug": "pierre",
-    "nome": "Pierre",
-    "descricao": "Dono da loja geral de Pelican Town. Pai de Abigail, casado com Caroline.",
-    "localizacao": "Pierre's General Store — centro da cidade",
-    "aniversario": "Spring 26",
-    "presentes_amados": ["Fried Calamari"],
-    "presentes_odiados": ["Holly"],
+    "slug": "george",
+    "nome": "George",
+    "descricao": "'Grandpa'. Avô do Alex, marido da Evelyn. Idoso ranzinza em cadeira de rodas.",
+    "localizacao": "1 River Road — Pelican Town",
+    "aniversario": "Outono 24",
     "romanceable": false,
-    "fonte_url": "https://stardewvalleywiki.com/Pierre"
+    "fonte_url": "https://pt.stardewvalleywiki.com/George",
+    "presentes_amados": [
+      "Leek",
+      "Fried Mushroom"
+    ],
+    "presentes_apreciados": [
+      "Daffodil"
+    ],
+    "presentes_neutros": [
+      "Hazelnut",
+      "Ginger",
+      "Snow Yam",
+      "Winter Root"
+    ],
+    "presentes_nao_gostam": [
+      "Salmonberry",
+      "Wild Horseradish"
+    ],
+    "presentes_odiados": [
+      "Clay",
+      "Holly",
+      "Dandelion",
+      "Quartz"
+    ],
+    "retrato": "george.png"
   },
   {
     "slug": "gus",
     "nome": "Gus",
     "descricao": "Dono e cozinheiro do Stardrop Saloon, o bar de Pelican Town.",
     "localizacao": "Stardrop Saloon",
-    "aniversario": "Summer 8",
-    "presentes_amados": ["Diamond", "Escargot", "Fish Taco", "Orange"],
-    "presentes_odiados": ["Holly"],
+    "aniversario": "Verão 8",
+    "presentes_amados": [
+      "Tropical Curry",
+      "Diamond",
+      "Escargot",
+      "Orange",
+      "Fish Taco"
+    ],
+    "presentes_odiados": [
+      "Holly",
+      "Quartz",
+      "Coleslaw"
+    ],
     "romanceable": false,
-    "fonte_url": "https://stardewvalleywiki.com/Gus"
+    "fonte_url": "https://stardewvalleywiki.com/Gus",
+    "presentes_apreciados": [
+      "Daffodil"
+    ],
+    "presentes_neutros": [
+      "Leek",
+      "Hazelnut",
+      "Dandelion",
+      "Ginger",
+      "Snow Yam",
+      "Winter Root"
+    ],
+    "presentes_nao_gostam": [
+      "Salmonberry",
+      "Wild Horseradish"
+    ],
+    "retrato": "gus.png"
   },
   {
-    "slug": "marnie",
-    "nome": "Marnie",
-    "descricao": "Dona da fazenda de animais ao sul da cidade. Tia do Shane.",
-    "localizacao": "Marnie's Ranch — sul de Pelican Town",
-    "aniversario": "Fall 18",
-    "presentes_amados": ["Diamond", "Farmer's Lunch", "Pink Cake", "Pumpkin Pie"],
-    "presentes_odiados": ["Holly"],
-    "romanceable": false,
-    "fonte_url": "https://stardewvalleywiki.com/Marnie"
+    "slug": "haley",
+    "nome": "Haley",
+    "descricao": "Irmã de Emily. Obcecada com moda e fotografia, parece superficial no início mas tem profundidade.",
+    "localizacao": "2 Willow Lane",
+    "aniversario": "Primavera 14",
+    "presentes_amados": [
+      "Pink Cake",
+      "Coconut",
+      "Sunflower",
+      "Fruit Salad"
+    ],
+    "presentes_odiados": [
+      "Clay",
+      "Prismatic Shard",
+      "Wild Horseradish"
+    ],
+    "romanceable": true,
+    "fonte_url": "https://stardewvalleywiki.com/Haley",
+    "presentes_apreciados": [
+      "Daffodil"
+    ],
+    "presentes_neutros": [],
+    "presentes_nao_gostam": [
+      "Leek",
+      "Hazelnut",
+      "Holly",
+      "Dandelion",
+      "Ginger",
+      "Snow Yam",
+      "Quartz",
+      "Winter Root"
+    ],
+    "retrato": "haley.png"
   },
   {
-    "slug": "willy",
-    "nome": "Willy",
-    "descricao": "Pescador veterano dono da loja de pesca na praia.",
-    "localizacao": "Willy's Fish Shop — praia",
-    "aniversario": "Summer 24",
-    "presentes_amados": ["Catfish", "Diamond", "Iridium Bar", "Maki Roll", "Octopus", "Pumpkin"],
-    "presentes_odiados": ["Holly"],
-    "romanceable": false,
-    "fonte_url": "https://stardewvalleywiki.com/Willy"
+    "slug": "harvey",
+    "nome": "Harvey",
+    "descricao": "Médico da cidade. Introvertido e dedicado, ama rádio e aviação.",
+    "localizacao": "Clínica médica — centro de Pelican Town",
+    "aniversario": "Inverno 14",
+    "presentes_amados": [
+      "Coffee",
+      "Truffle Oil",
+      "Pickles",
+      "Super Meal",
+      "Wine"
+    ],
+    "presentes_odiados": [
+      "Salmonberry",
+      "Spice Berry",
+      "Rainbow Shell",
+      "Nautilus Shell",
+      "Coral"
+    ],
+    "romanceable": true,
+    "fonte_url": "https://stardewvalleywiki.com/Harvey",
+    "presentes_apreciados": [
+      "Leek",
+      "Hazelnut",
+      "Holly",
+      "Spring Onion",
+      "Dandelion",
+      "Ginger",
+      "Snow Yam",
+      "Goat Milk ES",
+      "Large Goat Milk ES",
+      "Daffodil",
+      "Duck Egg",
+      "Duck Feather",
+      "Quartz",
+      "Wild Horseradish",
+      "Winter Root"
+    ],
+    "presentes_neutros": [
+      "Milk ES",
+      "Large Milk ES"
+    ],
+    "presentes_nao_gostam": [
+      "Hashbrowns",
+      "Cookie",
+      "Chocolate Cake",
+      "Pink Cake",
+      "Fried Mushroom",
+      "Glazed Yams",
+      "Cranberry Sauce",
+      "Pancakes",
+      "Bread",
+      "Pizza",
+      "Rice Pudding",
+      "Cheese",
+      "Goat Cheese",
+      "Ice Cream",
+      "Blueberry Tart",
+      "Rhubarb Pie"
+    ],
+    "retrato": "harvey.png"
   },
   {
-    "slug": "wizard",
-    "nome": "Wizard (M. Rasmodius)",
-    "descricao": "Mago misterioso que vive em uma torre na Cindersap Forest. Conhece os segredos dos Junimos.",
-    "localizacao": "Torre do Wizard — sudoeste de Cindersap Forest",
-    "aniversario": "Winter 17",
-    "presentes_amados": ["Purple Mushroom", "Solar Essence", "Super Cucumber", "Void Essence"],
-    "presentes_odiados": ["Holly"],
+    "slug": "jas",
+    "nome": "Jas",
+    "descricao": "Sobrinha da Marnie, afilhada do Shane. Amiga do Vincent. Aluna da Penny.",
+    "localizacao": "Marnie's Ranch",
+    "aniversario": "Verão 4",
     "romanceable": false,
-    "fonte_url": "https://stardewvalleywiki.com/Wizard"
+    "fonte_url": "https://pt.stardewvalleywiki.com/Jas",
+    "presentes_amados": [
+      "Pink Cake",
+      "Plum Pudding",
+      "Fairy Rose"
+    ],
+    "presentes_apreciados": [
+      "Coconut",
+      "Daffodil"
+    ],
+    "presentes_neutros": [],
+    "presentes_nao_gostam": [
+      "Leek",
+      "Hazelnut",
+      "Holly",
+      "Dandelion",
+      "Ginger",
+      "Snow Yam",
+      "Quartz",
+      "Winter Root"
+    ],
+    "presentes_odiados": [
+      "Clay",
+      "Triple Shot Espresso",
+      "Pi%C3%B1a Colada",
+      "Wild Horseradish"
+    ],
+    "retrato": "jas.png"
+  },
+  {
+    "slug": "jodi",
+    "nome": "Jodi",
+    "descricao": "Mãe do Sam e Vincent. Marido (Kent) estava na guerra; volta na 2ª primavera.",
+    "localizacao": "1 Willow Lane — Pelican Town",
+    "aniversario": "Outono 11",
+    "romanceable": false,
+    "fonte_url": "https://pt.stardewvalleywiki.com/Jodi",
+    "presentes_amados": [
+      "Crispy Bass",
+      "Chocolate Cake",
+      "Diamond",
+      "Fried Eel",
+      "Vegetable Medley",
+      "Pancakes",
+      "Eggplant Parmesan",
+      "Rhubarb Pie"
+    ],
+    "presentes_apreciados": [],
+    "presentes_neutros": [],
+    "presentes_nao_gostam": [
+      "Garlic",
+      "Leek",
+      "Hazelnut",
+      "Holly",
+      "Ginger",
+      "Snow Yam",
+      "Quartz",
+      "Wild Horseradish",
+      "Winter Root"
+    ],
+    "presentes_odiados": [
+      "Spice Berry",
+      "Dandelion",
+      "Daffodil"
+    ],
+    "retrato": "jodi.png"
+  },
+  {
+    "slug": "kent",
+    "nome": "Kent",
+    "descricao": "Pai do Sam e Vincent, marido da Jodi. Veterano de guerra, volta no início do ano 2.",
+    "localizacao": "1 Willow Lane (a partir de Spring 1, Ano 2)",
+    "aniversario": "Primavera 4",
+    "romanceable": false,
+    "fonte_url": "https://pt.stardewvalleywiki.com/Kent",
+    "presentes_amados": [
+      "Roasted Hazelnuts",
+      "Fiddlehead Risotto"
+    ],
+    "presentes_apreciados": [
+      "Daffodil"
+    ],
+    "presentes_neutros": [
+      "Leek",
+      "Hazelnut",
+      "Dandelion",
+      "Ginger",
+      "Wild Horseradish",
+      "Winter Root"
+    ],
+    "presentes_nao_gostam": [
+      "Snow Yam",
+      "Pi%C3%B1a Colada",
+      "Quartz"
+    ],
+    "presentes_odiados": [
+      "Holly",
+      "Sashimi",
+      "Algae Soup",
+      "Tortilla"
+    ],
+    "retrato": "kent.png"
   },
   {
     "slug": "krobus",
     "nome": "Krobus",
     "descricao": "Único Void Spirit amigável. Vende itens raros no esgoto e pode se tornar colega de quarto.",
     "localizacao": "Esgoto (Sewers) — desbloqueado com Rusty Key",
-    "aniversario": "Winter 1",
-    "presentes_amados": ["Diamond", "Iridium Bar", "Pumpkin", "Void Egg", "Wild Horseradish"],
-    "presentes_odiados": ["Holly"],
+    "aniversario": "Inverno 1",
+    "presentes_amados": [
+      "Pumpkin",
+      "Iridium Bar",
+      "Diamond",
+      "Void Mayonnaise",
+      "Void Egg",
+      "Wild Horseradish"
+    ],
+    "presentes_odiados": [],
     "romanceable": false,
-    "fonte_url": "https://stardewvalleywiki.com/Krobus"
+    "fonte_url": "https://stardewvalleywiki.com/Krobus",
+    "presentes_apreciados": [
+      "Gold Bar",
+      "Seafoam Pudding",
+      "Quartz"
+    ],
+    "presentes_neutros": [],
+    "presentes_nao_gostam": [
+      "Leek",
+      "Salmonberry",
+      "Hazelnut",
+      "Holly",
+      "Dandelion",
+      "Life Elixir",
+      "Ginger",
+      "Snow Yam",
+      "Daffodil",
+      "Winter Root"
+    ],
+    "retrato": "krobus.png"
+  },
+  {
+    "slug": "leah",
+    "nome": "Leah",
+    "descricao": "Artista que vive em uma cabana na floresta. Ama a natureza e escultura.",
+    "localizacao": "Cabana na Cindersap Forest",
+    "aniversario": "Inverno 23",
+    "presentes_amados": [
+      "Poppyseed Muffin",
+      "Vegetable Medley",
+      "Goat Cheese",
+      "Stir Fry",
+      "Salad",
+      "Truffle",
+      "Wine"
+    ],
+    "presentes_odiados": [
+      "Hashbrowns",
+      "Void Egg",
+      "Pancakes",
+      "Bread",
+      "Pizza"
+    ],
+    "romanceable": true,
+    "fonte_url": "https://stardewvalleywiki.com/Leah",
+    "presentes_apreciados": [
+      "Leek",
+      "Hazelnut",
+      "Holly",
+      "Spring Onion",
+      "Dandelion",
+      "Ginger",
+      "Snow Yam",
+      "Driftwood",
+      "Daffodil",
+      "Wild Horseradish",
+      "Winter Root"
+    ],
+    "presentes_neutros": [],
+    "presentes_nao_gostam": [
+      "Seaweed",
+      "Cookie",
+      "Pink Cake",
+      "Carp Surprise",
+      "Survival Burger",
+      "Fried Egg",
+      "Rice Pudding",
+      "Ice Cream",
+      "Tortilla"
+    ],
+    "retrato": "leah.png"
+  },
+  {
+    "slug": "leo",
+    "nome": "Leo",
+    "descricao": "Garoto da Ginger Island criado por papagaios. Move-se para Pelican Town após 6 corações.",
+    "localizacao": "Ginger Island (inicialmente) → Mountain",
+    "aniversario": "Verão 26",
+    "romanceable": false,
+    "fonte_url": "https://pt.stardewvalleywiki.com/Leo",
+    "presentes_amados": [
+      "Mango",
+      "Ostrich Egg",
+      "Duck Feather",
+      "Poi"
+    ],
+    "presentes_apreciados": [
+      "Spice Berry",
+      "Rainbow Shell",
+      "Nautilus Shell",
+      "Dragon Tooth",
+      "Quartz",
+      "Sea Urchin"
+    ],
+    "presentes_neutros": [
+      "Coffee"
+    ],
+    "presentes_nao_gostam": [
+      "Leek",
+      "Salmonberry",
+      "Hazelnut",
+      "Dandelion",
+      "Life Elixir",
+      "Ginger",
+      "Snow Yam",
+      "Daffodil",
+      "Pickles",
+      "Wild Horseradish",
+      "Winter Root"
+    ],
+    "presentes_odiados": [
+      "Unmilled Rice",
+      "Holly",
+      "Triple Shot Espresso",
+      "Beer",
+      "Mead",
+      "Hops",
+      "Morel",
+      "Oil",
+      "Pale Ale",
+      "Pi%C3%B1a Colada",
+      "Wine"
+    ],
+    "retrato": "leo.png"
+  },
+  {
+    "slug": "lewis",
+    "nome": "Lewis",
+    "descricao": "Prefeito de Pelican Town. Vive sozinho e tem segredos pessoais.",
+    "localizacao": "Manor do prefeito — centro de Pelican Town",
+    "aniversario": "Primavera 7",
+    "romanceable": false,
+    "fonte_url": "https://pt.stardewvalleywiki.com/Lewis",
+    "presentes_amados": [
+      "Green Tea",
+      "Glazed Yams",
+      "Vegetable Medley",
+      "Hot Pepper",
+      "Autumn%27s Bounty"
+    ],
+    "presentes_apreciados": [
+      "Coconut",
+      "Cactus Fruit",
+      "Blueberry"
+    ],
+    "presentes_neutros": [
+      "Leek",
+      "Hazelnut",
+      "Dandelion",
+      "Ginger",
+      "Snow Yam",
+      "Daffodil",
+      "Winter Root"
+    ],
+    "presentes_nao_gostam": [
+      "Salmonberry",
+      "Wild Horseradish"
+    ],
+    "presentes_odiados": [
+      "Holly",
+      "Quartz"
+    ],
+    "retrato": "lewis.png"
   },
   {
     "slug": "linus",
     "nome": "Linus",
     "descricao": "Eremita que vive em uma barraca na montanha. Pacifista, ama a natureza e é incompreendido pela cidade.",
     "localizacao": "Montanha — norte do lago",
-    "aniversario": "Winter 3",
-    "presentes_amados": ["Blueberry Tart", "Cactus Fruit", "Coconut", "Dish O' The Sea", "Yam"],
-    "presentes_odiados": ["Holly"],
+    "aniversario": "Inverno 3",
+    "presentes_amados": [
+      "Coconut",
+      "Cactus Fruit",
+      "Yam",
+      "Dish O%27 The Sea",
+      "Blueberry Tart"
+    ],
+    "presentes_odiados": [],
     "romanceable": false,
-    "fonte_url": "https://stardewvalleywiki.com/Linus"
+    "fonte_url": "https://stardewvalleywiki.com/Linus",
+    "presentes_apreciados": [
+      "Leek",
+      "Hazelnut",
+      "Holly",
+      "Spring Onion",
+      "Dandelion",
+      "Ginger",
+      "Snow Yam",
+      "Daffodil",
+      "Wild Horseradish",
+      "Winter Root"
+    ],
+    "presentes_neutros": [],
+    "presentes_nao_gostam": [],
+    "retrato": "linus.png"
+  },
+  {
+    "slug": "marnie",
+    "nome": "Marnie",
+    "descricao": "Dona da fazenda de animais ao sul da cidade. Tia do Shane.",
+    "localizacao": "Marnie's Ranch — sul de Pelican Town",
+    "aniversario": "Outono 18",
+    "presentes_amados": [
+      "Farmer%27s Lunch",
+      "Pink Cake",
+      "Diamond",
+      "Pumpkin Pie"
+    ],
+    "presentes_odiados": [
+      "Clay",
+      "Holly"
+    ],
+    "romanceable": false,
+    "fonte_url": "https://stardewvalleywiki.com/Marnie",
+    "presentes_apreciados": [
+      "Quartz"
+    ],
+    "presentes_neutros": [
+      "Leek",
+      "Hazelnut",
+      "Dandelion",
+      "Ginger",
+      "Snow Yam",
+      "Daffodil",
+      "Winter Root"
+    ],
+    "presentes_nao_gostam": [
+      "Seaweed",
+      "Salmonberry",
+      "Wild Horseradish"
+    ],
+    "retrato": "marnie.png"
+  },
+  {
+    "slug": "maru",
+    "nome": "Maru",
+    "descricao": "Filha de Robin e Demetrius. Gênio da eletrônica e medicina, irmã de Sebastian.",
+    "localizacao": "24 Mountain Road (casa de Robin)",
+    "aniversario": "Verão 10",
+    "presentes_amados": [
+      "Iridium Bar",
+      "Gold Bar",
+      "Radioactive Bar",
+      "Battery Pack",
+      "Cauliflower",
+      "Cheese Cauliflower",
+      "Diamond",
+      "Pepper Poppers",
+      "Strawberry",
+      "Miner%27s Treat",
+      "Rhubarb Pie"
+    ],
+    "presentes_odiados": [
+      "Holly",
+      "Snow Yam",
+      "Honey",
+      "Pickles",
+      "Truffle"
+    ],
+    "romanceable": true,
+    "fonte_url": "https://stardewvalleywiki.com/Maru",
+    "presentes_apreciados": [
+      "Pine Tar",
+      "Copper Bar",
+      "Iron Bar",
+      "Radioactive Ore",
+      "Quartz",
+      "Oak Resin"
+    ],
+    "presentes_neutros": [
+      "Leek",
+      "Hazelnut",
+      "Dandelion",
+      "Ginger",
+      "Daffodil",
+      "Wild Horseradish",
+      "Winter Root"
+    ],
+    "presentes_nao_gostam": [
+      "Blackberry",
+      "Salmonberry",
+      "Common Mushroom",
+      "Crystal Fruit",
+      "Maple Syrup"
+    ],
+    "retrato": "maru.png"
   },
   {
     "slug": "pam",
     "nome": "Pam",
     "descricao": "Motorista do ônibus para o deserto. Mãe da Penny, aprecia uma cerveja.",
     "localizacao": "Trailer — Pelican Town",
-    "aniversario": "Spring 18",
-    "presentes_amados": ["Cactus Fruit", "Glazed Yams", "Miner's Treat", "Pale Ale", "Parsnip Soup", "Piña Colada"],
-    "presentes_odiados": ["Holly"],
+    "aniversario": "Primavera 18",
+    "presentes_amados": [
+      "Beer",
+      "Parsnip",
+      "Cactus Fruit",
+      "Mead",
+      "Glazed Yams",
+      "Pale Ale",
+      "Pi%C3%B1a Colada",
+      "Parsnip Soup"
+    ],
+    "presentes_odiados": [
+      "Holly",
+      "Squid",
+      "Octopus"
+    ],
     "romanceable": false,
-    "fonte_url": "https://stardewvalleywiki.com/Pam"
+    "fonte_url": "https://stardewvalleywiki.com/Pam",
+    "presentes_apreciados": [
+      "Daffodil"
+    ],
+    "presentes_neutros": [
+      "Leek",
+      "Hazelnut",
+      "Dandelion",
+      "Ginger",
+      "Snow Yam",
+      "Winter Root"
+    ],
+    "presentes_nao_gostam": [
+      "Quartz",
+      "Wild Horseradish"
+    ],
+    "retrato": "pam.png"
+  },
+  {
+    "slug": "penny",
+    "nome": "Penny",
+    "descricao": "Filha da Pam. Dá aulas às crianças da cidade, sonha com uma vida estável.",
+    "localizacao": "Trailer da Pam",
+    "aniversario": "Outono 2",
+    "presentes_amados": [
+      "Sandfish",
+      "Poppyseed Muffin",
+      "Diamond",
+      "Emerald",
+      "Melon",
+      "Poppy",
+      "Roots Platter",
+      "Red Plate",
+      "Tom Kha Soup"
+    ],
+    "presentes_odiados": [
+      "Holly",
+      "Beer",
+      "Mead",
+      "Hops",
+      "Pale Ale",
+      "Rabbit%27s Foot",
+      "Pi%C3%B1a Colada",
+      "Grape",
+      "Wine"
+    ],
+    "romanceable": true,
+    "fonte_url": "https://stardewvalleywiki.com/Penny",
+    "presentes_apreciados": [
+      "Leek",
+      "Dandelion"
+    ],
+    "presentes_neutros": [
+      "Hazelnut",
+      "Ginger",
+      "Snow Yam",
+      "Daffodil",
+      "Wild Horseradish",
+      "Winter Root"
+    ],
+    "presentes_nao_gostam": [
+      "Salmonberry",
+      "Pale Broth",
+      "Purple Mushroom",
+      "Red Mushroom",
+      "Wool",
+      "Duck Feather",
+      "Quartz",
+      "Algae Soup"
+    ],
+    "retrato": "penny.png"
+  },
+  {
+    "slug": "pierre",
+    "nome": "Pierre",
+    "descricao": "Dono da loja geral de Pelican Town. Pai de Abigail, casado com Caroline.",
+    "localizacao": "Pierre's General Store — centro da cidade",
+    "aniversario": "Primavera 26",
+    "presentes_amados": [
+      "Fried Calamari"
+    ],
+    "presentes_odiados": [
+      "Garlic",
+      "Corn",
+      "Parsnip Soup",
+      "Tortilla"
+    ],
+    "romanceable": false,
+    "fonte_url": "https://stardewvalleywiki.com/Pierre",
+    "presentes_apreciados": [
+      "Dandelion",
+      "Daffodil"
+    ],
+    "presentes_neutros": [],
+    "presentes_nao_gostam": [
+      "Leek",
+      "Salmonberry",
+      "Hazelnut",
+      "Holly",
+      "Ginger",
+      "Snow Yam",
+      "Wild Horseradish",
+      "Winter Root"
+    ],
+    "retrato": "pierre.png"
+  },
+  {
+    "slug": "robin",
+    "nome": "Robin",
+    "descricao": "Carpinteira e construtora da cidade. Mãe de Sebastian e Maru, casada com Demetrius.",
+    "localizacao": "24 Mountain Road — Carpenter Shop",
+    "aniversario": "Outono 21",
+    "presentes_amados": [
+      "Spaghetti",
+      "Peach",
+      "Goat Cheese"
+    ],
+    "presentes_odiados": [
+      "Holly"
+    ],
+    "romanceable": false,
+    "fonte_url": "https://stardewvalleywiki.com/Robin",
+    "presentes_apreciados": [
+      "Hardwood",
+      "Quartz"
+    ],
+    "presentes_neutros": [
+      "Leek",
+      "Hazelnut",
+      "Dandelion",
+      "Ginger",
+      "Snow Yam",
+      "Daffodil",
+      "Winter Root"
+    ],
+    "presentes_nao_gostam": [
+      "Wild Horseradish"
+    ],
+    "retrato": "robin.png"
+  },
+  {
+    "slug": "sam",
+    "nome": "Sam",
+    "descricao": "Jovem músico descontraído. Adora skate e junk food.",
+    "localizacao": "1 Willow Lane",
+    "aniversario": "Verão 17",
+    "presentes_amados": [
+      "Cactus Fruit",
+      "Tigerseye",
+      "Maple Bar",
+      "Pizza"
+    ],
+    "presentes_odiados": [
+      "Copper Bar",
+      "Iron Bar",
+      "Iridium Bar",
+      "Gold Bar",
+      "Coal",
+      "Mayonnaise",
+      "Duck Mayonnaise",
+      "Iridium Ore",
+      "Gold Ore",
+      "Pickles",
+      "Refined Quartz"
+    ],
+    "romanceable": true,
+    "fonte_url": "https://stardewvalleywiki.com/Sam",
+    "presentes_apreciados": [
+      "Joja Cola"
+    ],
+    "presentes_neutros": [],
+    "presentes_nao_gostam": [
+      "Seaweed",
+      "Leek",
+      "Salmonberry",
+      "Hazelnut",
+      "Holly",
+      "Dandelion",
+      "Ginger",
+      "Snow Yam",
+      "Daffodil",
+      "Quartz",
+      "Wild Horseradish",
+      "Winter Root"
+    ],
+    "retrato": "sam.png"
+  },
+  {
+    "slug": "sandy",
+    "nome": "Sandy",
+    "descricao": "Atendente da loja do Calico Desert. Amiga de Emily.",
+    "localizacao": "Oasis — Calico Desert",
+    "aniversario": "Outono 15",
+    "romanceable": false,
+    "fonte_url": "https://pt.stardewvalleywiki.com/Sandy",
+    "presentes_amados": [
+      "Mango Sticky Rice",
+      "Sweet Pea",
+      "Crocus",
+      "Daffodil"
+    ],
+    "presentes_apreciados": [
+      "Wool",
+      "Goat Milk ES",
+      "Large Goat Milk ES",
+      "Quartz"
+    ],
+    "presentes_neutros": [
+      "Leek",
+      "Hazelnut",
+      "Dandelion",
+      "Ginger",
+      "Snow Yam",
+      "Milk ES",
+      "Large Milk ES",
+      "Wild Horseradish",
+      "Winter Root"
+    ],
+    "presentes_nao_gostam": [],
+    "presentes_odiados": [
+      "Holly"
+    ],
+    "retrato": "sandy.png"
+  },
+  {
+    "slug": "sebastian",
+    "nome": "Sebastian",
+    "descricao": "Programador recluso que adora motocicletas, RPGs e ficção científica. Meio-irmão de Maru.",
+    "localizacao": "24 Mountain Road (casa de Robin)",
+    "aniversario": "Inverno 10",
+    "presentes_amados": [
+      "Frozen Tear",
+      "Obsidian",
+      "Void Egg",
+      "Sashimi",
+      "Pumpkin Soup"
+    ],
+    "presentes_odiados": [
+      "Farmer%27s Lunch",
+      "Clay",
+      "Complete Breakfast",
+      "Omelet",
+      "Pi%C3%B1a Colada"
+    ],
+    "romanceable": true,
+    "fonte_url": "https://stardewvalleywiki.com/Sebastian",
+    "presentes_apreciados": [
+      "Flounder",
+      "Quartz"
+    ],
+    "presentes_neutros": [],
+    "presentes_nao_gostam": [
+      "Leek",
+      "Salmonberry",
+      "Hazelnut",
+      "Holly",
+      "Dandelion",
+      "Ginger",
+      "Snow Yam",
+      "Daffodil",
+      "Wild Horseradish",
+      "Winter Root"
+    ],
+    "retrato": "sebastian.png"
+  },
+  {
+    "slug": "shane",
+    "nome": "Shane",
+    "descricao": "Trabalha no JojaMart e mora na fazenda da Marnie. Luta contra depressão, ama frango e futebol.",
+    "localizacao": "Fazenda da Marnie (Marnie's Ranch)",
+    "aniversario": "Primavera 20",
+    "presentes_amados": [
+      "Beer",
+      "Pepper Poppers",
+      "Hot Pepper",
+      "Pizza"
+    ],
+    "presentes_odiados": [
+      "Pickles",
+      "Quartz"
+    ],
+    "romanceable": true,
+    "fonte_url": "https://stardewvalleywiki.com/Shane",
+    "presentes_apreciados": [],
+    "presentes_neutros": [],
+    "presentes_nao_gostam": [
+      "Seaweed",
+      "Leek",
+      "Hazelnut",
+      "Holly",
+      "Dandelion",
+      "Ginger",
+      "Snow Yam",
+      "Daffodil",
+      "Wild Horseradish",
+      "Winter Root"
+    ],
+    "retrato": "shane.png"
+  },
+  {
+    "slug": "vincent",
+    "nome": "Vincent",
+    "descricao": "Filho caçula da Jodi e Kent, amigo da Jas. Aluno da Penny.",
+    "localizacao": "1 Willow Lane",
+    "aniversario": "Primavera 10",
+    "romanceable": false,
+    "fonte_url": "https://pt.stardewvalleywiki.com/Vincent",
+    "presentes_amados": [
+      "Pink Cake",
+      "Cranberry Candy",
+      "Ginger Ale",
+      "Snail",
+      "Grape"
+    ],
+    "presentes_apreciados": [
+      "Coconut",
+      "Daffodil"
+    ],
+    "presentes_neutros": [],
+    "presentes_nao_gostam": [
+      "Leek",
+      "Hazelnut",
+      "Holly",
+      "Dandelion",
+      "Ginger",
+      "Snow Yam",
+      "Quartz",
+      "Winter Root"
+    ],
+    "presentes_odiados": [
+      "Clay",
+      "Triple Shot Espresso",
+      "Pi%C3%B1a Colada",
+      "Wild Horseradish"
+    ],
+    "retrato": "vincent.png"
+  },
+  {
+    "slug": "willy",
+    "nome": "Willy",
+    "descricao": "Pescador veterano dono da loja de pesca na praia.",
+    "localizacao": "Willy's Fish Shop — praia",
+    "aniversario": "Verão 24",
+    "presentes_amados": [
+      "Pumpkin",
+      "Catfish",
+      "Iridium Bar",
+      "Diamond",
+      "Sturgeon",
+      "Mead",
+      "Sea Cucumber",
+      "Octopus"
+    ],
+    "presentes_odiados": [],
+    "romanceable": false,
+    "fonte_url": "https://stardewvalleywiki.com/Willy",
+    "presentes_apreciados": [
+      "Gold Bar",
+      "Lingcod",
+      "Seafoam Pudding",
+      "Quartz",
+      "Tiger Trout"
+    ],
+    "presentes_neutros": [
+      "Dish O%27 The Sea",
+      "Maki Roll",
+      "Sashimi"
+    ],
+    "presentes_nao_gostam": [
+      "Leek",
+      "Salmonberry",
+      "Hazelnut",
+      "Holly",
+      "Dandelion",
+      "Life Elixir",
+      "Ginger",
+      "Snow Yam",
+      "Daffodil",
+      "Wild Horseradish",
+      "Winter Root"
+    ],
+    "retrato": "willy.png"
+  },
+  {
+    "slug": "wizard",
+    "nome": "Wizard (M. Rasmodius)",
+    "descricao": "Mago misterioso que vive em uma torre na Cindersap Forest. Conhece os segredos dos Junimos.",
+    "localizacao": "Torre do Wizard — sudoeste de Cindersap Forest",
+    "aniversario": "Inverno 17",
+    "presentes_amados": [
+      "Purple Mushroom",
+      "Void Essence",
+      "Solar Essence",
+      "Super Cucumber"
+    ],
+    "presentes_odiados": [],
+    "romanceable": false,
+    "fonte_url": "https://stardewvalleywiki.com/Wizard",
+    "presentes_apreciados": [
+      "Quartz"
+    ],
+    "presentes_neutros": [],
+    "presentes_nao_gostam": [
+      "Leek",
+      "Salmonberry",
+      "Hazelnut",
+      "Holly",
+      "Dandelion",
+      "Ginger",
+      "Slime",
+      "Snow Yam",
+      "Daffodil",
+      "Wild Horseradish",
+      "Winter Root"
+    ],
+    "retrato": "wizard.png"
   }
 ]

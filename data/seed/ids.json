@@ -1,6 +1,6 @@
 [
   {
-    "nome": "Stone",
+    "nome": "Pedra",
     "codigo": "2",
     "string_id": null,
     "categoria": "recurso",
@@ -11,7 +11,7 @@
     "imagem": "Stone.png"
   },
   {
-    "nome": "Wild Horseradish",
+    "nome": "Rabanete-selvagem",
     "codigo": "16",
     "string_id": "(O)16",
     "categoria": "forrageiro",
@@ -22,7 +22,7 @@
     "imagem": "Wild_Horseradish.png"
   },
   {
-    "nome": "Daffodil",
+    "nome": "Narciso",
     "codigo": "18",
     "string_id": "(O)18",
     "categoria": "forrageiro",
@@ -33,7 +33,7 @@
     "imagem": "Daffodil.png"
   },
   {
-    "nome": "Leek",
+    "nome": "Alho-poró",
     "codigo": "20",
     "string_id": "(O)20",
     "categoria": "forrageiro",
@@ -44,7 +44,7 @@
     "imagem": "Leek.png"
   },
   {
-    "nome": "Dandelion",
+    "nome": "Dente-de-leão",
     "codigo": "22",
     "string_id": null,
     "categoria": "forrageiro",
@@ -55,7 +55,7 @@
     "imagem": "Dandelion.png"
   },
   {
-    "nome": "Parsnip",
+    "nome": "Pastinaca",
     "codigo": "24",
     "string_id": "(O)24",
     "categoria": "vegetal",
@@ -66,7 +66,7 @@
     "imagem": "Parsnip.png"
   },
   {
-    "nome": "Emerald",
+    "nome": "Esmeralda",
     "codigo": "60",
     "string_id": "(O)60",
     "categoria": "gema",
@@ -77,7 +77,7 @@
     "imagem": "Emerald.png"
   },
   {
-    "nome": "Aquamarine",
+    "nome": "Água-marinha",
     "codigo": "62",
     "string_id": "(O)62",
     "categoria": "gema",
@@ -88,7 +88,7 @@
     "imagem": "Aquamarine.png"
   },
   {
-    "nome": "Ruby",
+    "nome": "Rubi",
     "codigo": "64",
     "string_id": "(O)64",
     "categoria": "gema",
@@ -99,7 +99,7 @@
     "imagem": "Ruby.png"
   },
   {
-    "nome": "Amethyst",
+    "nome": "Ametista",
     "codigo": "66",
     "string_id": "(O)66",
     "categoria": "gema",
@@ -110,7 +110,7 @@
     "imagem": "Amethyst.png"
   },
   {
-    "nome": "Topaz",
+    "nome": "Topázio",
     "codigo": "68",
     "string_id": "(O)68",
     "categoria": "gema",
@@ -121,7 +121,7 @@
     "imagem": "Topaz.png"
   },
   {
-    "nome": "Banana Sapling",
+    "nome": "Muda de Banana",
     "codigo": "69",
     "string_id": null,
     "categoria": "semente",
@@ -143,7 +143,7 @@
     "imagem": "Jade.png"
   },
   {
-    "nome": "Diamond",
+    "nome": "Diamante",
     "codigo": "72",
     "string_id": "(O)72",
     "categoria": "gema",
@@ -154,7 +154,7 @@
     "imagem": "Diamond.png"
   },
   {
-    "nome": "Golden Walnut",
+    "nome": "Noz Dourada",
     "codigo": "73",
     "string_id": "(O)73",
     "categoria": "especial",
@@ -165,7 +165,7 @@
     "imagem": null
   },
   {
-    "nome": "Prismatic Shard",
+    "nome": "Estilhaço Prismático",
     "codigo": "74",
     "string_id": "(O)74",
     "categoria": "especial",
@@ -176,7 +176,7 @@
     "imagem": "Prismatic_Shard.png"
   },
   {
-    "nome": "Cave Carrot",
+    "nome": "Cenoura das Cavernas",
     "codigo": "78",
     "string_id": "(O)78",
     "categoria": "forrageiro",
@@ -187,7 +187,7 @@
     "imagem": "Cave_Carrot.png"
   },
   {
-    "nome": "Quartz",
+    "nome": "Quartzo",
     "codigo": "80",
     "string_id": "(O)80",
     "categoria": "mineral",
@@ -198,7 +198,7 @@
     "imagem": "Quartz.png"
   },
   {
-    "nome": "Fire Quartz",
+    "nome": "Quartzo de Fogo",
     "codigo": "82",
     "string_id": "(O)82",
     "categoria": "mineral",
@@ -209,7 +209,7 @@
     "imagem": "Fire_Quartz.png"
   },
   {
-    "nome": "Frozen Tear",
+    "nome": "Lágrima Congelada",
     "codigo": "84",
     "string_id": "(O)84",
     "categoria": "mineral",
@@ -220,7 +220,7 @@
     "imagem": "Frozen_Tear.png"
   },
   {
-    "nome": "Earth Crystal",
+    "nome": "Cristal da Terra",
     "codigo": "86",
     "string_id": "(O)86",
     "categoria": "mineral",
@@ -231,7 +231,7 @@
     "imagem": "Earth_Crystal.png"
   },
   {
-    "nome": "Coconut",
+    "nome": "Coco",
     "codigo": "88",
     "string_id": null,
     "categoria": "fruta",
@@ -242,7 +242,7 @@
     "imagem": "Coconut.png"
   },
   {
-    "nome": "Cactus Fruit",
+    "nome": "Fruta de Cacto",
     "codigo": "90",
     "string_id": null,
     "categoria": "fruta",
@@ -264,7 +264,7 @@
     "imagem": "Banana.png"
   },
   {
-    "nome": "Sap",
+    "nome": "Seiva",
     "codigo": "92",
     "string_id": null,
     "categoria": "recurso",
@@ -275,7 +275,7 @@
     "imagem": "Sap.png"
   },
   {
-    "nome": "Torch",
+    "nome": "Tocha",
     "codigo": "93",
     "string_id": null,
     "categoria": "recurso",
@@ -286,7 +286,7 @@
     "imagem": "Torch.png"
   },
   {
-    "nome": "Dwarf Scroll I",
+    "nome": "Pergaminho Anão I",
     "codigo": "96",
     "string_id": null,
     "categoria": "artefato",
@@ -297,7 +297,7 @@
     "imagem": "Dwarf_Scroll_I.png"
   },
   {
-    "nome": "Dwarf Scroll II",
+    "nome": "Pergaminho Anão II",
     "codigo": "97",
     "string_id": null,
     "categoria": "artefato",
@@ -308,7 +308,7 @@
     "imagem": "Dwarf_Scroll_II.png"
   },
   {
-    "nome": "Dwarf Scroll III",
+    "nome": "Pergaminho Anão III",
     "codigo": "98",
     "string_id": null,
     "categoria": "artefato",
@@ -319,7 +319,7 @@
     "imagem": "Dwarf_Scroll_III.png"
   },
   {
-    "nome": "Dwarf Scroll IV",
+    "nome": "Pergaminho Anão IV",
     "codigo": "99",
     "string_id": null,
     "categoria": "artefato",
@@ -330,7 +330,7 @@
     "imagem": "Dwarf_Scroll_IV.png"
   },
   {
-    "nome": "Chipped Amphora",
+    "nome": "Ânfora Lascada",
     "codigo": "100",
     "string_id": null,
     "categoria": "artefato",
@@ -341,7 +341,7 @@
     "imagem": "Chipped_Amphora.png"
   },
   {
-    "nome": "Arrowhead",
+    "nome": "Ponta de Flecha",
     "codigo": "101",
     "string_id": null,
     "categoria": "artefato",
@@ -352,7 +352,7 @@
     "imagem": "Arrowhead.png"
   },
   {
-    "nome": "Ancient Doll",
+    "nome": "Boneca Antiga",
     "codigo": "103",
     "string_id": "(O)103",
     "categoria": "artefato",
@@ -363,7 +363,7 @@
     "imagem": "Ancient_Doll.png"
   },
   {
-    "nome": "Elvish Jewelry",
+    "nome": "Joia Élfica",
     "codigo": "104",
     "string_id": null,
     "categoria": "artefato",
@@ -374,7 +374,7 @@
     "imagem": "Elvish_Jewelry.png"
   },
   {
-    "nome": "Chewing Stick",
+    "nome": "Graveto de Mascar",
     "codigo": "105",
     "string_id": null,
     "categoria": "artefato",
@@ -385,7 +385,7 @@
     "imagem": "Chewing_Stick.png"
   },
   {
-    "nome": "Ornamental Fan",
+    "nome": "Leque Ornamental",
     "codigo": "106",
     "string_id": null,
     "categoria": "artefato",
@@ -396,7 +396,7 @@
     "imagem": "Ornamental_Fan.png"
   },
   {
-    "nome": "Dinosaur Egg",
+    "nome": "Ovo de Dinossauro",
     "codigo": "107",
     "string_id": "(O)107",
     "categoria": "artefato",
@@ -407,7 +407,7 @@
     "imagem": "Dinosaur_Egg.png"
   },
   {
-    "nome": "Rare Disc",
+    "nome": "Disco Raro",
     "codigo": "108",
     "string_id": null,
     "categoria": "artefato",
@@ -418,7 +418,7 @@
     "imagem": "Rare_Disc.png"
   },
   {
-    "nome": "Ancient Sword",
+    "nome": "Espada Antiga",
     "codigo": "109",
     "string_id": null,
     "categoria": "artefato",
@@ -429,7 +429,7 @@
     "imagem": "Ancient_Sword.png"
   },
   {
-    "nome": "Rusty Spoon",
+    "nome": "Colher Enferrujada",
     "codigo": "110",
     "string_id": null,
     "categoria": "artefato",
@@ -440,7 +440,7 @@
     "imagem": "Rusty_Spoon.png"
   },
   {
-    "nome": "Rusty Spur",
+    "nome": "Espora Enferrujada",
     "codigo": "111",
     "string_id": null,
     "categoria": "artefato",
@@ -451,7 +451,7 @@
     "imagem": "Rusty_Spur.png"
   },
   {
-    "nome": "Rusty Cog",
+    "nome": "Engrenagem Enferrujada",
     "codigo": "112",
     "string_id": null,
     "categoria": "artefato",
@@ -462,7 +462,7 @@
     "imagem": "Rusty_Cog.png"
   },
   {
-    "nome": "Chicken Statue",
+    "nome": "Estátua de Frango",
     "codigo": "113",
     "string_id": null,
     "categoria": "artefato",
@@ -473,7 +473,7 @@
     "imagem": "Chicken_Statue.png"
   },
   {
-    "nome": "Ancient Seed",
+    "nome": "Semente Ancestral",
     "codigo": "114",
     "string_id": "(O)114",
     "categoria": "artefato",
@@ -484,7 +484,7 @@
     "imagem": "Ancient_Seed.png"
   },
   {
-    "nome": "Prehistoric Tool",
+    "nome": "Ferramenta Pré-histórica",
     "codigo": "115",
     "string_id": null,
     "categoria": "artefato",
@@ -495,7 +495,7 @@
     "imagem": "Prehistoric_Tool.png"
   },
   {
-    "nome": "Dried Starfish",
+    "nome": "Estrela-do-mar Seca",
     "codigo": "116",
     "string_id": null,
     "categoria": "artefato",
@@ -506,7 +506,7 @@
     "imagem": "Dried_Starfish.png"
   },
   {
-    "nome": "Anchor",
+    "nome": "Âncora",
     "codigo": "117",
     "string_id": null,
     "categoria": "artefato",
@@ -517,7 +517,7 @@
     "imagem": "Anchor.png"
   },
   {
-    "nome": "Glass Shards",
+    "nome": "Cacos de Vidro",
     "codigo": "118",
     "string_id": null,
     "categoria": "artefato",
@@ -528,7 +528,7 @@
     "imagem": "Glass_Shards.png"
   },
   {
-    "nome": "Bone Flute",
+    "nome": "Flauta de Osso",
     "codigo": "119",
     "string_id": null,
     "categoria": "artefato",
@@ -539,7 +539,7 @@
     "imagem": "Bone_Flute.png"
   },
   {
-    "nome": "Prehistoric Handaxe",
+    "nome": "Machado Pré-histórico",
     "codigo": "120",
     "string_id": null,
     "categoria": "artefato",
@@ -550,7 +550,7 @@
     "imagem": "Prehistoric_Handaxe.png"
   },
   {
-    "nome": "Dwarvish Helm",
+    "nome": "Elmo Anão",
     "codigo": "121",
     "string_id": null,
     "categoria": "artefato",
@@ -561,7 +561,7 @@
     "imagem": "Dwarvish_Helm.png"
   },
   {
-    "nome": "Dwarf Gadget",
+    "nome": "Gadget Anão",
     "codigo": "122",
     "string_id": null,
     "categoria": "artefato",
@@ -572,7 +572,7 @@
     "imagem": "Dwarf_Gadget.png"
   },
   {
-    "nome": "Ancient Drum",
+    "nome": "Tambor Antigo",
     "codigo": "123",
     "string_id": null,
     "categoria": "artefato",
@@ -583,7 +583,7 @@
     "imagem": "Ancient_Drum.png"
   },
   {
-    "nome": "Golden Mask",
+    "nome": "Máscara Dourada",
     "codigo": "124",
     "string_id": null,
     "categoria": "artefato",
@@ -594,7 +594,7 @@
     "imagem": "Golden_Mask.png"
   },
   {
-    "nome": "Golden Relic",
+    "nome": "Relíquia Dourada",
     "codigo": "125",
     "string_id": null,
     "categoria": "artefato",
@@ -605,7 +605,7 @@
     "imagem": "Golden_Relic.png"
   },
   {
-    "nome": "Pufferfish",
+    "nome": "Baiacu",
     "codigo": "128",
     "string_id": "(O)128",
     "categoria": "peixe",
@@ -616,7 +616,7 @@
     "imagem": "Pufferfish.png"
   },
   {
-    "nome": "Anchovy",
+    "nome": "Anchova",
     "codigo": "129",
     "string_id": null,
     "categoria": "peixe",
@@ -627,7 +627,7 @@
     "imagem": "Anchovy.png"
   },
   {
-    "nome": "Tuna",
+    "nome": "Atum",
     "codigo": "130",
     "string_id": null,
     "categoria": "peixe",
@@ -638,7 +638,7 @@
     "imagem": "Tuna.png"
   },
   {
-    "nome": "Sardine",
+    "nome": "Sardinha",
     "codigo": "131",
     "string_id": null,
     "categoria": "peixe",
@@ -649,7 +649,7 @@
     "imagem": "Sardine.png"
   },
   {
-    "nome": "Bream",
+    "nome": "Brema",
     "codigo": "132",
     "string_id": null,
     "categoria": "peixe",
@@ -660,7 +660,7 @@
     "imagem": "Bream.png"
   },
   {
-    "nome": "Largemouth Bass",
+    "nome": "Robalo de Boca Grande",
     "codigo": "136",
     "string_id": null,
     "categoria": "peixe",
@@ -671,7 +671,7 @@
     "imagem": "Largemouth_Bass.png"
   },
   {
-    "nome": "Smallmouth Bass",
+    "nome": "Robalo de Boca Pequena",
     "codigo": "137",
     "string_id": null,
     "categoria": "peixe",
@@ -682,7 +682,7 @@
     "imagem": "Smallmouth_Bass.png"
   },
   {
-    "nome": "Rainbow Trout",
+    "nome": "Truta Arco-íris",
     "codigo": "138",
     "string_id": null,
     "categoria": "peixe",
@@ -693,7 +693,7 @@
     "imagem": "Rainbow_Trout.png"
   },
   {
-    "nome": "Salmon",
+    "nome": "Salmão",
     "codigo": "139",
     "string_id": null,
     "categoria": "peixe",
@@ -704,7 +704,7 @@
     "imagem": "Salmon.png"
   },
   {
-    "nome": "Walleye",
+    "nome": "Perca-americana",
     "codigo": "140",
     "string_id": null,
     "categoria": "peixe",
@@ -715,7 +715,7 @@
     "imagem": "Walleye.png"
   },
   {
-    "nome": "Perch",
+    "nome": "Perca",
     "codigo": "141",
     "string_id": null,
     "categoria": "peixe",
@@ -726,7 +726,7 @@
     "imagem": "Perch.png"
   },
   {
-    "nome": "Carp",
+    "nome": "Carpa",
     "codigo": "142",
     "string_id": null,
     "categoria": "peixe",
@@ -737,7 +737,7 @@
     "imagem": "Carp.png"
   },
   {
-    "nome": "Catfish",
+    "nome": "Bagre",
     "codigo": "143",
     "string_id": "(O)143",
     "categoria": "peixe",
@@ -748,7 +748,7 @@
     "imagem": "Catfish.png"
   },
   {
-    "nome": "Pike",
+    "nome": "Lúcio",
     "codigo": "144",
     "string_id": null,
     "categoria": "peixe",
@@ -759,7 +759,7 @@
     "imagem": "Pike.png"
   },
   {
-    "nome": "Sunfish",
+    "nome": "Peixe-sol",
     "codigo": "145",
     "string_id": null,
     "categoria": "peixe",
@@ -770,7 +770,7 @@
     "imagem": "Sunfish.png"
   },
   {
-    "nome": "Red Mullet",
+    "nome": "Salmonete",
     "codigo": "146",
     "string_id": null,
     "categoria": "peixe",
@@ -781,7 +781,7 @@
     "imagem": "Red_Mullet.png"
   },
   {
-    "nome": "Herring",
+    "nome": "Arenque",
     "codigo": "147",
     "string_id": null,
     "categoria": "peixe",
@@ -792,7 +792,7 @@
     "imagem": "Herring.png"
   },
   {
-    "nome": "Eel",
+    "nome": "Enguia",
     "codigo": "148",
     "string_id": null,
     "categoria": "peixe",
@@ -803,7 +803,7 @@
     "imagem": "Eel.png"
   },
   {
-    "nome": "Octopus",
+    "nome": "Polvo",
     "codigo": "149",
     "string_id": null,
     "categoria": "peixe",
@@ -814,7 +814,7 @@
     "imagem": "Octopus.png"
   },
   {
-    "nome": "Red Snapper",
+    "nome": "Vermelho Americano",
     "codigo": "150",
     "string_id": null,
     "categoria": "peixe",
@@ -825,7 +825,7 @@
     "imagem": "Red_Snapper.png"
   },
   {
-    "nome": "Squid",
+    "nome": "Lula",
     "codigo": "151",
     "string_id": null,
     "categoria": "peixe",
@@ -836,7 +836,7 @@
     "imagem": "Squid.png"
   },
   {
-    "nome": "Seaweed",
+    "nome": "Alga Marinha",
     "codigo": "152",
     "string_id": null,
     "categoria": "peixe",
@@ -847,7 +847,7 @@
     "imagem": "Seaweed.png"
   },
   {
-    "nome": "Green Algae",
+    "nome": "Alga Verde",
     "codigo": "153",
     "string_id": null,
     "categoria": "peixe",
@@ -858,7 +858,7 @@
     "imagem": "Green_Algae.png"
   },
   {
-    "nome": "Sea Cucumber",
+    "nome": "Pepino-do-mar",
     "codigo": "154",
     "string_id": null,
     "categoria": "peixe",
@@ -869,7 +869,7 @@
     "imagem": "Sea_Cucumber.png"
   },
   {
-    "nome": "Super Cucumber",
+    "nome": "Super Pepino-do-mar",
     "codigo": "155",
     "string_id": null,
     "categoria": "peixe",
@@ -880,7 +880,7 @@
     "imagem": "Super_Cucumber.png"
   },
   {
-    "nome": "Ghostfish",
+    "nome": "Peixe-fantasma",
     "codigo": "156",
     "string_id": null,
     "categoria": "peixe",
@@ -891,7 +891,7 @@
     "imagem": "Ghostfish.png"
   },
   {
-    "nome": "White Algae",
+    "nome": "Alga Branca",
     "codigo": "157",
     "string_id": null,
     "categoria": "peixe",
@@ -902,7 +902,7 @@
     "imagem": "White_Algae.png"
   },
   {
-    "nome": "Stonefish",
+    "nome": "Peixe-pedra",
     "codigo": "158",
     "string_id": null,
     "categoria": "peixe",
@@ -913,7 +913,7 @@
     "imagem": "Stonefish.png"
   },
   {
-    "nome": "Crimsonfish",
+    "nome": "Peixe Carmesim",
     "codigo": "159",
     "string_id": "(O)159",
     "categoria": "peixe",
@@ -924,7 +924,7 @@
     "imagem": "Crimsonfish.png"
   },
   {
-    "nome": "Angler",
+    "nome": "Peixe-anjo",
     "codigo": "160",
     "string_id": "(O)160",
     "categoria": "peixe",
@@ -935,7 +935,7 @@
     "imagem": "Angler.png"
   },
   {
-    "nome": "Ice Pip",
+    "nome": "Peixe do Gelo",
     "codigo": "161",
     "string_id": null,
     "categoria": "peixe",
@@ -946,7 +946,7 @@
     "imagem": "Ice_Pip.png"
   },
   {
-    "nome": "Lava Eel",
+    "nome": "Enguia de Lava",
     "codigo": "162",
     "string_id": null,
     "categoria": "peixe",
@@ -957,7 +957,7 @@
     "imagem": "Lava_Eel.png"
   },
   {
-    "nome": "Legend",
+    "nome": "Lenda",
     "codigo": "163",
     "string_id": "(O)163",
     "categoria": "peixe",
@@ -968,7 +968,7 @@
     "imagem": "Legend.png"
   },
   {
-    "nome": "Sandfish",
+    "nome": "Peixe de Areia",
     "codigo": "164",
     "string_id": null,
     "categoria": "peixe",
@@ -979,7 +979,7 @@
     "imagem": "Sandfish.png"
   },
   {
-    "nome": "Scorpion Carp",
+    "nome": "Carpa Escorpião",
     "codigo": "165",
     "string_id": null,
     "categoria": "peixe",
@@ -990,7 +990,7 @@
     "imagem": "Scorpion_Carp.png"
   },
   {
-    "nome": "Treasure Chest",
+    "nome": "Baú do Tesouro",
     "codigo": "166",
     "string_id": "(O)166",
     "categoria": "especial",
@@ -1012,7 +1012,7 @@
     "imagem": "Joja_Cola.png"
   },
   {
-    "nome": "Trash",
+    "nome": "Lixo",
     "codigo": "168",
     "string_id": null,
     "categoria": "lixo",
@@ -1023,7 +1023,7 @@
     "imagem": null
   },
   {
-    "nome": "Driftwood",
+    "nome": "Madeira à Deriva",
     "codigo": "169",
     "string_id": null,
     "categoria": "lixo",
@@ -1034,7 +1034,7 @@
     "imagem": "Driftwood.png"
   },
   {
-    "nome": "Broken Glasses",
+    "nome": "Óculos Quebrados",
     "codigo": "170",
     "string_id": null,
     "categoria": "lixo",
@@ -1045,7 +1045,7 @@
     "imagem": "Broken_Glasses.png"
   },
   {
-    "nome": "Broken CD",
+    "nome": "CD Quebrado",
     "codigo": "171",
     "string_id": null,
     "categoria": "lixo",
@@ -1056,7 +1056,7 @@
     "imagem": "Broken_CD.png"
   },
   {
-    "nome": "Soggy Newspaper",
+    "nome": "Jornal Encharcado",
     "codigo": "172",
     "string_id": null,
     "categoria": "lixo",
@@ -1067,7 +1067,7 @@
     "imagem": "Soggy_Newspaper.png"
   },
   {
-    "nome": "Large Egg (Branco)",
+    "nome": "Ovo Grande (Branco)",
     "codigo": "174",
     "string_id": null,
     "categoria": "artisan",
@@ -1078,7 +1078,7 @@
     "imagem": "Large_Egg.png"
   },
   {
-    "nome": "Egg (Branco)",
+    "nome": "Ovo (Branco)",
     "codigo": "176",
     "string_id": null,
     "categoria": "artisan",
@@ -1089,7 +1089,7 @@
     "imagem": "Egg.png"
   },
   {
-    "nome": "Egg (Marrom)",
+    "nome": "Ovo (Marrom)",
     "codigo": "180",
     "string_id": null,
     "categoria": "artisan",
@@ -1100,7 +1100,7 @@
     "imagem": "Egg.png"
   },
   {
-    "nome": "Large Egg (Marrom)",
+    "nome": "Ovo Grande (Marrom)",
     "codigo": "182",
     "string_id": null,
     "categoria": "artisan",
@@ -1111,7 +1111,7 @@
     "imagem": "Large_Egg.png"
   },
   {
-    "nome": "Milk",
+    "nome": "Leite",
     "codigo": "184",
     "string_id": null,
     "categoria": "artisan",
@@ -1122,7 +1122,7 @@
     "imagem": "Milk.png"
   },
   {
-    "nome": "Large Milk",
+    "nome": "Leite Grande",
     "codigo": "186",
     "string_id": null,
     "categoria": "artisan",
@@ -1133,7 +1133,7 @@
     "imagem": "Large_Milk.png"
   },
   {
-    "nome": "Green Bean",
+    "nome": "Vagem Verde",
     "codigo": "188",
     "string_id": null,
     "categoria": "vegetal",
@@ -1144,7 +1144,7 @@
     "imagem": "Green_Bean.png"
   },
   {
-    "nome": "Cauliflower (Vegetal)",
+    "nome": "Couve-flor (Vegetal)",
     "codigo": "190",
     "string_id": null,
     "categoria": "vegetal",
@@ -1155,7 +1155,7 @@
     "imagem": "Cauliflower.png"
   },
   {
-    "nome": "Potato",
+    "nome": "Batata",
     "codigo": "192",
     "string_id": "(O)192",
     "categoria": "vegetal",
@@ -1166,7 +1166,7 @@
     "imagem": "Potato.png"
   },
   {
-    "nome": "Fried Egg",
+    "nome": "Ovo Frito",
     "codigo": "194",
     "string_id": null,
     "categoria": "artisan",
@@ -1177,7 +1177,7 @@
     "imagem": "Fried_Egg.png"
   },
   {
-    "nome": "Omelet",
+    "nome": "Omelete",
     "codigo": "195",
     "string_id": null,
     "categoria": "artisan",
@@ -1188,7 +1188,7 @@
     "imagem": "Omelet.png"
   },
   {
-    "nome": "Salad",
+    "nome": "Salada",
     "codigo": "196",
     "string_id": null,
     "categoria": "artisan",
@@ -1199,7 +1199,7 @@
     "imagem": "Salad.png"
   },
   {
-    "nome": "Cheese Cauliflower",
+    "nome": "Couve-flor ao Queijo",
     "codigo": "197",
     "string_id": null,
     "categoria": "artisan",
@@ -1210,7 +1210,7 @@
     "imagem": "Cheese_Cauliflower.png"
   },
   {
-    "nome": "Baked Fish",
+    "nome": "Peixe Assado",
     "codigo": "198",
     "string_id": null,
     "categoria": "artisan",
@@ -1221,7 +1221,7 @@
     "imagem": "Baked_Fish.png"
   },
   {
-    "nome": "Parsnip Soup",
+    "nome": "Sopa de Pastinaca",
     "codigo": "199",
     "string_id": null,
     "categoria": "artisan",
@@ -1232,7 +1232,7 @@
     "imagem": "Parsnip_Soup.png"
   },
   {
-    "nome": "Vegetable Medley",
+    "nome": "Mix de Legumes",
     "codigo": "200",
     "string_id": null,
     "categoria": "artisan",
@@ -1243,7 +1243,7 @@
     "imagem": "Vegetable_Medley.png"
   },
   {
-    "nome": "Complete Breakfast",
+    "nome": "Café da Manhã Completo",
     "codigo": "201",
     "string_id": null,
     "categoria": "artisan",
@@ -1254,7 +1254,7 @@
     "imagem": "Complete_Breakfast.png"
   },
   {
-    "nome": "Fried Calamari",
+    "nome": "Lula Frita",
     "codigo": "202",
     "string_id": null,
     "categoria": "artisan",
@@ -1265,7 +1265,7 @@
     "imagem": "Fried_Calamari.png"
   },
   {
-    "nome": "Strange Bun",
+    "nome": "Pãozinho Estranho",
     "codigo": "203",
     "string_id": null,
     "categoria": "artisan",
@@ -1276,7 +1276,7 @@
     "imagem": "Strange_Bun.png"
   },
   {
-    "nome": "Lucky Lunch",
+    "nome": "Almoço da Sorte",
     "codigo": "204",
     "string_id": null,
     "categoria": "artisan",
@@ -1287,7 +1287,7 @@
     "imagem": "Lucky_Lunch.png"
   },
   {
-    "nome": "Fried Mushroom",
+    "nome": "Cogumelo Frito",
     "codigo": "205",
     "string_id": null,
     "categoria": "artisan",
@@ -1309,7 +1309,7 @@
     "imagem": "Pizza.png"
   },
   {
-    "nome": "Bean Hotpot",
+    "nome": "Caldeirão de Feijão",
     "codigo": "207",
     "string_id": null,
     "categoria": "artisan",
@@ -1320,7 +1320,7 @@
     "imagem": "Bean_Hotpot.png"
   },
   {
-    "nome": "Glazed Yams",
+    "nome": "Inhame Caramelado",
     "codigo": "208",
     "string_id": null,
     "categoria": "artisan",
@@ -1331,7 +1331,7 @@
     "imagem": "Glazed_Yams.png"
   },
   {
-    "nome": "Carp Surprise",
+    "nome": "Surpresa de Carpa",
     "codigo": "209",
     "string_id": null,
     "categoria": "artisan",
@@ -1342,7 +1342,7 @@
     "imagem": "Carp_Surprise.png"
   },
   {
-    "nome": "Hashbrowns",
+    "nome": "Batata Palha",
     "codigo": "210",
     "string_id": null,
     "categoria": "artisan",
@@ -1353,7 +1353,7 @@
     "imagem": "Hashbrowns.png"
   },
   {
-    "nome": "Pancakes",
+    "nome": "Panquecas",
     "codigo": "211",
     "string_id": null,
     "categoria": "artisan",
@@ -1364,7 +1364,7 @@
     "imagem": "Pancakes.png"
   },
   {
-    "nome": "Salmon Dinner",
+    "nome": "Jantar de Salmão",
     "codigo": "212",
     "string_id": null,
     "categoria": "artisan",
@@ -1375,7 +1375,7 @@
     "imagem": "Salmon_Dinner.png"
   },
   {
-    "nome": "Fish Taco",
+    "nome": "Taco de Peixe",
     "codigo": "213",
     "string_id": null,
     "categoria": "artisan",
@@ -1386,7 +1386,7 @@
     "imagem": "Fish_Taco.png"
   },
   {
-    "nome": "Crispy Bass",
+    "nome": "Robalo Crocante",
     "codigo": "214",
     "string_id": null,
     "categoria": "artisan",
@@ -1397,7 +1397,7 @@
     "imagem": "Crispy_Bass.png"
   },
   {
-    "nome": "Pepper Poppers",
+    "nome": "Pimentões Recheados",
     "codigo": "215",
     "string_id": null,
     "categoria": "artisan",
@@ -1408,7 +1408,7 @@
     "imagem": "Pepper_Poppers.png"
   },
   {
-    "nome": "Bread",
+    "nome": "Pão",
     "codigo": "216",
     "string_id": null,
     "categoria": "artisan",
@@ -1419,7 +1419,7 @@
     "imagem": "Bread.png"
   },
   {
-    "nome": "Tom Kha Soup",
+    "nome": "Sopa Tom Kha",
     "codigo": "218",
     "string_id": null,
     "categoria": "artisan",
@@ -1430,7 +1430,7 @@
     "imagem": "Tom_Kha_Soup.png"
   },
   {
-    "nome": "Trout Soup",
+    "nome": "Sopa de Truta",
     "codigo": "219",
     "string_id": null,
     "categoria": "artisan",
@@ -1441,7 +1441,7 @@
     "imagem": "Trout_Soup.png"
   },
   {
-    "nome": "Chocolate Cake",
+    "nome": "Bolo de Chocolate",
     "codigo": "220",
     "string_id": null,
     "categoria": "artisan",
@@ -1452,7 +1452,7 @@
     "imagem": "Chocolate_Cake.png"
   },
   {
-    "nome": "Pink Cake",
+    "nome": "Bolo Rosa",
     "codigo": "221",
     "string_id": null,
     "categoria": "artisan",
@@ -1463,7 +1463,7 @@
     "imagem": "Pink_Cake.png"
   },
   {
-    "nome": "Rhubarb Pie",
+    "nome": "Torta de Ruibarbo",
     "codigo": "222",
     "string_id": null,
     "categoria": "artisan",
@@ -1474,7 +1474,7 @@
     "imagem": "Rhubarb_Pie.png"
   },
   {
-    "nome": "Cookie",
+    "nome": "Biscoito",
     "codigo": "223",
     "string_id": null,
     "categoria": "artisan",
@@ -1485,7 +1485,7 @@
     "imagem": "Cookie.png"
   },
   {
-    "nome": "Spaghetti",
+    "nome": "Espaguete",
     "codigo": "224",
     "string_id": null,
     "categoria": "artisan",
@@ -1496,7 +1496,7 @@
     "imagem": "Spaghetti.png"
   },
   {
-    "nome": "Fried Eel",
+    "nome": "Enguia Frita",
     "codigo": "225",
     "string_id": null,
     "categoria": "artisan",
@@ -1507,7 +1507,7 @@
     "imagem": "Fried_Eel.png"
   },
   {
-    "nome": "Spicy Eel",
+    "nome": "Enguia Picante",
     "codigo": "226",
     "string_id": null,
     "categoria": "artisan",
@@ -1529,7 +1529,7 @@
     "imagem": "Sashimi.png"
   },
   {
-    "nome": "Maki Roll",
+    "nome": "Rolo Maki",
     "codigo": "228",
     "string_id": null,
     "categoria": "artisan",
@@ -1540,7 +1540,7 @@
     "imagem": "Maki_Roll.png"
   },
   {
-    "nome": "Tortilla",
+    "nome": "Tortilha",
     "codigo": "229",
     "string_id": null,
     "categoria": "artisan",
@@ -1551,7 +1551,7 @@
     "imagem": "Tortilla.png"
   },
   {
-    "nome": "Red Plate",
+    "nome": "Prato Vermelho",
     "codigo": "230",
     "string_id": null,
     "categoria": "artisan",
@@ -1562,7 +1562,7 @@
     "imagem": "Red_Plate.png"
   },
   {
-    "nome": "Eggplant Parmesan",
+    "nome": "Berinjela ao Parmesão",
     "codigo": "231",
     "string_id": null,
     "categoria": "artisan",
@@ -1573,7 +1573,7 @@
     "imagem": "Eggplant_Parmesan.png"
   },
   {
-    "nome": "Rice Pudding",
+    "nome": "Arroz Doce",
     "codigo": "232",
     "string_id": null,
     "categoria": "artisan",
@@ -1584,7 +1584,7 @@
     "imagem": "Rice_Pudding.png"
   },
   {
-    "nome": "Ice Cream",
+    "nome": "Sorvete",
     "codigo": "233",
     "string_id": null,
     "categoria": "artisan",
@@ -1595,7 +1595,7 @@
     "imagem": "Ice_Cream.png"
   },
   {
-    "nome": "Blueberry Tart",
+    "nome": "Torta de Mirtilo",
     "codigo": "234",
     "string_id": null,
     "categoria": "artisan",
@@ -1606,7 +1606,7 @@
     "imagem": "Blueberry_Tart.png"
   },
   {
-    "nome": "Autumn's Bounty",
+    "nome": "Fartura do Outono",
     "codigo": "235",
     "string_id": null,
     "categoria": "artisan",
@@ -1617,7 +1617,7 @@
     "imagem": "Autumns_Bounty.png"
   },
   {
-    "nome": "Pumpkin Soup",
+    "nome": "Sopa de Abóbora",
     "codigo": "236",
     "string_id": null,
     "categoria": "artisan",
@@ -1628,7 +1628,7 @@
     "imagem": "Pumpkin_Soup.png"
   },
   {
-    "nome": "Super Meal",
+    "nome": "Super Refeição",
     "codigo": "237",
     "string_id": null,
     "categoria": "artisan",
@@ -1639,7 +1639,7 @@
     "imagem": "Super_Meal.png"
   },
   {
-    "nome": "Cranberry Sauce",
+    "nome": "Molho de Oxicoco",
     "codigo": "238",
     "string_id": null,
     "categoria": "artisan",
@@ -1650,7 +1650,7 @@
     "imagem": "Cranberry_Sauce.png"
   },
   {
-    "nome": "Stuffing",
+    "nome": "Recheio",
     "codigo": "239",
     "string_id": null,
     "categoria": "artisan",
@@ -1661,7 +1661,7 @@
     "imagem": "Stuffing.png"
   },
   {
-    "nome": "Farmer's Lunch",
+    "nome": "Almoço do Fazendeiro",
     "codigo": "240",
     "string_id": null,
     "categoria": "artisan",
@@ -1672,7 +1672,7 @@
     "imagem": "Farmers_Lunch.png"
   },
   {
-    "nome": "Survival Burger",
+    "nome": "Hambúrguer da Sobrevivência",
     "codigo": "241",
     "string_id": null,
     "categoria": "artisan",
@@ -1683,7 +1683,7 @@
     "imagem": "Survival_Burger.png"
   },
   {
-    "nome": "Dish O' The Sea",
+    "nome": "Prato do Mar",
     "codigo": "242",
     "string_id": null,
     "categoria": "artisan",
@@ -1694,7 +1694,7 @@
     "imagem": "Dish_o_The_Sea.png"
   },
   {
-    "nome": "Miner's Treat",
+    "nome": "Guloseima do Minerador",
     "codigo": "243",
     "string_id": null,
     "categoria": "artisan",
@@ -1705,7 +1705,7 @@
     "imagem": "Miners_Treat.png"
   },
   {
-    "nome": "Roots Platter",
+    "nome": "Prato de Raízes",
     "codigo": "244",
     "string_id": null,
     "categoria": "artisan",
@@ -1716,7 +1716,7 @@
     "imagem": "Roots_Platter.png"
   },
   {
-    "nome": "Garlic",
+    "nome": "Alho",
     "codigo": "248",
     "string_id": null,
     "categoria": "vegetal",
@@ -1727,7 +1727,7 @@
     "imagem": "Garlic.png"
   },
   {
-    "nome": "Kale",
+    "nome": "Couve",
     "codigo": "250",
     "string_id": null,
     "categoria": "vegetal",
@@ -1738,7 +1738,7 @@
     "imagem": "Kale.png"
   },
   {
-    "nome": "Tea Sapling",
+    "nome": "Muda de Chá",
     "codigo": "251",
     "string_id": null,
     "categoria": "semente",
@@ -1749,7 +1749,7 @@
     "imagem": "Tea_Sapling.png"
   },
   {
-    "nome": "Rhubarb",
+    "nome": "Ruibarbo",
     "codigo": "252",
     "string_id": null,
     "categoria": "fruta",
@@ -1760,7 +1760,7 @@
     "imagem": "Rhubarb.png"
   },
   {
-    "nome": "Melon",
+    "nome": "Melão",
     "codigo": "254",
     "string_id": "(O)254",
     "categoria": "fruta",
@@ -1771,7 +1771,7 @@
     "imagem": "Melon.png"
   },
   {
-    "nome": "Tomato",
+    "nome": "Tomate",
     "codigo": "256",
     "string_id": "(O)256",
     "categoria": "vegetal",
@@ -1782,7 +1782,7 @@
     "imagem": "Tomato.png"
   },
   {
-    "nome": "Morel",
+    "nome": "Cogumelo Morel",
     "codigo": "257",
     "string_id": null,
     "categoria": "forrageiro",
@@ -1793,7 +1793,7 @@
     "imagem": "Morel.png"
   },
   {
-    "nome": "Blueberry",
+    "nome": "Mirtilo",
     "codigo": "258",
     "string_id": "(O)258",
     "categoria": "fruta",
@@ -1804,7 +1804,7 @@
     "imagem": "Blueberry.png"
   },
   {
-    "nome": "Fiddlehead Fern",
+    "nome": "Samambaia Jovem",
     "codigo": "259",
     "string_id": null,
     "categoria": "forrageiro",
@@ -1815,7 +1815,7 @@
     "imagem": "Fiddlehead_Fern.png"
   },
   {
-    "nome": "Hot Pepper",
+    "nome": "Pimenta",
     "codigo": "260",
     "string_id": null,
     "categoria": "vegetal",
@@ -1826,7 +1826,7 @@
     "imagem": "Hot_Pepper.png"
   },
   {
-    "nome": "Wheat",
+    "nome": "Trigo",
     "codigo": "262",
     "string_id": null,
     "categoria": "vegetal",
@@ -1837,7 +1837,7 @@
     "imagem": "Wheat.png"
   },
   {
-    "nome": "Radish",
+    "nome": "Rabanete",
     "codigo": "264",
     "string_id": null,
     "categoria": "vegetal",
@@ -1848,7 +1848,7 @@
     "imagem": "Radish.png"
   },
   {
-    "nome": "Seafoam Pudding",
+    "nome": "Pudim de Espuma do Mar",
     "codigo": "265",
     "string_id": null,
     "categoria": "artisan",
@@ -1859,7 +1859,7 @@
     "imagem": "Seafoam_Pudding.png"
   },
   {
-    "nome": "Red Cabbage",
+    "nome": "Repolho Roxo",
     "codigo": "266",
     "string_id": null,
     "categoria": "vegetal",
@@ -1870,7 +1870,7 @@
     "imagem": "Red_Cabbage.png"
   },
   {
-    "nome": "Starfruit",
+    "nome": "Carambola",
     "codigo": "268",
     "string_id": "(O)268",
     "categoria": "fruta",
@@ -1881,7 +1881,7 @@
     "imagem": "Starfruit.png"
   },
   {
-    "nome": "Midnight Carp",
+    "nome": "Carpa da Meia-noite",
     "codigo": "269",
     "string_id": null,
     "categoria": "peixe",
@@ -1892,7 +1892,7 @@
     "imagem": "Midnight_Carp.png"
   },
   {
-    "nome": "Corn",
+    "nome": "Milho",
     "codigo": "270",
     "string_id": null,
     "categoria": "vegetal",
@@ -1903,7 +1903,7 @@
     "imagem": "Corn.png"
   },
   {
-    "nome": "Unmilled Rice",
+    "nome": "Arroz Não Processado",
     "codigo": "271",
     "string_id": null,
     "categoria": "vegetal",
@@ -1914,7 +1914,7 @@
     "imagem": "Unmilled_Rice.png"
   },
   {
-    "nome": "Eggplant",
+    "nome": "Berinjela",
     "codigo": "272",
     "string_id": null,
     "categoria": "vegetal",
@@ -1925,7 +1925,7 @@
     "imagem": "Eggplant.png"
   },
   {
-    "nome": "Rice Shoot",
+    "nome": "Muda de Arroz",
     "codigo": "273",
     "string_id": null,
     "categoria": "semente",
@@ -1936,7 +1936,7 @@
     "imagem": "Rice_Shoot.png"
   },
   {
-    "nome": "Artichoke",
+    "nome": "Alcachofra",
     "codigo": "274",
     "string_id": null,
     "categoria": "vegetal",
@@ -1947,7 +1947,7 @@
     "imagem": "Artichoke.png"
   },
   {
-    "nome": "Artifact Trove",
+    "nome": "Depósito de Artefatos",
     "codigo": "275",
     "string_id": null,
     "categoria": "artefato",
@@ -1958,7 +1958,7 @@
     "imagem": "Artifact_Trove.png"
   },
   {
-    "nome": "Pumpkin",
+    "nome": "Abóbora",
     "codigo": "276",
     "string_id": "(O)276",
     "categoria": "vegetal",
@@ -1969,7 +1969,7 @@
     "imagem": "Pumpkin.png"
   },
   {
-    "nome": "Wilted Bouquet",
+    "nome": "Buquê Murchado",
     "codigo": "277",
     "string_id": null,
     "categoria": "especial",
@@ -1991,7 +1991,7 @@
     "imagem": "Bok_Choy.png"
   },
   {
-    "nome": "Magic Rock Candy",
+    "nome": "Bala de Pedra Mágica",
     "codigo": "279",
     "string_id": "(O)279",
     "categoria": "especial",
@@ -2002,7 +2002,7 @@
     "imagem": null
   },
   {
-    "nome": "Yam",
+    "nome": "Inhame",
     "codigo": "280",
     "string_id": null,
     "categoria": "vegetal",
@@ -2013,7 +2013,7 @@
     "imagem": "Yam.png"
   },
   {
-    "nome": "Chanterelle",
+    "nome": "Cantarelo",
     "codigo": "281",
     "string_id": null,
     "categoria": "forrageiro",
@@ -2024,7 +2024,7 @@
     "imagem": "Chanterelle.png"
   },
   {
-    "nome": "Cranberries",
+    "nome": "Oxicoco",
     "codigo": "282",
     "string_id": "(O)282",
     "categoria": "fruta",
@@ -2035,7 +2035,7 @@
     "imagem": "Cranberries.png"
   },
   {
-    "nome": "Holly",
+    "nome": "Azevinho",
     "codigo": "283",
     "string_id": null,
     "categoria": "forrageiro",
@@ -2046,7 +2046,7 @@
     "imagem": "Holly.png"
   },
   {
-    "nome": "Beet",
+    "nome": "Beterraba",
     "codigo": "284",
     "string_id": null,
     "categoria": "vegetal",
@@ -2057,7 +2057,7 @@
     "imagem": "Beet.png"
   },
   {
-    "nome": "Ostrich Egg",
+    "nome": "Ovo de Avestruz",
     "codigo": "289",
     "string_id": null,
     "categoria": "artisan",
@@ -2068,7 +2068,7 @@
     "imagem": "Ostrich_Egg.png"
   },
   {
-    "nome": "Salmonberry",
+    "nome": "Amora-salmão",
     "codigo": "296",
     "string_id": null,
     "categoria": "forrageiro",
@@ -2079,7 +2079,7 @@
     "imagem": "Salmonberry.png"
   },
   {
-    "nome": "Grass Starter",
+    "nome": "Semente de Grama",
     "codigo": "297",
     "string_id": null,
     "categoria": "semente",
@@ -2090,7 +2090,7 @@
     "imagem": "Grass_Starter.png"
   },
   {
-    "nome": "Hardwood Fence",
+    "nome": "Cerca de Madeira Dura",
     "codigo": "298",
     "string_id": null,
     "categoria": "construcao",
@@ -2101,7 +2101,7 @@
     "imagem": "Hardwood_Fence.png"
   },
   {
-    "nome": "Amaranth Seeds",
+    "nome": "Sementes de Amaranto",
     "codigo": "299",
     "string_id": null,
     "categoria": "semente",
@@ -2112,7 +2112,7 @@
     "imagem": "Amaranth_Seeds.png"
   },
   {
-    "nome": "Amaranth",
+    "nome": "Amaranto",
     "codigo": "300",
     "string_id": null,
     "categoria": "vegetal",
@@ -2123,7 +2123,7 @@
     "imagem": "Amaranth.png"
   },
   {
-    "nome": "Grape Starter",
+    "nome": "Semente de Uva",
     "codigo": "301",
     "string_id": null,
     "categoria": "semente",
@@ -2134,7 +2134,7 @@
     "imagem": "Grape_Starter.png"
   },
   {
-    "nome": "Hops Starter",
+    "nome": "Semente de Lúpulo",
     "codigo": "302",
     "string_id": null,
     "categoria": "semente",
@@ -2145,7 +2145,7 @@
     "imagem": "Hops_Starter.png"
   },
   {
-    "nome": "Pale Ale",
+    "nome": "Cerveja Clara",
     "codigo": "303",
     "string_id": "(O)303",
     "categoria": "artisan",
@@ -2156,7 +2156,7 @@
     "imagem": "Pale_Ale.png"
   },
   {
-    "nome": "Hops",
+    "nome": "Lúpulo",
     "codigo": "304",
     "string_id": null,
     "categoria": "vegetal",
@@ -2167,7 +2167,7 @@
     "imagem": "Hops.png"
   },
   {
-    "nome": "Void Egg",
+    "nome": "Ovo do Vazio",
     "codigo": "305",
     "string_id": "(O)305",
     "categoria": "especial",
@@ -2178,7 +2178,7 @@
     "imagem": "Void_Egg.png"
   },
   {
-    "nome": "Mayonnaise",
+    "nome": "Maionese",
     "codigo": "306",
     "string_id": null,
     "categoria": "artisan",
@@ -2189,7 +2189,7 @@
     "imagem": "Mayonnaise.png"
   },
   {
-    "nome": "Duck Mayonnaise",
+    "nome": "Maionese de Pato",
     "codigo": "307",
     "string_id": null,
     "categoria": "artisan",
@@ -2200,7 +2200,7 @@
     "imagem": "Duck_Mayonnaise.png"
   },
   {
-    "nome": "Void Mayonnaise",
+    "nome": "Maionese do Vazio",
     "codigo": "308",
     "string_id": "(O)308",
     "categoria": "artisan",
@@ -2211,7 +2211,7 @@
     "imagem": "Void_Mayonnaise.png"
   },
   {
-    "nome": "Acorn",
+    "nome": "Bolota",
     "codigo": "309",
     "string_id": null,
     "categoria": "forrageiro",
@@ -2222,7 +2222,7 @@
     "imagem": "Acorn.png"
   },
   {
-    "nome": "Maple Seed",
+    "nome": "Semente de Bordo",
     "codigo": "310",
     "string_id": null,
     "categoria": "forrageiro",
@@ -2233,7 +2233,7 @@
     "imagem": "Maple_Seed.png"
   },
   {
-    "nome": "Pine Cone",
+    "nome": "Pinha",
     "codigo": "311",
     "string_id": null,
     "categoria": "forrageiro",
@@ -2244,7 +2244,7 @@
     "imagem": "Pine_Cone.png"
   },
   {
-    "nome": "Wood Fence",
+    "nome": "Cerca de Madeira",
     "codigo": "322",
     "string_id": null,
     "categoria": "construcao",
@@ -2255,7 +2255,7 @@
     "imagem": "Wood_Fence.png"
   },
   {
-    "nome": "Stone Fence",
+    "nome": "Cerca de Pedra",
     "codigo": "323",
     "string_id": null,
     "categoria": "construcao",
@@ -2266,7 +2266,7 @@
     "imagem": "Stone_Fence.png"
   },
   {
-    "nome": "Iron Fence",
+    "nome": "Cerca de Ferro",
     "codigo": "324",
     "string_id": null,
     "categoria": "construcao",
@@ -2277,7 +2277,7 @@
     "imagem": "Iron_Fence.png"
   },
   {
-    "nome": "Gate",
+    "nome": "Portão",
     "codigo": "325",
     "string_id": null,
     "categoria": "construcao",
@@ -2288,7 +2288,7 @@
     "imagem": "Gate.png"
   },
   {
-    "nome": "Dwarvish Translation Guide",
+    "nome": "Guia de Tradução Anão",
     "codigo": "326",
     "string_id": null,
     "categoria": "especial",
@@ -2299,7 +2299,7 @@
     "imagem": "Dwarvish_Translation_Guide.png"
   },
   {
-    "nome": "Wood Floor",
+    "nome": "Piso de Madeira",
     "codigo": "328",
     "string_id": null,
     "categoria": "construcao",
@@ -2310,7 +2310,7 @@
     "imagem": "Wood_Floor.png"
   },
   {
-    "nome": "Stone Floor",
+    "nome": "Piso de Pedra",
     "codigo": "329",
     "string_id": null,
     "categoria": "construcao",
@@ -2321,7 +2321,7 @@
     "imagem": "Stone_Floor.png"
   },
   {
-    "nome": "Clay",
+    "nome": "Argila",
     "codigo": "330",
     "string_id": null,
     "categoria": "recurso",
@@ -2332,7 +2332,7 @@
     "imagem": "Clay.png"
   },
   {
-    "nome": "Weathered Floor",
+    "nome": "Piso Envelhecido",
     "codigo": "331",
     "string_id": null,
     "categoria": "construcao",
@@ -2343,7 +2343,7 @@
     "imagem": "Weathered_Floor.png"
   },
   {
-    "nome": "Crystal Floor",
+    "nome": "Piso de Cristal",
     "codigo": "333",
     "string_id": null,
     "categoria": "construcao",
@@ -2354,7 +2354,7 @@
     "imagem": "Crystal_Floor.png"
   },
   {
-    "nome": "Copper Bar",
+    "nome": "Barra de Cobre",
     "codigo": "334",
     "string_id": "(O)334",
     "categoria": "barra",
@@ -2365,7 +2365,7 @@
     "imagem": "Copper_Bar.png"
   },
   {
-    "nome": "Iron Bar",
+    "nome": "Barra de Ferro",
     "codigo": "335",
     "string_id": "(O)335",
     "categoria": "barra",
@@ -2376,7 +2376,7 @@
     "imagem": "Iron_Bar.png"
   },
   {
-    "nome": "Gold Bar",
+    "nome": "Barra de Ouro",
     "codigo": "336",
     "string_id": "(O)336",
     "categoria": "barra",
@@ -2387,7 +2387,7 @@
     "imagem": "Gold_Bar.png"
   },
   {
-    "nome": "Iridium Bar",
+    "nome": "Barra de Irídio",
     "codigo": "337",
     "string_id": "(O)337",
     "categoria": "barra",
@@ -2398,7 +2398,7 @@
     "imagem": "Iridium_Bar.png"
   },
   {
-    "nome": "Refined Quartz",
+    "nome": "Quartzo Refinado",
     "codigo": "338",
     "string_id": null,
     "categoria": "barra",
@@ -2409,7 +2409,7 @@
     "imagem": "Refined_Quartz.png"
   },
   {
-    "nome": "Honey",
+    "nome": "Mel",
     "codigo": "340",
     "string_id": "(O)340",
     "categoria": "artisan",
@@ -2420,7 +2420,7 @@
     "imagem": "Honey.png"
   },
   {
-    "nome": "Tea Set",
+    "nome": "Serviço de Chá",
     "codigo": "341",
     "string_id": null,
     "categoria": "artisan",
@@ -2431,7 +2431,7 @@
     "imagem": "Tea_Set.png"
   },
   {
-    "nome": "Pickles",
+    "nome": "Picles",
     "codigo": "342",
     "string_id": "(O)342",
     "categoria": "artisan",
@@ -2442,7 +2442,7 @@
     "imagem": null
   },
   {
-    "nome": "Jelly",
+    "nome": "Geleia",
     "codigo": "344",
     "string_id": null,
     "categoria": "artisan",
@@ -2453,7 +2453,7 @@
     "imagem": null
   },
   {
-    "nome": "Beer",
+    "nome": "Cerveja",
     "codigo": "346",
     "string_id": null,
     "categoria": "artisan",
@@ -2464,7 +2464,7 @@
     "imagem": "Beer.png"
   },
   {
-    "nome": "Rare Seed",
+    "nome": "Semente Rara",
     "codigo": "347",
     "string_id": null,
     "categoria": "semente",
@@ -2475,7 +2475,7 @@
     "imagem": "Rare_Seed.png"
   },
   {
-    "nome": "Wine",
+    "nome": "Vinho",
     "codigo": "348",
     "string_id": "(O)348",
     "categoria": "artisan",
@@ -2486,7 +2486,7 @@
     "imagem": "Wine.png"
   },
   {
-    "nome": "Juice",
+    "nome": "Suco",
     "codigo": "350",
     "string_id": null,
     "categoria": "artisan",
@@ -2497,7 +2497,7 @@
     "imagem": "Juice.png"
   },
   {
-    "nome": "Basic Fertilizer",
+    "nome": "Fertilizante Básico",
     "codigo": "368",
     "string_id": null,
     "categoria": "fertilizante",
@@ -2508,7 +2508,7 @@
     "imagem": "Basic_Fertilizer.png"
   },
   {
-    "nome": "Quality Fertilizer",
+    "nome": "Fertilizante de Qualidade",
     "codigo": "369",
     "string_id": null,
     "categoria": "fertilizante",
@@ -2519,7 +2519,7 @@
     "imagem": "Quality_Fertilizer.png"
   },
   {
-    "nome": "Basic Retaining Soil",
+    "nome": "Solo Retentor Básico",
     "codigo": "370",
     "string_id": null,
     "categoria": "fertilizante",
@@ -2530,7 +2530,7 @@
     "imagem": "Basic_Retaining_Soil.png"
   },
   {
-    "nome": "Quality Retaining Soil",
+    "nome": "Solo Retentor de Qualidade",
     "codigo": "371",
     "string_id": null,
     "categoria": "fertilizante",
@@ -2541,7 +2541,7 @@
     "imagem": "Quality_Retaining_Soil.png"
   },
   {
-    "nome": "Clam",
+    "nome": "Amêijoa",
     "codigo": "372",
     "string_id": null,
     "categoria": "peixe",
@@ -2552,7 +2552,7 @@
     "imagem": "Clam.png"
   },
   {
-    "nome": "Golden Pumpkin",
+    "nome": "Abóbora Dourada",
     "codigo": "373",
     "string_id": null,
     "categoria": "especial",
@@ -2563,7 +2563,7 @@
     "imagem": "Golden_Pumpkin.png"
   },
   {
-    "nome": "Poppy",
+    "nome": "Papoula",
     "codigo": "376",
     "string_id": null,
     "categoria": "forrageiro",
@@ -2574,7 +2574,7 @@
     "imagem": "Poppy.png"
   },
   {
-    "nome": "Copper Ore",
+    "nome": "Minério de Cobre",
     "codigo": "378",
     "string_id": "(O)378",
     "categoria": "recurso",
@@ -2585,7 +2585,7 @@
     "imagem": "Copper_Ore.png"
   },
   {
-    "nome": "Iron Ore",
+    "nome": "Minério de Ferro",
     "codigo": "380",
     "string_id": "(O)380",
     "categoria": "recurso",
@@ -2596,7 +2596,7 @@
     "imagem": "Iron_Ore.png"
   },
   {
-    "nome": "Coal",
+    "nome": "Carvão",
     "codigo": "382",
     "string_id": "(O)382",
     "categoria": "recurso",
@@ -2607,7 +2607,7 @@
     "imagem": "Coal.png"
   },
   {
-    "nome": "Gold Ore",
+    "nome": "Minério de Ouro",
     "codigo": "384",
     "string_id": "(O)384",
     "categoria": "recurso",
@@ -2618,7 +2618,7 @@
     "imagem": "Gold_Ore.png"
   },
   {
-    "nome": "Iridium Ore",
+    "nome": "Minério de Irídio",
     "codigo": "386",
     "string_id": "(O)386",
     "categoria": "recurso",
@@ -2629,7 +2629,7 @@
     "imagem": "Iridium_Ore.png"
   },
   {
-    "nome": "Wood",
+    "nome": "Madeira",
     "codigo": "388",
     "string_id": "(O)388",
     "categoria": "recurso",
@@ -2640,7 +2640,7 @@
     "imagem": "Wood.png"
   },
   {
-    "nome": "Stone",
+    "nome": "Pedra",
     "codigo": "390",
     "string_id": "(O)390",
     "categoria": "recurso",
@@ -2651,7 +2651,7 @@
     "imagem": "Stone.png"
   },
   {
-    "nome": "Nautilus Shell",
+    "nome": "Concha de Náutilo",
     "codigo": "392",
     "string_id": null,
     "categoria": "artefato",
@@ -2673,7 +2673,7 @@
     "imagem": "Coral.png"
   },
   {
-    "nome": "Rainbow Shell",
+    "nome": "Concha Arco-íris",
     "codigo": "394",
     "string_id": null,
     "categoria": "artefato",
@@ -2684,7 +2684,7 @@
     "imagem": "Rainbow_Shell.png"
   },
   {
-    "nome": "Coffee",
+    "nome": "Café",
     "codigo": "395",
     "string_id": "(O)395",
     "categoria": "artisan",
@@ -2695,7 +2695,7 @@
     "imagem": "Coffee.png"
   },
   {
-    "nome": "Spice Berry",
+    "nome": "Baga de Especiarias",
     "codigo": "396",
     "string_id": null,
     "categoria": "forrageiro",
@@ -2706,7 +2706,7 @@
     "imagem": "Spice_Berry.png"
   },
   {
-    "nome": "Sea Urchin",
+    "nome": "Ouriço-do-mar",
     "codigo": "397",
     "string_id": null,
     "categoria": "peixe",
@@ -2717,7 +2717,7 @@
     "imagem": "Sea_Urchin.png"
   },
   {
-    "nome": "Grape",
+    "nome": "Uva",
     "codigo": "398",
     "string_id": null,
     "categoria": "fruta",
@@ -2728,7 +2728,7 @@
     "imagem": "Grape.png"
   },
   {
-    "nome": "Spring Onion",
+    "nome": "Cebolinha",
     "codigo": "399",
     "string_id": null,
     "categoria": "forrageiro",
@@ -2739,7 +2739,7 @@
     "imagem": "Spring_Onion.png"
   },
   {
-    "nome": "Strawberry",
+    "nome": "Morango",
     "codigo": "400",
     "string_id": "(O)400",
     "categoria": "fruta",
@@ -2750,7 +2750,7 @@
     "imagem": "Strawberry.png"
   },
   {
-    "nome": "Straw Floor",
+    "nome": "Piso de Palha",
     "codigo": "401",
     "string_id": null,
     "categoria": "construcao",
@@ -2761,7 +2761,7 @@
     "imagem": "Straw_Floor.png"
   },
   {
-    "nome": "Sweet Pea",
+    "nome": "Ervilha Doce",
     "codigo": "402",
     "string_id": null,
     "categoria": "forrageiro",
@@ -2772,7 +2772,7 @@
     "imagem": "Sweet_Pea.png"
   },
   {
-    "nome": "Common Mushroom",
+    "nome": "Cogumelo Comum",
     "codigo": "404",
     "string_id": null,
     "categoria": "forrageiro",
@@ -2783,7 +2783,7 @@
     "imagem": "Common_Mushroom.png"
   },
   {
-    "nome": "Wood Path",
+    "nome": "Caminho de Madeira",
     "codigo": "405",
     "string_id": null,
     "categoria": "construcao",
@@ -2794,7 +2794,7 @@
     "imagem": "Wood_Path.png"
   },
   {
-    "nome": "Wild Plum",
+    "nome": "Ameixa Selvagem",
     "codigo": "406",
     "string_id": null,
     "categoria": "forrageiro",
@@ -2805,7 +2805,7 @@
     "imagem": "Wild_Plum.png"
   },
   {
-    "nome": "Gravel Path",
+    "nome": "Caminho de Cascalho",
     "codigo": "407",
     "string_id": null,
     "categoria": "construcao",
@@ -2816,7 +2816,7 @@
     "imagem": "Gravel_Path.png"
   },
   {
-    "nome": "Hazelnut",
+    "nome": "Avelã",
     "codigo": "408",
     "string_id": null,
     "categoria": "forrageiro",
@@ -2827,7 +2827,7 @@
     "imagem": "Hazelnut.png"
   },
   {
-    "nome": "Crystal Path",
+    "nome": "Caminho de Cristal",
     "codigo": "409",
     "string_id": null,
     "categoria": "construcao",
@@ -2838,7 +2838,7 @@
     "imagem": "Crystal_Path.png"
   },
   {
-    "nome": "Blackberry",
+    "nome": "Amora",
     "codigo": "410",
     "string_id": "(O)410",
     "categoria": "forrageiro",
@@ -2849,7 +2849,7 @@
     "imagem": "Blackberry.png"
   },
   {
-    "nome": "Cobblestone Path",
+    "nome": "Calçamento",
     "codigo": "411",
     "string_id": null,
     "categoria": "construcao",
@@ -2860,7 +2860,7 @@
     "imagem": "Cobblestone_Path.png"
   },
   {
-    "nome": "Winter Root",
+    "nome": "Raiz de Inverno",
     "codigo": "412",
     "string_id": null,
     "categoria": "forrageiro",
@@ -2871,7 +2871,7 @@
     "imagem": "Winter_Root.png"
   },
   {
-    "nome": "Blue Slime Egg",
+    "nome": "Ovo de Gosma Azul",
     "codigo": "413",
     "string_id": "(O)413",
     "categoria": "slime-egg",
@@ -2882,7 +2882,7 @@
     "imagem": "Green_Slime_Egg.png"
   },
   {
-    "nome": "Crystal Fruit",
+    "nome": "Fruta de Cristal",
     "codigo": "414",
     "string_id": null,
     "categoria": "forrageiro",
@@ -2893,7 +2893,7 @@
     "imagem": "Crystal_Fruit.png"
   },
   {
-    "nome": "Stepping Stone Path",
+    "nome": "Caminho de Pedras",
     "codigo": "415",
     "string_id": null,
     "categoria": "construcao",
@@ -2904,7 +2904,7 @@
     "imagem": "Stepping_Stone_Path.png"
   },
   {
-    "nome": "Snow Yam",
+    "nome": "Inhame de Neve",
     "codigo": "416",
     "string_id": null,
     "categoria": "forrageiro",
@@ -2915,7 +2915,7 @@
     "imagem": "Snow_Yam.png"
   },
   {
-    "nome": "Sweet Gem Berry",
+    "nome": "Baga Gema Doce",
     "codigo": "417",
     "string_id": "(O)417",
     "categoria": "especial",
@@ -2926,7 +2926,7 @@
     "imagem": "Sweet_Gem_Berry.png"
   },
   {
-    "nome": "Crocus",
+    "nome": "Croco",
     "codigo": "418",
     "string_id": null,
     "categoria": "forrageiro",
@@ -2937,7 +2937,7 @@
     "imagem": "Crocus.png"
   },
   {
-    "nome": "Vinegar",
+    "nome": "Vinagre",
     "codigo": "419",
     "string_id": null,
     "categoria": "artisan",
@@ -2948,7 +2948,7 @@
     "imagem": "Vinegar.png"
   },
   {
-    "nome": "Red Mushroom",
+    "nome": "Cogumelo Vermelho",
     "codigo": "420",
     "string_id": null,
     "categoria": "forrageiro",
@@ -2959,7 +2959,7 @@
     "imagem": "Red_Mushroom.png"
   },
   {
-    "nome": "Sunflower",
+    "nome": "Girassol",
     "codigo": "421",
     "string_id": null,
     "categoria": "fruta",
@@ -2970,7 +2970,7 @@
     "imagem": "Sunflower.png"
   },
   {
-    "nome": "Purple Mushroom",
+    "nome": "Cogumelo Roxo",
     "codigo": "422",
     "string_id": null,
     "categoria": "forrageiro",
@@ -2981,7 +2981,7 @@
     "imagem": "Purple_Mushroom.png"
   },
   {
-    "nome": "Rice",
+    "nome": "Arroz",
     "codigo": "423",
     "string_id": null,
     "categoria": "artisan",
@@ -2992,7 +2992,7 @@
     "imagem": "Rice.png"
   },
   {
-    "nome": "Cheese",
+    "nome": "Queijo",
     "codigo": "424",
     "string_id": null,
     "categoria": "artisan",
@@ -3003,7 +3003,7 @@
     "imagem": "Cheese.png"
   },
   {
-    "nome": "Fairy Seeds",
+    "nome": "Sementes de Fada",
     "codigo": "425",
     "string_id": null,
     "categoria": "semente",
@@ -3014,7 +3014,7 @@
     "imagem": "Fairy_Seeds.png"
   },
   {
-    "nome": "Goat Cheese",
+    "nome": "Queijo de Cabra",
     "codigo": "426",
     "string_id": null,
     "categoria": "artisan",
@@ -3025,7 +3025,7 @@
     "imagem": "Goat_Cheese.png"
   },
   {
-    "nome": "Tulip Bulb",
+    "nome": "Bulbo de Tulipa",
     "codigo": "427",
     "string_id": null,
     "categoria": "semente",
@@ -3036,7 +3036,7 @@
     "imagem": "Tulip_Bulb.png"
   },
   {
-    "nome": "Cloth",
+    "nome": "Tecido",
     "codigo": "428",
     "string_id": null,
     "categoria": "artisan",
@@ -3047,7 +3047,7 @@
     "imagem": "Cloth.png"
   },
   {
-    "nome": "Jazz Seeds",
+    "nome": "Sementes de Jazz",
     "codigo": "429",
     "string_id": null,
     "categoria": "semente",
@@ -3058,7 +3058,7 @@
     "imagem": "Jazz_Seeds.png"
   },
   {
-    "nome": "Truffle",
+    "nome": "Trufa",
     "codigo": "430",
     "string_id": null,
     "categoria": "forrageiro",
@@ -3069,7 +3069,7 @@
     "imagem": "Truffle.png"
   },
   {
-    "nome": "Sunflower Seeds",
+    "nome": "Sementes de Girassol",
     "codigo": "431",
     "string_id": null,
     "categoria": "semente",
@@ -3080,7 +3080,7 @@
     "imagem": "Sunflower_Seeds.png"
   },
   {
-    "nome": "Truffle Oil",
+    "nome": "Óleo de Trufa",
     "codigo": "432",
     "string_id": "(O)432",
     "categoria": "artisan",
@@ -3091,7 +3091,7 @@
     "imagem": "Truffle_Oil.png"
   },
   {
-    "nome": "Coffee Bean (semente)",
+    "nome": "Grão de Café (semente)",
     "codigo": "433",
     "string_id": null,
     "categoria": "semente",
@@ -3113,7 +3113,7 @@
     "imagem": "Stardrop.png"
   },
   {
-    "nome": "Red Slime Egg",
+    "nome": "Ovo de Gosma Vermelha",
     "codigo": "437",
     "string_id": "(O)437",
     "categoria": "slime-egg",
@@ -3124,7 +3124,7 @@
     "imagem": "Green_Slime_Egg.png"
   },
   {
-    "nome": "Purple Slime Egg",
+    "nome": "Ovo de Gosma Roxa",
     "codigo": "439",
     "string_id": null,
     "categoria": "slime-egg",
@@ -3135,7 +3135,7 @@
     "imagem": "Green_Slime_Egg.png"
   },
   {
-    "nome": "Wool",
+    "nome": "Lã",
     "codigo": "440",
     "string_id": null,
     "categoria": "artisan",
@@ -3146,7 +3146,7 @@
     "imagem": "Wool.png"
   },
   {
-    "nome": "Duck Egg",
+    "nome": "Ovo de Pato",
     "codigo": "442",
     "string_id": null,
     "categoria": "artisan",
@@ -3157,7 +3157,7 @@
     "imagem": "Duck_Egg.png"
   },
   {
-    "nome": "Duck Feather",
+    "nome": "Pena de Pato",
     "codigo": "444",
     "string_id": null,
     "categoria": "artisan",
@@ -3179,7 +3179,7 @@
     "imagem": "Caviar.png"
   },
   {
-    "nome": "Rabbit's Foot",
+    "nome": "Pata de Coelho",
     "codigo": "446",
     "string_id": "(O)446",
     "categoria": "especial",
@@ -3190,7 +3190,7 @@
     "imagem": "Rabbits_Foot.png"
   },
   {
-    "nome": "Poppy Seeds",
+    "nome": "Sementes de Papoula",
     "codigo": "453",
     "string_id": null,
     "categoria": "semente",
@@ -3201,7 +3201,7 @@
     "imagem": "Poppy_Seeds.png"
   },
   {
-    "nome": "Ancient Fruit",
+    "nome": "Fruta Ancestral",
     "codigo": "454",
     "string_id": "(O)454",
     "categoria": "fruta",
@@ -3212,7 +3212,7 @@
     "imagem": "Ancient_Fruit.png"
   },
   {
-    "nome": "Spangle Seeds",
+    "nome": "Sementes de Espelhinho",
     "codigo": "455",
     "string_id": null,
     "categoria": "semente",
@@ -3223,7 +3223,7 @@
     "imagem": "Spangle_Seeds.png"
   },
   {
-    "nome": "Algae Soup",
+    "nome": "Sopa de Alga",
     "codigo": "456",
     "string_id": null,
     "categoria": "artisan",
@@ -3234,7 +3234,7 @@
     "imagem": "Algae_Soup.png"
   },
   {
-    "nome": "Pale Broth",
+    "nome": "Caldo Pálido",
     "codigo": "457",
     "string_id": null,
     "categoria": "artisan",
@@ -3245,7 +3245,7 @@
     "imagem": "Pale_Broth.png"
   },
   {
-    "nome": "Bouquet",
+    "nome": "Buquê",
     "codigo": "458",
     "string_id": null,
     "categoria": "especial",
@@ -3256,7 +3256,7 @@
     "imagem": "Bouquet.png"
   },
   {
-    "nome": "Mead",
+    "nome": "Hidromel",
     "codigo": "459",
     "string_id": null,
     "categoria": "artisan",
@@ -3267,7 +3267,7 @@
     "imagem": "Mead.png"
   },
   {
-    "nome": "Mermaid's Pendant",
+    "nome": "Pingente de Sereia",
     "codigo": "460",
     "string_id": null,
     "categoria": "especial",
@@ -3278,7 +3278,7 @@
     "imagem": "Mermaids_Pendant.png"
   },
   {
-    "nome": "Drum Block",
+    "nome": "Bloco de Tambor",
     "codigo": "463",
     "string_id": null,
     "categoria": "equipamento",
@@ -3289,7 +3289,7 @@
     "imagem": "Drum_Block.png"
   },
   {
-    "nome": "Flute Block",
+    "nome": "Bloco de Flauta",
     "codigo": "464",
     "string_id": null,
     "categoria": "equipamento",
@@ -3311,7 +3311,7 @@
     "imagem": "Speed-Gro.png"
   },
   {
-    "nome": "Deluxe Speed-Gro",
+    "nome": "Speed-Gro Deluxe",
     "codigo": "466",
     "string_id": null,
     "categoria": "fertilizante",
@@ -3322,7 +3322,7 @@
     "imagem": "Deluxe_Speed-Gro.png"
   },
   {
-    "nome": "Stardew Hero Trophy",
+    "nome": "Troféu do Herói de Stardew",
     "codigo": "468",
     "string_id": null,
     "categoria": "especial",
@@ -3333,7 +3333,7 @@
     "imagem": "Stardew_Hero_Trophy.png"
   },
   {
-    "nome": "Parsnip Seeds",
+    "nome": "Sementes de Pastinaca",
     "codigo": "472",
     "string_id": null,
     "categoria": "semente",
@@ -3344,7 +3344,7 @@
     "imagem": "Parsnip_Seeds.png"
   },
   {
-    "nome": "Bean Starter",
+    "nome": "Semente de Vagem",
     "codigo": "473",
     "string_id": null,
     "categoria": "semente",
@@ -3355,7 +3355,7 @@
     "imagem": "Bean_Starter.png"
   },
   {
-    "nome": "Cauliflower Seeds",
+    "nome": "Sementes de Couve-flor",
     "codigo": "474",
     "string_id": null,
     "categoria": "semente",
@@ -3366,7 +3366,7 @@
     "imagem": "Cauliflower_Seeds.png"
   },
   {
-    "nome": "Potato Seeds",
+    "nome": "Sementes de Batata",
     "codigo": "475",
     "string_id": null,
     "categoria": "semente",
@@ -3377,7 +3377,7 @@
     "imagem": "Potato_Seeds.png"
   },
   {
-    "nome": "Garlic Seeds",
+    "nome": "Sementes de Alho",
     "codigo": "476",
     "string_id": null,
     "categoria": "semente",
@@ -3388,7 +3388,7 @@
     "imagem": "Garlic_Seeds.png"
   },
   {
-    "nome": "Kale Seeds",
+    "nome": "Sementes de Couve",
     "codigo": "477",
     "string_id": null,
     "categoria": "semente",
@@ -3399,7 +3399,7 @@
     "imagem": "Kale_Seeds.png"
   },
   {
-    "nome": "Rhubarb Seeds",
+    "nome": "Sementes de Ruibarbo",
     "codigo": "478",
     "string_id": null,
     "categoria": "semente",
@@ -3410,7 +3410,7 @@
     "imagem": "Rhubarb_Seeds.png"
   },
   {
-    "nome": "Melon Seeds",
+    "nome": "Sementes de Melão",
     "codigo": "479",
     "string_id": null,
     "categoria": "semente",
@@ -3421,7 +3421,7 @@
     "imagem": "Melon_Seeds.png"
   },
   {
-    "nome": "Tomato Seeds",
+    "nome": "Sementes de Tomate",
     "codigo": "480",
     "string_id": null,
     "categoria": "semente",
@@ -3432,7 +3432,7 @@
     "imagem": "Tomato_Seeds.png"
   },
   {
-    "nome": "Blueberry Seeds",
+    "nome": "Sementes de Mirtilo",
     "codigo": "481",
     "string_id": null,
     "categoria": "semente",
@@ -3443,7 +3443,7 @@
     "imagem": "Blueberry_Seeds.png"
   },
   {
-    "nome": "Pepper Seeds",
+    "nome": "Sementes de Pimenta",
     "codigo": "482",
     "string_id": null,
     "categoria": "semente",
@@ -3454,7 +3454,7 @@
     "imagem": "Pepper_Seeds.png"
   },
   {
-    "nome": "Wheat Seeds",
+    "nome": "Sementes de Trigo",
     "codigo": "483",
     "string_id": null,
     "categoria": "semente",
@@ -3465,7 +3465,7 @@
     "imagem": "Wheat_Seeds.png"
   },
   {
-    "nome": "Radish Seeds",
+    "nome": "Sementes de Rabanete",
     "codigo": "484",
     "string_id": null,
     "categoria": "semente",
@@ -3476,7 +3476,7 @@
     "imagem": "Radish_Seeds.png"
   },
   {
-    "nome": "Starfruit Seeds",
+    "nome": "Sementes de Carambola",
     "codigo": "485",
     "string_id": "(O)485",
     "categoria": "semente",
@@ -3487,7 +3487,7 @@
     "imagem": "Red_Cabbage_Seeds.png"
   },
   {
-    "nome": "Starfruit Seeds",
+    "nome": "Sementes de Carambola",
     "codigo": "486",
     "string_id": null,
     "categoria": "semente",
@@ -3498,7 +3498,7 @@
     "imagem": "Starfruit_Seeds.png"
   },
   {
-    "nome": "Corn Seeds",
+    "nome": "Sementes de Milho",
     "codigo": "487",
     "string_id": null,
     "categoria": "semente",
@@ -3509,7 +3509,7 @@
     "imagem": "Corn_Seeds.png"
   },
   {
-    "nome": "Eggplant Seeds",
+    "nome": "Sementes de Berinjela",
     "codigo": "488",
     "string_id": null,
     "categoria": "semente",
@@ -3520,7 +3520,7 @@
     "imagem": "Eggplant_Seeds.png"
   },
   {
-    "nome": "Artichoke Seeds",
+    "nome": "Sementes de Alcachofra",
     "codigo": "489",
     "string_id": null,
     "categoria": "semente",
@@ -3531,7 +3531,7 @@
     "imagem": "Artichoke_Seeds.png"
   },
   {
-    "nome": "Pumpkin Seeds",
+    "nome": "Sementes de Abóbora",
     "codigo": "490",
     "string_id": null,
     "categoria": "semente",
@@ -3542,7 +3542,7 @@
     "imagem": "Pumpkin_Seeds.png"
   },
   {
-    "nome": "Bok Choy Seeds",
+    "nome": "Sementes de Bok Choy",
     "codigo": "491",
     "string_id": null,
     "categoria": "semente",
@@ -3553,7 +3553,7 @@
     "imagem": "Bok_Choy_Seeds.png"
   },
   {
-    "nome": "Yam Seeds",
+    "nome": "Sementes de Inhame",
     "codigo": "492",
     "string_id": null,
     "categoria": "semente",
@@ -3564,7 +3564,7 @@
     "imagem": "Yam_Seeds.png"
   },
   {
-    "nome": "Cranberry Seeds",
+    "nome": "Sementes de Oxicoco",
     "codigo": "493",
     "string_id": null,
     "categoria": "semente",
@@ -3575,7 +3575,7 @@
     "imagem": "Cranberry_Seeds.png"
   },
   {
-    "nome": "Beet Seeds",
+    "nome": "Sementes de Beterraba",
     "codigo": "494",
     "string_id": null,
     "categoria": "semente",
@@ -3586,7 +3586,7 @@
     "imagem": "Beet_Seeds.png"
   },
   {
-    "nome": "Spring Seeds",
+    "nome": "Sementes de Primavera",
     "codigo": "495",
     "string_id": null,
     "categoria": "semente",
@@ -3597,7 +3597,7 @@
     "imagem": "Spring_Seeds.png"
   },
   {
-    "nome": "Summer Seeds",
+    "nome": "Sementes de Verão",
     "codigo": "496",
     "string_id": null,
     "categoria": "semente",
@@ -3608,7 +3608,7 @@
     "imagem": "Summer_Seeds.png"
   },
   {
-    "nome": "Fall Seeds",
+    "nome": "Sementes de Outono",
     "codigo": "497",
     "string_id": null,
     "categoria": "semente",
@@ -3619,7 +3619,7 @@
     "imagem": "Fall_Seeds.png"
   },
   {
-    "nome": "Winter Seeds",
+    "nome": "Sementes de Inverno",
     "codigo": "498",
     "string_id": null,
     "categoria": "semente",
@@ -3630,7 +3630,7 @@
     "imagem": "Winter_Seeds.png"
   },
   {
-    "nome": "Ancient Seeds",
+    "nome": "Sementes Ancestrais",
     "codigo": "499",
     "string_id": "(O)499",
     "categoria": "semente",
@@ -3641,7 +3641,7 @@
     "imagem": "Ancient_Seeds.png"
   },
   {
-    "nome": "Small Glow Ring",
+    "nome": "Anel de Brilho Pequeno",
     "codigo": "516",
     "string_id": null,
     "categoria": "anel",
@@ -3652,7 +3652,7 @@
     "imagem": "Small_Glow_Ring.png"
   },
   {
-    "nome": "Glow Ring",
+    "nome": "Anel de Brilho",
     "codigo": "517",
     "string_id": null,
     "categoria": "anel",
@@ -3663,7 +3663,7 @@
     "imagem": "Glow_Ring.png"
   },
   {
-    "nome": "Small Magnet Ring",
+    "nome": "Anel Magnético Pequeno",
     "codigo": "518",
     "string_id": null,
     "categoria": "anel",
@@ -3674,7 +3674,7 @@
     "imagem": "Small_Magnet_Ring.png"
   },
   {
-    "nome": "Magnet Ring",
+    "nome": "Anel Magnético",
     "codigo": "519",
     "string_id": null,
     "categoria": "anel",
@@ -3685,7 +3685,7 @@
     "imagem": "Magnet_Ring.png"
   },
   {
-    "nome": "Slime Charmer Ring",
+    "nome": "Anel Encantador de Gosmas",
     "codigo": "520",
     "string_id": null,
     "categoria": "anel",
@@ -3696,7 +3696,7 @@
     "imagem": "Slime_Charmer_Ring.png"
   },
   {
-    "nome": "Warrior Ring",
+    "nome": "Anel de Guerreiro",
     "codigo": "521",
     "string_id": null,
     "categoria": "anel",
@@ -3707,7 +3707,7 @@
     "imagem": "Warrior_Ring.png"
   },
   {
-    "nome": "Vampire Ring",
+    "nome": "Anel de Vampiro",
     "codigo": "522",
     "string_id": null,
     "categoria": "anel",
@@ -3718,7 +3718,7 @@
     "imagem": "Vampire_Ring.png"
   },
   {
-    "nome": "Savage Ring",
+    "nome": "Anel Selvagem",
     "codigo": "523",
     "string_id": null,
     "categoria": "anel",
@@ -3729,7 +3729,7 @@
     "imagem": "Savage_Ring.png"
   },
   {
-    "nome": "Ring of Yoba",
+    "nome": "Anel de Yoba",
     "codigo": "524",
     "string_id": null,
     "categoria": "anel",
@@ -3740,7 +3740,7 @@
     "imagem": "Ring_of_Yoba.png"
   },
   {
-    "nome": "Sturdy Ring",
+    "nome": "Anel Sólido",
     "codigo": "525",
     "string_id": null,
     "categoria": "anel",
@@ -3751,7 +3751,7 @@
     "imagem": "Sturdy_Ring.png"
   },
   {
-    "nome": "Burglar's Ring",
+    "nome": "Anel do Ladrão",
     "codigo": "526",
     "string_id": null,
     "categoria": "anel",
@@ -3762,7 +3762,7 @@
     "imagem": "Burglars_Ring.png"
   },
   {
-    "nome": "Iridium Band",
+    "nome": "Bracelete de Irídio",
     "codigo": "527",
     "string_id": null,
     "categoria": "anel",
@@ -3773,7 +3773,7 @@
     "imagem": "Iridium_Band.png"
   },
   {
-    "nome": "Jukebox Ring",
+    "nome": "Anel de Jukebox",
     "codigo": "528",
     "string_id": null,
     "categoria": "anel",
@@ -3784,7 +3784,7 @@
     "imagem": "Jukebox_Ring.png"
   },
   {
-    "nome": "Amethyst Ring",
+    "nome": "Anel de Ametista",
     "codigo": "529",
     "string_id": null,
     "categoria": "anel",
@@ -3795,7 +3795,7 @@
     "imagem": "Amethyst_Ring.png"
   },
   {
-    "nome": "Topaz Ring",
+    "nome": "Anel de Topázio",
     "codigo": "530",
     "string_id": null,
     "categoria": "anel",
@@ -3806,7 +3806,7 @@
     "imagem": "Topaz_Ring.png"
   },
   {
-    "nome": "Aquamarine Ring",
+    "nome": "Anel de Água-marinha",
     "codigo": "531",
     "string_id": null,
     "categoria": "anel",
@@ -3817,7 +3817,7 @@
     "imagem": "Aquamarine_Ring.png"
   },
   {
-    "nome": "Jade Ring",
+    "nome": "Anel de Jade",
     "codigo": "532",
     "string_id": null,
     "categoria": "anel",
@@ -3828,7 +3828,7 @@
     "imagem": "Jade_Ring.png"
   },
   {
-    "nome": "Emerald Ring",
+    "nome": "Anel de Esmeralda",
     "codigo": "533",
     "string_id": null,
     "categoria": "anel",
@@ -3839,7 +3839,7 @@
     "imagem": "Emerald_Ring.png"
   },
   {
-    "nome": "Ruby Ring",
+    "nome": "Anel de Rubi",
     "codigo": "534",
     "string_id": null,
     "categoria": "anel",
@@ -3850,7 +3850,7 @@
     "imagem": "Ruby_Ring.png"
   },
   {
-    "nome": "Geode",
+    "nome": "Geodo",
     "codigo": "535",
     "string_id": null,
     "categoria": "geodo",
@@ -3861,7 +3861,7 @@
     "imagem": "Geode.png"
   },
   {
-    "nome": "Frozen Geode",
+    "nome": "Geodo Congelado",
     "codigo": "536",
     "string_id": null,
     "categoria": "geodo",
@@ -3872,7 +3872,7 @@
     "imagem": "Frozen_Geode.png"
   },
   {
-    "nome": "Magma Geode",
+    "nome": "Geodo de Magma",
     "codigo": "537",
     "string_id": null,
     "categoria": "geodo",
@@ -3883,7 +3883,7 @@
     "imagem": "Magma_Geode.png"
   },
   {
-    "nome": "Alamite",
+    "nome": "Alamita",
     "codigo": "538",
     "string_id": null,
     "categoria": "mineral",
@@ -3894,7 +3894,7 @@
     "imagem": "Alamite.png"
   },
   {
-    "nome": "Bixite",
+    "nome": "Bixita",
     "codigo": "539",
     "string_id": null,
     "categoria": "mineral",
@@ -3905,7 +3905,7 @@
     "imagem": "Bixite.png"
   },
   {
-    "nome": "Baryte",
+    "nome": "Barita",
     "codigo": "540",
     "string_id": null,
     "categoria": "mineral",
@@ -3916,7 +3916,7 @@
     "imagem": "Baryte.png"
   },
   {
-    "nome": "Aerinite",
+    "nome": "Aerinita",
     "codigo": "541",
     "string_id": null,
     "categoria": "mineral",
@@ -3927,7 +3927,7 @@
     "imagem": "Aerinite.png"
   },
   {
-    "nome": "Calcite",
+    "nome": "Calcita",
     "codigo": "542",
     "string_id": null,
     "categoria": "mineral",
@@ -3938,7 +3938,7 @@
     "imagem": "Calcite.png"
   },
   {
-    "nome": "Dolomite",
+    "nome": "Dolomita",
     "codigo": "543",
     "string_id": null,
     "categoria": "mineral",
@@ -3949,7 +3949,7 @@
     "imagem": "Dolomite.png"
   },
   {
-    "nome": "Esperite",
+    "nome": "Esperita",
     "codigo": "544",
     "string_id": null,
     "categoria": "mineral",
@@ -3960,7 +3960,7 @@
     "imagem": "Esperite.png"
   },
   {
-    "nome": "Fluorapatite",
+    "nome": "Fluorapatita",
     "codigo": "545",
     "string_id": null,
     "categoria": "mineral",
@@ -3971,7 +3971,7 @@
     "imagem": "Fluorapatite.png"
   },
   {
-    "nome": "Geminite",
+    "nome": "Geminita",
     "codigo": "546",
     "string_id": null,
     "categoria": "mineral",
@@ -3982,7 +3982,7 @@
     "imagem": "Geminite.png"
   },
   {
-    "nome": "Helvite",
+    "nome": "Helvita",
     "codigo": "547",
     "string_id": null,
     "categoria": "mineral",
@@ -3993,7 +3993,7 @@
     "imagem": "Helvite.png"
   },
   {
-    "nome": "Jamborite",
+    "nome": "Jamborita",
     "codigo": "548",
     "string_id": null,
     "categoria": "mineral",
@@ -4004,7 +4004,7 @@
     "imagem": "Jamborite.png"
   },
   {
-    "nome": "Jagoite",
+    "nome": "Jagoita",
     "codigo": "549",
     "string_id": null,
     "categoria": "mineral",
@@ -4015,7 +4015,7 @@
     "imagem": "Jagoite.png"
   },
   {
-    "nome": "Kyanite",
+    "nome": "Cianita",
     "codigo": "550",
     "string_id": null,
     "categoria": "mineral",
@@ -4026,7 +4026,7 @@
     "imagem": "Kyanite.png"
   },
   {
-    "nome": "Lunarite",
+    "nome": "Lunarita",
     "codigo": "551",
     "string_id": null,
     "categoria": "mineral",
@@ -4037,7 +4037,7 @@
     "imagem": "Lunarite.png"
   },
   {
-    "nome": "Malachite",
+    "nome": "Malaquita",
     "codigo": "552",
     "string_id": null,
     "categoria": "mineral",
@@ -4048,7 +4048,7 @@
     "imagem": "Malachite.png"
   },
   {
-    "nome": "Neptunite",
+    "nome": "Neptunita",
     "codigo": "553",
     "string_id": null,
     "categoria": "mineral",
@@ -4059,7 +4059,7 @@
     "imagem": "Neptunite.png"
   },
   {
-    "nome": "Lemon Stone",
+    "nome": "Pedra Limão",
     "codigo": "554",
     "string_id": null,
     "categoria": "mineral",
@@ -4070,7 +4070,7 @@
     "imagem": "Lemon_Stone.png"
   },
   {
-    "nome": "Nekoite",
+    "nome": "Nekoita",
     "codigo": "555",
     "string_id": null,
     "categoria": "mineral",
@@ -4081,7 +4081,7 @@
     "imagem": "Nekoite.png"
   },
   {
-    "nome": "Orpiment",
+    "nome": "Ouropimento",
     "codigo": "556",
     "string_id": null,
     "categoria": "mineral",
@@ -4092,7 +4092,7 @@
     "imagem": "Orpiment.png"
   },
   {
-    "nome": "Petrified Slime",
+    "nome": "Gosma Petrificada",
     "codigo": "557",
     "string_id": null,
     "categoria": "mineral",
@@ -4103,7 +4103,7 @@
     "imagem": "Petrified_Slime.png"
   },
   {
-    "nome": "Thunder Egg",
+    "nome": "Ovo de Trovão",
     "codigo": "558",
     "string_id": null,
     "categoria": "mineral",
@@ -4114,7 +4114,7 @@
     "imagem": "Thunder_Egg.png"
   },
   {
-    "nome": "Pyrite",
+    "nome": "Pirita",
     "codigo": "559",
     "string_id": null,
     "categoria": "mineral",
@@ -4125,7 +4125,7 @@
     "imagem": "Pyrite.png"
   },
   {
-    "nome": "Ocean Stone",
+    "nome": "Pedra do Oceano",
     "codigo": "560",
     "string_id": null,
     "categoria": "mineral",
@@ -4136,7 +4136,7 @@
     "imagem": "Ocean_Stone.png"
   },
   {
-    "nome": "Ghost Crystal",
+    "nome": "Cristal Fantasma",
     "codigo": "561",
     "string_id": null,
     "categoria": "mineral",
@@ -4147,7 +4147,7 @@
     "imagem": "Ghost_Crystal.png"
   },
   {
-    "nome": "Tigerseye",
+    "nome": "Olho de Tigre",
     "codigo": "562",
     "string_id": null,
     "categoria": "mineral",
@@ -4158,7 +4158,7 @@
     "imagem": "Tigerseye.png"
   },
   {
-    "nome": "Jasper",
+    "nome": "Jaspe",
     "codigo": "563",
     "string_id": null,
     "categoria": "mineral",
@@ -4169,7 +4169,7 @@
     "imagem": "Jasper.png"
   },
   {
-    "nome": "Opal",
+    "nome": "Opala",
     "codigo": "564",
     "string_id": null,
     "categoria": "mineral",
@@ -4180,7 +4180,7 @@
     "imagem": "Opal.png"
   },
   {
-    "nome": "Fire Opal",
+    "nome": "Opala de Fogo",
     "codigo": "565",
     "string_id": null,
     "categoria": "mineral",
@@ -4191,7 +4191,7 @@
     "imagem": "Fire_Opal.png"
   },
   {
-    "nome": "Celestine",
+    "nome": "Celestita",
     "codigo": "566",
     "string_id": null,
     "categoria": "mineral",
@@ -4202,7 +4202,7 @@
     "imagem": "Celestine.png"
   },
   {
-    "nome": "Marble",
+    "nome": "Mármore",
     "codigo": "567",
     "string_id": null,
     "categoria": "mineral",
@@ -4213,7 +4213,7 @@
     "imagem": "Marble.png"
   },
   {
-    "nome": "Sandstone",
+    "nome": "Arenito",
     "codigo": "568",
     "string_id": null,
     "categoria": "mineral",
@@ -4224,7 +4224,7 @@
     "imagem": "Sandstone.png"
   },
   {
-    "nome": "Granite",
+    "nome": "Granito",
     "codigo": "569",
     "string_id": null,
     "categoria": "mineral",
@@ -4235,7 +4235,7 @@
     "imagem": "Granite.png"
   },
   {
-    "nome": "Basalt",
+    "nome": "Basalto",
     "codigo": "570",
     "string_id": null,
     "categoria": "mineral",
@@ -4246,7 +4246,7 @@
     "imagem": "Basalt.png"
   },
   {
-    "nome": "Limestone",
+    "nome": "Calcário",
     "codigo": "571",
     "string_id": null,
     "categoria": "mineral",
@@ -4257,7 +4257,7 @@
     "imagem": "Limestone.png"
   },
   {
-    "nome": "Soapstone",
+    "nome": "Pedra-sabão",
     "codigo": "572",
     "string_id": null,
     "categoria": "mineral",
@@ -4268,7 +4268,7 @@
     "imagem": "Soapstone.png"
   },
   {
-    "nome": "Hematite",
+    "nome": "Hematita",
     "codigo": "573",
     "string_id": null,
     "categoria": "mineral",
@@ -4279,7 +4279,7 @@
     "imagem": "Hematite.png"
   },
   {
-    "nome": "Mudstone",
+    "nome": "Argilito",
     "codigo": "574",
     "string_id": null,
     "categoria": "mineral",
@@ -4290,7 +4290,7 @@
     "imagem": "Mudstone.png"
   },
   {
-    "nome": "Obsidian",
+    "nome": "Obsidiana",
     "codigo": "575",
     "string_id": null,
     "categoria": "mineral",
@@ -4301,7 +4301,7 @@
     "imagem": "Obsidian.png"
   },
   {
-    "nome": "Slate",
+    "nome": "Ardósia",
     "codigo": "576",
     "string_id": null,
     "categoria": "mineral",
@@ -4312,7 +4312,7 @@
     "imagem": "Slate.png"
   },
   {
-    "nome": "Fairy Stone",
+    "nome": "Pedra de Fada",
     "codigo": "577",
     "string_id": null,
     "categoria": "mineral",
@@ -4323,7 +4323,7 @@
     "imagem": "Fairy_Stone.png"
   },
   {
-    "nome": "Star Shards",
+    "nome": "Fragmentos Estelares",
     "codigo": "578",
     "string_id": null,
     "categoria": "mineral",
@@ -4334,7 +4334,7 @@
     "imagem": "Star_Shards.png"
   },
   {
-    "nome": "Prehistoric Scapula",
+    "nome": "Escápula Pré-histórica",
     "codigo": "579",
     "string_id": null,
     "categoria": "fossil",
@@ -4345,7 +4345,7 @@
     "imagem": "Prehistoric_Scapula.png"
   },
   {
-    "nome": "Prehistoric Tibia",
+    "nome": "Tíbia Pré-histórica",
     "codigo": "580",
     "string_id": null,
     "categoria": "fossil",
@@ -4356,7 +4356,7 @@
     "imagem": "Prehistoric_Tibia.png"
   },
   {
-    "nome": "Prehistoric Skull",
+    "nome": "Crânio Pré-histórico",
     "codigo": "581",
     "string_id": null,
     "categoria": "fossil",
@@ -4367,7 +4367,7 @@
     "imagem": "Prehistoric_Skull.png"
   },
   {
-    "nome": "Skeletal Hand",
+    "nome": "Mão Esquelética",
     "codigo": "582",
     "string_id": null,
     "categoria": "fossil",
@@ -4378,7 +4378,7 @@
     "imagem": "Skeletal_Hand.png"
   },
   {
-    "nome": "Prehistoric Rib",
+    "nome": "Costela Pré-histórica",
     "codigo": "583",
     "string_id": null,
     "categoria": "fossil",
@@ -4389,7 +4389,7 @@
     "imagem": "Prehistoric_Rib.png"
   },
   {
-    "nome": "Prehistoric Vertebra",
+    "nome": "Vértebra Pré-histórica",
     "codigo": "584",
     "string_id": null,
     "categoria": "fossil",
@@ -4400,7 +4400,7 @@
     "imagem": "Prehistoric_Vertebra.png"
   },
   {
-    "nome": "Skeletal Tail",
+    "nome": "Cauda Esquelética",
     "codigo": "585",
     "string_id": null,
     "categoria": "fossil",
@@ -4411,7 +4411,7 @@
     "imagem": "Skeletal_Tail.png"
   },
   {
-    "nome": "Nautilus Fossil",
+    "nome": "Fóssil de Náutilo",
     "codigo": "586",
     "string_id": null,
     "categoria": "fossil",
@@ -4422,7 +4422,7 @@
     "imagem": "Nautilus_Fossil.png"
   },
   {
-    "nome": "Amphibian Fossil",
+    "nome": "Fóssil de Anfíbio",
     "codigo": "587",
     "string_id": null,
     "categoria": "fossil",
@@ -4433,7 +4433,7 @@
     "imagem": "Amphibian_Fossil.png"
   },
   {
-    "nome": "Palm Fossil",
+    "nome": "Fóssil de Palmeira",
     "codigo": "588",
     "string_id": null,
     "categoria": "fossil",
@@ -4444,7 +4444,7 @@
     "imagem": "Palm_Fossil.png"
   },
   {
-    "nome": "Trilobite",
+    "nome": "Trilobita",
     "codigo": "589",
     "string_id": null,
     "categoria": "fossil",
@@ -4455,7 +4455,7 @@
     "imagem": "Trilobite.png"
   },
   {
-    "nome": "Tulip",
+    "nome": "Tulipa",
     "codigo": "591",
     "string_id": null,
     "categoria": "flor",
@@ -4466,7 +4466,7 @@
     "imagem": "Tulip.png"
   },
   {
-    "nome": "Summer Spangle",
+    "nome": "Lantejoula de Verão",
     "codigo": "593",
     "string_id": null,
     "categoria": "flor",
@@ -4477,7 +4477,7 @@
     "imagem": "Summer_Spangle.png"
   },
   {
-    "nome": "Fairy Rose",
+    "nome": "Rosa das Fadas",
     "codigo": "595",
     "string_id": null,
     "categoria": "flor",
@@ -4488,7 +4488,7 @@
     "imagem": "Fairy_Rose.png"
   },
   {
-    "nome": "Blue Jazz",
+    "nome": "Jazz Azul",
     "codigo": "597",
     "string_id": null,
     "categoria": "flor",
@@ -4499,7 +4499,7 @@
     "imagem": "Blue_Jazz.png"
   },
   {
-    "nome": "Sprinkler",
+    "nome": "Aspersor",
     "codigo": "599",
     "string_id": null,
     "categoria": "equipamento",
@@ -4510,7 +4510,7 @@
     "imagem": "Sprinkler.png"
   },
   {
-    "nome": "Plum Pudding",
+    "nome": "Pudim de Ameixa",
     "codigo": "604",
     "string_id": null,
     "categoria": "artisan",
@@ -4521,7 +4521,7 @@
     "imagem": "Plum_Pudding.png"
   },
   {
-    "nome": "Artichoke Dip",
+    "nome": "Patê de Alcachofra",
     "codigo": "605",
     "string_id": null,
     "categoria": "artisan",
@@ -4532,7 +4532,7 @@
     "imagem": "Artichoke_Dip.png"
   },
   {
-    "nome": "Stir Fry",
+    "nome": "Refogado",
     "codigo": "606",
     "string_id": null,
     "categoria": "artisan",
@@ -4543,7 +4543,7 @@
     "imagem": "Stir_Fry.png"
   },
   {
-    "nome": "Roasted Hazelnuts",
+    "nome": "Avelãs Torradas",
     "codigo": "607",
     "string_id": null,
     "categoria": "artisan",
@@ -4554,7 +4554,7 @@
     "imagem": "Roasted_Hazelnuts.png"
   },
   {
-    "nome": "Pumpkin Pie",
+    "nome": "Torta de Abóbora",
     "codigo": "608",
     "string_id": null,
     "categoria": "artisan",
@@ -4565,7 +4565,7 @@
     "imagem": "Pumpkin_Pie.png"
   },
   {
-    "nome": "Radish Salad",
+    "nome": "Salada de Rabanete",
     "codigo": "609",
     "string_id": null,
     "categoria": "artisan",
@@ -4576,7 +4576,7 @@
     "imagem": "Radish_Salad.png"
   },
   {
-    "nome": "Fruit Salad",
+    "nome": "Salada de Frutas",
     "codigo": "610",
     "string_id": null,
     "categoria": "artisan",
@@ -4587,7 +4587,7 @@
     "imagem": "Fruit_Salad.png"
   },
   {
-    "nome": "Blackberry Cobbler",
+    "nome": "Torta de Amora",
     "codigo": "611",
     "string_id": null,
     "categoria": "artisan",
@@ -4598,7 +4598,7 @@
     "imagem": "Blackberry_Cobbler.png"
   },
   {
-    "nome": "Cranberry Candy",
+    "nome": "Doce de Oxicoco",
     "codigo": "612",
     "string_id": null,
     "categoria": "artisan",
@@ -4609,7 +4609,7 @@
     "imagem": "Cranberry_Candy.png"
   },
   {
-    "nome": "Apple",
+    "nome": "Maçã",
     "codigo": "613",
     "string_id": null,
     "categoria": "fruta",
@@ -4620,7 +4620,7 @@
     "imagem": "Apple.png"
   },
   {
-    "nome": "Green Tea",
+    "nome": "Chá Verde",
     "codigo": "614",
     "string_id": null,
     "categoria": "artisan",
@@ -4642,7 +4642,7 @@
     "imagem": "Bruschetta.png"
   },
   {
-    "nome": "Quality Sprinkler",
+    "nome": "Aspersor de Qualidade",
     "codigo": "621",
     "string_id": null,
     "categoria": "equipamento",
@@ -4653,7 +4653,7 @@
     "imagem": "Quality_Sprinkler.png"
   },
   {
-    "nome": "Cherry Sapling",
+    "nome": "Muda de Cereja",
     "codigo": "628",
     "string_id": null,
     "categoria": "semente",
@@ -4664,7 +4664,7 @@
     "imagem": "Cherry_Sapling.png"
   },
   {
-    "nome": "Apricot Sapling",
+    "nome": "Muda de Damasco",
     "codigo": "629",
     "string_id": null,
     "categoria": "semente",
@@ -4675,7 +4675,7 @@
     "imagem": "Apricot_Sapling.png"
   },
   {
-    "nome": "Orange Sapling",
+    "nome": "Muda de Laranja",
     "codigo": "630",
     "string_id": null,
     "categoria": "semente",
@@ -4686,7 +4686,7 @@
     "imagem": "Orange_Sapling.png"
   },
   {
-    "nome": "Peach Sapling",
+    "nome": "Muda de Pêssego",
     "codigo": "631",
     "string_id": null,
     "categoria": "semente",
@@ -4697,7 +4697,7 @@
     "imagem": "Peach_Sapling.png"
   },
   {
-    "nome": "Pomegranate Sapling",
+    "nome": "Muda de Romã",
     "codigo": "632",
     "string_id": null,
     "categoria": "semente",
@@ -4708,7 +4708,7 @@
     "imagem": "Pomegranate_Sapling.png"
   },
   {
-    "nome": "Apple Sapling",
+    "nome": "Muda de Maçã",
     "codigo": "633",
     "string_id": null,
     "categoria": "semente",
@@ -4719,7 +4719,7 @@
     "imagem": "Apple_Sapling.png"
   },
   {
-    "nome": "Apricot",
+    "nome": "Damasco",
     "codigo": "634",
     "string_id": null,
     "categoria": "fruta",
@@ -4730,7 +4730,7 @@
     "imagem": "Apricot.png"
   },
   {
-    "nome": "Orange",
+    "nome": "Laranja",
     "codigo": "635",
     "string_id": null,
     "categoria": "fruta",
@@ -4741,7 +4741,7 @@
     "imagem": "Orange.png"
   },
   {
-    "nome": "Peach",
+    "nome": "Pêssego",
     "codigo": "636",
     "string_id": null,
     "categoria": "fruta",
@@ -4752,7 +4752,7 @@
     "imagem": "Peach.png"
   },
   {
-    "nome": "Pomegranate",
+    "nome": "Romã",
     "codigo": "637",
     "string_id": null,
     "categoria": "fruta",
@@ -4763,7 +4763,7 @@
     "imagem": "Pomegranate.png"
   },
   {
-    "nome": "Cherry",
+    "nome": "Cereja",
     "codigo": "638",
     "string_id": null,
     "categoria": "fruta",
@@ -4774,7 +4774,7 @@
     "imagem": "Cherry.png"
   },
   {
-    "nome": "Iridium Sprinkler",
+    "nome": "Aspersor de Irídio",
     "codigo": "645",
     "string_id": "(O)645",
     "categoria": "especial",
@@ -4785,7 +4785,7 @@
     "imagem": "Iridium_Sprinkler.png"
   },
   {
-    "nome": "Coleslaw",
+    "nome": "Salada de Repolho",
     "codigo": "648",
     "string_id": null,
     "categoria": "artisan",
@@ -4796,7 +4796,7 @@
     "imagem": "Coleslaw.png"
   },
   {
-    "nome": "Fiddlehead Risotto",
+    "nome": "Risoto de Samambaia",
     "codigo": "649",
     "string_id": null,
     "categoria": "artisan",
@@ -4807,7 +4807,7 @@
     "imagem": "Fiddlehead_Risotto.png"
   },
   {
-    "nome": "Poppyseed Muffin",
+    "nome": "Muffin de Papoula",
     "codigo": "651",
     "string_id": null,
     "categoria": "artisan",
@@ -4818,7 +4818,7 @@
     "imagem": "Poppyseed_Muffin.png"
   },
   {
-    "nome": "Green Slime Egg",
+    "nome": "Ovo de Gosma Verde",
     "codigo": "680",
     "string_id": null,
     "categoria": "slime-egg",
@@ -4829,7 +4829,7 @@
     "imagem": "Green_Slime_Egg.png"
   },
   {
-    "nome": "Rain Totem",
+    "nome": "Totem de Chuva",
     "codigo": "681",
     "string_id": null,
     "categoria": "equipamento",
@@ -4840,7 +4840,7 @@
     "imagem": "Rain_Totem.png"
   },
   {
-    "nome": "Mutant Carp",
+    "nome": "Carpa Mutante",
     "codigo": "682",
     "string_id": null,
     "categoria": "peixe",
@@ -4851,7 +4851,7 @@
     "imagem": "Mutant_Carp.png"
   },
   {
-    "nome": "Bug Meat",
+    "nome": "Carne de Inseto",
     "codigo": "684",
     "string_id": null,
     "categoria": "recurso",
@@ -4862,7 +4862,7 @@
     "imagem": "Bug_Meat.png"
   },
   {
-    "nome": "Bait",
+    "nome": "Isca",
     "codigo": "685",
     "string_id": null,
     "categoria": "equipamento",
@@ -4873,7 +4873,7 @@
     "imagem": null
   },
   {
-    "nome": "Spinner",
+    "nome": "Girador",
     "codigo": "686",
     "string_id": null,
     "categoria": "equipamento",
@@ -4884,7 +4884,7 @@
     "imagem": "Spinner.png"
   },
   {
-    "nome": "Dressed Spinner",
+    "nome": "Girador Ornamentado",
     "codigo": "687",
     "string_id": null,
     "categoria": "equipamento",
@@ -4895,7 +4895,7 @@
     "imagem": "Dressed_Spinner.png"
   },
   {
-    "nome": "Warp Totem: Farm",
+    "nome": "Totem: Fazenda",
     "codigo": "688",
     "string_id": null,
     "categoria": "equipamento",
@@ -4906,7 +4906,7 @@
     "imagem": "Warp_Totem_Farm.png"
   },
   {
-    "nome": "Warp Totem: Mountains",
+    "nome": "Totem: Montanhas",
     "codigo": "689",
     "string_id": null,
     "categoria": "equipamento",
@@ -4917,7 +4917,7 @@
     "imagem": "Warp_Totem_Mountains.png"
   },
   {
-    "nome": "Warp Totem: Beach",
+    "nome": "Totem: Praia",
     "codigo": "690",
     "string_id": null,
     "categoria": "equipamento",
@@ -4928,7 +4928,7 @@
     "imagem": "Warp_Totem_Beach.png"
   },
   {
-    "nome": "Barbed Hook",
+    "nome": "Anzol Farpado",
     "codigo": "691",
     "string_id": null,
     "categoria": "equipamento",
@@ -4939,7 +4939,7 @@
     "imagem": "Barbed_Hook.png"
   },
   {
-    "nome": "Lead Bobber",
+    "nome": "Chumbada",
     "codigo": "692",
     "string_id": null,
     "categoria": "equipamento",
@@ -4950,7 +4950,7 @@
     "imagem": "Lead_Bobber.png"
   },
   {
-    "nome": "Treasure Hunter",
+    "nome": "Caçador de Tesouros",
     "codigo": "693",
     "string_id": null,
     "categoria": "equipamento",
@@ -4961,7 +4961,7 @@
     "imagem": "Treasure_Hunter.png"
   },
   {
-    "nome": "Trap Bobber",
+    "nome": "Boia-armadilha",
     "codigo": "694",
     "string_id": null,
     "categoria": "equipamento",
@@ -4972,7 +4972,7 @@
     "imagem": "Trap_Bobber.png"
   },
   {
-    "nome": "Cork Bobber",
+    "nome": "Boia de Cortiça",
     "codigo": "695",
     "string_id": null,
     "categoria": "equipamento",
@@ -4983,7 +4983,7 @@
     "imagem": "Cork_Bobber.png"
   },
   {
-    "nome": "Sturgeon",
+    "nome": "Esturjão",
     "codigo": "698",
     "string_id": null,
     "categoria": "peixe",
@@ -4994,7 +4994,7 @@
     "imagem": "Sturgeon.png"
   },
   {
-    "nome": "Tiger Trout",
+    "nome": "Truta Tigre",
     "codigo": "699",
     "string_id": null,
     "categoria": "peixe",
@@ -5005,7 +5005,7 @@
     "imagem": "Tiger_Trout.png"
   },
   {
-    "nome": "Bullhead",
+    "nome": "Bagre-cabeça-de-touro",
     "codigo": "700",
     "string_id": null,
     "categoria": "peixe",
@@ -5016,7 +5016,7 @@
     "imagem": "Bullhead.png"
   },
   {
-    "nome": "Tilapia",
+    "nome": "Tilápia",
     "codigo": "701",
     "string_id": null,
     "categoria": "peixe",
@@ -5038,7 +5038,7 @@
     "imagem": "Chub.png"
   },
   {
-    "nome": "Magnet",
+    "nome": "Ímã",
     "codigo": "703",
     "string_id": null,
     "categoria": "equipamento",
@@ -5049,7 +5049,7 @@
     "imagem": "Magnet.png"
   },
   {
-    "nome": "Dorado",
+    "nome": "Dourado",
     "codigo": "704",
     "string_id": null,
     "categoria": "peixe",
@@ -5060,7 +5060,7 @@
     "imagem": "Dorado.png"
   },
   {
-    "nome": "Albacore",
+    "nome": "Albacora",
     "codigo": "705",
     "string_id": "(O)705",
     "categoria": "peixe",
@@ -5071,7 +5071,7 @@
     "imagem": "Albacore.png"
   },
   {
-    "nome": "Shad",
+    "nome": "Sável",
     "codigo": "706",
     "string_id": null,
     "categoria": "peixe",
@@ -5093,7 +5093,7 @@
     "imagem": "Lingcod.png"
   },
   {
-    "nome": "Halibut",
+    "nome": "Halibute",
     "codigo": "708",
     "string_id": null,
     "categoria": "peixe",
@@ -5104,7 +5104,7 @@
     "imagem": "Halibut.png"
   },
   {
-    "nome": "Hardwood",
+    "nome": "Madeira Dura",
     "codigo": "709",
     "string_id": "(O)709",
     "categoria": "recurso",
@@ -5115,7 +5115,7 @@
     "imagem": "Hardwood.png"
   },
   {
-    "nome": "Crab Pot",
+    "nome": "Armadilha de Caranguejo",
     "codigo": "710",
     "string_id": null,
     "categoria": "equipamento",
@@ -5126,7 +5126,7 @@
     "imagem": "Crab_Pot.png"
   },
   {
-    "nome": "Lobster",
+    "nome": "Lagosta",
     "codigo": "715",
     "string_id": null,
     "categoria": "peixe",
@@ -5137,7 +5137,7 @@
     "imagem": "Lobster.png"
   },
   {
-    "nome": "Crayfish",
+    "nome": "Lagostim",
     "codigo": "716",
     "string_id": null,
     "categoria": "peixe",
@@ -5148,7 +5148,7 @@
     "imagem": "Crayfish.png"
   },
   {
-    "nome": "Crab",
+    "nome": "Caranguejo",
     "codigo": "717",
     "string_id": null,
     "categoria": "peixe",
@@ -5159,7 +5159,7 @@
     "imagem": "Crab.png"
   },
   {
-    "nome": "Cockle",
+    "nome": "Berbigão",
     "codigo": "718",
     "string_id": null,
     "categoria": "peixe",
@@ -5170,7 +5170,7 @@
     "imagem": "Cockle.png"
   },
   {
-    "nome": "Mussel",
+    "nome": "Mexilhão",
     "codigo": "719",
     "string_id": null,
     "categoria": "peixe",
@@ -5181,7 +5181,7 @@
     "imagem": "Mussel.png"
   },
   {
-    "nome": "Shrimp",
+    "nome": "Camarão",
     "codigo": "720",
     "string_id": null,
     "categoria": "peixe",
@@ -5192,7 +5192,7 @@
     "imagem": "Shrimp.png"
   },
   {
-    "nome": "Snail",
+    "nome": "Caracol",
     "codigo": "721",
     "string_id": null,
     "categoria": "peixe",
@@ -5203,7 +5203,7 @@
     "imagem": "Snail.png"
   },
   {
-    "nome": "Periwinkle",
+    "nome": "Caramujo",
     "codigo": "722",
     "string_id": null,
     "categoria": "peixe",
@@ -5214,7 +5214,7 @@
     "imagem": "Periwinkle.png"
   },
   {
-    "nome": "Oyster",
+    "nome": "Ostra",
     "codigo": "723",
     "string_id": null,
     "categoria": "peixe",
@@ -5225,7 +5225,7 @@
     "imagem": "Oyster.png"
   },
   {
-    "nome": "Maple Syrup",
+    "nome": "Xarope de Bordo",
     "codigo": "724",
     "string_id": null,
     "categoria": "artisan",
@@ -5236,7 +5236,7 @@
     "imagem": "Maple_Syrup.png"
   },
   {
-    "nome": "Oak Resin",
+    "nome": "Resina de Carvalho",
     "codigo": "725",
     "string_id": null,
     "categoria": "artisan",
@@ -5247,7 +5247,7 @@
     "imagem": "Oak_Resin.png"
   },
   {
-    "nome": "Pine Tar",
+    "nome": "Alcatrão de Pinho",
     "codigo": "726",
     "string_id": null,
     "categoria": "artisan",
@@ -5269,7 +5269,7 @@
     "imagem": "Chowder.png"
   },
   {
-    "nome": "Fish Stew",
+    "nome": "Ensopado de Peixe",
     "codigo": "728",
     "string_id": null,
     "categoria": "artisan",
@@ -5291,7 +5291,7 @@
     "imagem": "Escargot.png"
   },
   {
-    "nome": "Lobster Bisque",
+    "nome": "Bisque de Lagosta",
     "codigo": "730",
     "string_id": null,
     "categoria": "artisan",
@@ -5302,7 +5302,7 @@
     "imagem": "Lobster_Bisque.png"
   },
   {
-    "nome": "Maple Bar",
+    "nome": "Barra de Bordo",
     "codigo": "731",
     "string_id": null,
     "categoria": "artisan",
@@ -5313,7 +5313,7 @@
     "imagem": "Maple_Bar.png"
   },
   {
-    "nome": "Crab Cakes",
+    "nome": "Bolinhos de Caranguejo",
     "codigo": "732",
     "string_id": null,
     "categoria": "artisan",
@@ -5324,7 +5324,7 @@
     "imagem": "Crab_Cakes.png"
   },
   {
-    "nome": "Shrimp Cocktail",
+    "nome": "Coquetel de Camarão",
     "codigo": "733",
     "string_id": null,
     "categoria": "artisan",
@@ -5335,7 +5335,7 @@
     "imagem": null
   },
   {
-    "nome": "Woodskip",
+    "nome": "Peixe-do-bosque",
     "codigo": "734",
     "string_id": null,
     "categoria": "peixe",
@@ -5346,7 +5346,7 @@
     "imagem": "Woodskip.png"
   },
   {
-    "nome": "Jack-O-Lantern",
+    "nome": "Abóbora de Halloween",
     "codigo": "746",
     "string_id": null,
     "categoria": "especial",
@@ -5357,7 +5357,7 @@
     "imagem": "Jack-O-Lantern.png"
   },
   {
-    "nome": "Rotten Plant",
+    "nome": "Planta Podre",
     "codigo": "747",
     "string_id": null,
     "categoria": "lixo",
@@ -5368,7 +5368,7 @@
     "imagem": "Rotten_Plant.png"
   },
   {
-    "nome": "Omni Geode",
+    "nome": "Omnigeodo",
     "codigo": "749",
     "string_id": null,
     "categoria": "geodo",
@@ -5379,7 +5379,7 @@
     "imagem": "Omni_Geode.png"
   },
   {
-    "nome": "Slime",
+    "nome": "Gosma",
     "codigo": "766",
     "string_id": null,
     "categoria": "recurso",
@@ -5390,7 +5390,7 @@
     "imagem": "Slime.png"
   },
   {
-    "nome": "Bat Wing",
+    "nome": "Asa de Morcego",
     "codigo": "767",
     "string_id": null,
     "categoria": "recurso",
@@ -5401,7 +5401,7 @@
     "imagem": "Bat_Wing.png"
   },
   {
-    "nome": "Solar Essence",
+    "nome": "Essência Solar",
     "codigo": "768",
     "string_id": null,
     "categoria": "recurso",
@@ -5412,7 +5412,7 @@
     "imagem": "Solar_Essence.png"
   },
   {
-    "nome": "Void Essence",
+    "nome": "Essência do Vazio",
     "codigo": "769",
     "string_id": null,
     "categoria": "recurso",
@@ -5423,7 +5423,7 @@
     "imagem": "Void_Essence.png"
   },
   {
-    "nome": "Fiber",
+    "nome": "Fibra",
     "codigo": "771",
     "string_id": null,
     "categoria": "recurso",
@@ -5434,7 +5434,7 @@
     "imagem": "Fiber.png"
   },
   {
-    "nome": "Oil of Garlic",
+    "nome": "Óleo de Alho",
     "codigo": "772",
     "string_id": null,
     "categoria": "artisan",
@@ -5445,7 +5445,7 @@
     "imagem": "Oil_of_Garlic.png"
   },
   {
-    "nome": "Life Elixir",
+    "nome": "Elixir da Vida",
     "codigo": "773",
     "string_id": null,
     "categoria": "especial",
@@ -5456,7 +5456,7 @@
     "imagem": "Life_Elixir.png"
   },
   {
-    "nome": "Wild Bait",
+    "nome": "Isca Selvagem",
     "codigo": "774",
     "string_id": null,
     "categoria": "equipamento",
@@ -5467,7 +5467,7 @@
     "imagem": "Wild_Bait.png"
   },
   {
-    "nome": "Glacierfish",
+    "nome": "Peixe-glacial",
     "codigo": "775",
     "string_id": "(O)775",
     "categoria": "peixe",
@@ -5478,7 +5478,7 @@
     "imagem": "Glacierfish.png"
   },
   {
-    "nome": "Battery Pack",
+    "nome": "Bateria",
     "codigo": "787",
     "string_id": null,
     "categoria": "recurso",
@@ -5489,7 +5489,7 @@
     "imagem": "Battery_Pack.png"
   },
   {
-    "nome": "Lucky Purple Shorts",
+    "nome": "Shorts Roxos da Sorte",
     "codigo": "789",
     "string_id": null,
     "categoria": "especial",
@@ -5500,7 +5500,7 @@
     "imagem": "Shorts.png"
   },
   {
-    "nome": "Golden Coconut",
+    "nome": "Coco Dourado",
     "codigo": "791",
     "string_id": null,
     "categoria": "especial",
@@ -5511,7 +5511,7 @@
     "imagem": "Golden_Coconut.png"
   },
   {
-    "nome": "Void Salmon",
+    "nome": "Salmão do Vazio",
     "codigo": "795",
     "string_id": null,
     "categoria": "peixe",
@@ -5522,7 +5522,7 @@
     "imagem": "Void_Salmon.png"
   },
   {
-    "nome": "Slimejack",
+    "nome": "Peixe-gosma",
     "codigo": "796",
     "string_id": null,
     "categoria": "peixe",
@@ -5533,7 +5533,7 @@
     "imagem": "Slimejack.png"
   },
   {
-    "nome": "Tree Fertilizer",
+    "nome": "Fertilizante de Árvore",
     "codigo": "805",
     "string_id": null,
     "categoria": "recurso",
@@ -5544,7 +5544,7 @@
     "imagem": "Tree_Fertilizer.png"
   },
   {
-    "nome": "Dinosaur Mayonnaise",
+    "nome": "Maionese de Dinossauro",
     "codigo": "807",
     "string_id": null,
     "categoria": "artisan",
@@ -5555,7 +5555,7 @@
     "imagem": "Dinosaur_Mayonnaise.png"
   },
   {
-    "nome": "Roe",
+    "nome": "Ovas",
     "codigo": "812",
     "string_id": null,
     "categoria": "artisan",
@@ -5566,7 +5566,7 @@
     "imagem": null
   },
   {
-    "nome": "Squid Ink",
+    "nome": "Tinta de Lula",
     "codigo": "813",
     "string_id": null,
     "categoria": "artisan",
@@ -5577,7 +5577,7 @@
     "imagem": null
   },
   {
-    "nome": "Tea Leaves",
+    "nome": "Folhas de Chá",
     "codigo": "815",
     "string_id": null,
     "categoria": "artisan",
@@ -5588,7 +5588,7 @@
     "imagem": "Tea_Leaves.png"
   },
   {
-    "nome": "Fossilized Skull",
+    "nome": "Crânio Fossilizado",
     "codigo": "820",
     "string_id": null,
     "categoria": "fossil",
@@ -5599,7 +5599,7 @@
     "imagem": "Fossilized_Skull.png"
   },
   {
-    "nome": "Fossilized Spine",
+    "nome": "Coluna Fossilizada",
     "codigo": "821",
     "string_id": null,
     "categoria": "fossil",
@@ -5610,7 +5610,7 @@
     "imagem": "Fossilized_Spine.png"
   },
   {
-    "nome": "Fossilized Tail",
+    "nome": "Cauda Fossilizada",
     "codigo": "822",
     "string_id": null,
     "categoria": "fossil",
@@ -5621,7 +5621,7 @@
     "imagem": "Fossilized_Tail.png"
   },
   {
-    "nome": "Fossilized Leg",
+    "nome": "Perna Fossilizada",
     "codigo": "823",
     "string_id": null,
     "categoria": "fossil",
@@ -5632,7 +5632,7 @@
     "imagem": "Fossilized_Leg.png"
   },
   {
-    "nome": "Fossilized Ribs",
+    "nome": "Costelas Fossilizadas",
     "codigo": "824",
     "string_id": null,
     "categoria": "fossil",
@@ -5643,7 +5643,7 @@
     "imagem": "Fossilized_Ribs.png"
   },
   {
-    "nome": "Snake Skull",
+    "nome": "Crânio de Cobra",
     "codigo": "825",
     "string_id": null,
     "categoria": "fossil",
@@ -5654,7 +5654,7 @@
     "imagem": "Snake_Skull.png"
   },
   {
-    "nome": "Snake Vertebrae",
+    "nome": "Vértebras de Cobra",
     "codigo": "826",
     "string_id": null,
     "categoria": "fossil",
@@ -5665,7 +5665,7 @@
     "imagem": null
   },
   {
-    "nome": "Mummified Bat",
+    "nome": "Morcego Mumificado",
     "codigo": "827",
     "string_id": null,
     "categoria": "fossil",
@@ -5676,7 +5676,7 @@
     "imagem": "Mummified_Bat.png"
   },
   {
-    "nome": "Mummified Frog",
+    "nome": "Sapo Mumificado",
     "codigo": "828",
     "string_id": null,
     "categoria": "fossil",
@@ -5687,7 +5687,7 @@
     "imagem": "Mummified_Frog.png"
   },
   {
-    "nome": "Ginger",
+    "nome": "Gengibre",
     "codigo": "829",
     "string_id": null,
     "categoria": "vegetal",
@@ -5698,7 +5698,7 @@
     "imagem": "Ginger.png"
   },
   {
-    "nome": "Taro Root",
+    "nome": "Taro",
     "codigo": "830",
     "string_id": null,
     "categoria": "vegetal",
@@ -5709,7 +5709,7 @@
     "imagem": "Taro_Root.png"
   },
   {
-    "nome": "Mango",
+    "nome": "Manga",
     "codigo": "834",
     "string_id": null,
     "categoria": "fruta",
@@ -5720,7 +5720,7 @@
     "imagem": "Mango.png"
   },
   {
-    "nome": "Mango Sapling",
+    "nome": "Muda de Manga",
     "codigo": "835",
     "string_id": null,
     "categoria": "semente",
@@ -5731,7 +5731,7 @@
     "imagem": "Mango_Sapling.png"
   },
   {
-    "nome": "Thorns Ring",
+    "nome": "Anel de Espinhos",
     "codigo": "839",
     "string_id": null,
     "categoria": "anel",
@@ -5742,7 +5742,7 @@
     "imagem": "Thorns_Ring.png"
   },
   {
-    "nome": "Cinder Shard",
+    "nome": "Estilhaço de Brasa",
     "codigo": "848",
     "string_id": null,
     "categoria": "recurso",
@@ -5753,7 +5753,7 @@
     "imagem": "Cinder_Shard.png"
   },
   {
-    "nome": "Dragon Tooth",
+    "nome": "Dente de Dragão",
     "codigo": "852",
     "string_id": null,
     "categoria": "recurso",
@@ -5764,7 +5764,7 @@
     "imagem": "Dragon_Tooth.png"
   },
   {
-    "nome": "Tiger Slime Egg",
+    "nome": "Ovo de Gosma Tigre",
     "codigo": "857",
     "string_id": "(O)857",
     "categoria": "slime-egg",
@@ -5775,7 +5775,7 @@
     "imagem": null
   },
   {
-    "nome": "Qi Gem",
+    "nome": "Gema Qi",
     "codigo": "858",
     "string_id": null,
     "categoria": "especial",
@@ -5786,7 +5786,7 @@
     "imagem": "Qi_Gem.png"
   },
   {
-    "nome": "Protection Ring",
+    "nome": "Anel de Proteção",
     "codigo": "861",
     "string_id": null,
     "categoria": "anel",
@@ -5797,7 +5797,7 @@
     "imagem": "Protection_Ring.png"
   },
   {
-    "nome": "Soul Sapper Ring",
+    "nome": "Anel Sugador de Almas",
     "codigo": "862",
     "string_id": null,
     "categoria": "anel",
@@ -5808,7 +5808,7 @@
     "imagem": "Soul_Sapper_Ring.png"
   },
   {
-    "nome": "Phoenix Ring",
+    "nome": "Anel Fênix",
     "codigo": "863",
     "string_id": null,
     "categoria": "anel",
@@ -5819,7 +5819,7 @@
     "imagem": "Phoenix_Ring.png"
   },
   {
-    "nome": "Fairy Dust",
+    "nome": "Pó de Fada",
     "codigo": "872",
     "string_id": null,
     "categoria": "recurso",
@@ -5841,7 +5841,7 @@
     "imagem": "Pi%C3%B1a_Colada.png"
   },
   {
-    "nome": "Bug Steak",
+    "nome": "Bife de Inseto",
     "codigo": "874",
     "string_id": null,
     "categoria": "artisan",
@@ -5852,7 +5852,7 @@
     "imagem": "Bug_Steak.png"
   },
   {
-    "nome": "Ectoplasm",
+    "nome": "Ectoplasma",
     "codigo": "875",
     "string_id": null,
     "categoria": "recurso",
@@ -5863,7 +5863,7 @@
     "imagem": "Ectoplasm.png"
   },
   {
-    "nome": "Prismatic Jelly",
+    "nome": "Geleia Prismática",
     "codigo": "876",
     "string_id": null,
     "categoria": "especial",
@@ -5874,7 +5874,7 @@
     "imagem": "Prismatic_Jelly.png"
   },
   {
-    "nome": "Bone Fragment",
+    "nome": "Fragmento de Osso",
     "codigo": "881",
     "string_id": null,
     "categoria": "recurso",
@@ -5885,7 +5885,7 @@
     "imagem": "Bone_Fragment.png"
   },
   {
-    "nome": "Fiber Seeds",
+    "nome": "Sementes de Fibra",
     "codigo": "885",
     "string_id": null,
     "categoria": "semente",
@@ -5896,7 +5896,7 @@
     "imagem": "Fiber_Seeds.png"
   },
   {
-    "nome": "Glowstone Ring",
+    "nome": "Anel de Pedra Brilhante",
     "codigo": "888",
     "string_id": null,
     "categoria": "anel",
@@ -5907,7 +5907,7 @@
     "imagem": "Glowstone_Ring.png"
   },
   {
-    "nome": "Qi Fruit",
+    "nome": "Fruta Qi",
     "codigo": "889",
     "string_id": null,
     "categoria": "fruta",
@@ -5918,7 +5918,7 @@
     "imagem": "Qi_Fruit.png"
   },
   {
-    "nome": "Qi Bean",
+    "nome": "Feijão Qi",
     "codigo": "890",
     "string_id": null,
     "categoria": "vegetal",
@@ -5929,7 +5929,7 @@
     "imagem": "Qi_Bean.png"
   },
   {
-    "nome": "Mushroom Tree Seed",
+    "nome": "Semente de Árvore Cogumelo",
     "codigo": "891",
     "string_id": null,
     "categoria": "semente",
@@ -5940,7 +5940,7 @@
     "imagem": "Mushroom_Tree_Seed.png"
   },
   {
-    "nome": "Galaxy Soul",
+    "nome": "Alma da Galáxia",
     "codigo": "896",
     "string_id": null,
     "categoria": "especial",
@@ -5951,7 +5951,7 @@
     "imagem": "Galaxy_Soul.png"
   },
   {
-    "nome": "Son of Crimsonfish",
+    "nome": "Filho do Peixe Carmesim",
     "codigo": "898",
     "string_id": null,
     "categoria": "peixe",
@@ -5962,7 +5962,7 @@
     "imagem": "Son_of_Crimsonfish.png"
   },
   {
-    "nome": "Ms. Angler",
+    "nome": "Srta. Peixe-anjo",
     "codigo": "899",
     "string_id": null,
     "categoria": "peixe",
@@ -5973,7 +5973,7 @@
     "imagem": "Ms._Angler.png"
   },
   {
-    "nome": "Legend II",
+    "nome": "Lenda II",
     "codigo": "900",
     "string_id": null,
     "categoria": "peixe",
@@ -5984,7 +5984,7 @@
     "imagem": "Legend_II.png"
   },
   {
-    "nome": "Radioactive Carp",
+    "nome": "Carpa Radioativa",
     "codigo": "901",
     "string_id": null,
     "categoria": "peixe",
@@ -5995,7 +5995,7 @@
     "imagem": "Radioactive_Carp.png"
   },
   {
-    "nome": "Glacierfish Jr.",
+    "nome": "Peixe-glacial Jr.",
     "codigo": "902",
     "string_id": null,
     "categoria": "peixe",
@@ -6017,7 +6017,7 @@
     "imagem": "Ginger_Ale.png"
   },
   {
-    "nome": "Banana Pudding",
+    "nome": "Pudim de Banana",
     "codigo": "904",
     "string_id": null,
     "categoria": "artisan",
@@ -6028,7 +6028,7 @@
     "imagem": "Banana_Pudding.png"
   },
   {
-    "nome": "Mango Sticky Rice",
+    "nome": "Arroz Pegajoso com Manga",
     "codigo": "905",
     "string_id": null,
     "categoria": "artisan",
@@ -6050,7 +6050,7 @@
     "imagem": "Poi.png"
   },
   {
-    "nome": "Tropical Curry",
+    "nome": "Curry Tropical",
     "codigo": "907",
     "string_id": null,
     "categoria": "artisan",
@@ -6061,7 +6061,7 @@
     "imagem": "Tropical_Curry.png"
   },
   {
-    "nome": "Magic Bait",
+    "nome": "Isca Mágica",
     "codigo": "908",
     "string_id": null,
     "categoria": "equipamento",
@@ -6072,7 +6072,7 @@
     "imagem": "Magic_Bait.png"
   },
   {
-    "nome": "Radioactive Ore",
+    "nome": "Minério Radioativo",
     "codigo": "909",
     "string_id": null,
     "categoria": "recurso",
@@ -6083,7 +6083,7 @@
     "imagem": "Radioactive_Ore.png"
   },
   {
-    "nome": "Radioactive Bar",
+    "nome": "Barra Radioativa",
     "codigo": "910",
     "string_id": null,
     "categoria": "barra",
@@ -6094,7 +6094,7 @@
     "imagem": "Radioactive_Bar.png"
   },
   {
-    "nome": "Enricher",
+    "nome": "Enriquecedor",
     "codigo": "913",
     "string_id": null,
     "categoria": "equipamento",
@@ -6105,7 +6105,7 @@
     "imagem": "Enricher.png"
   },
   {
-    "nome": "Pressure Nozzle",
+    "nome": "Bico de Pressão",
     "codigo": "915",
     "string_id": null,
     "categoria": "equipamento",
@@ -6116,7 +6116,7 @@
     "imagem": "Pressure_Nozzle.png"
   },
   {
-    "nome": "Qi Seasoning",
+    "nome": "Tempero Qi",
     "codigo": "917",
     "string_id": null,
     "categoria": "tempero",
@@ -6127,7 +6127,7 @@
     "imagem": "Qi_Seasoning.png"
   },
   {
-    "nome": "Hyper Speed-Gro",
+    "nome": "Speed-Gro Ultra",
     "codigo": "918",
     "string_id": null,
     "categoria": "fertilizante",
@@ -6138,7 +6138,7 @@
     "imagem": "Hyper_Speed-Gro.png"
   },
   {
-    "nome": "Deluxe Fertilizer",
+    "nome": "Fertilizante Deluxe",
     "codigo": "919",
     "string_id": null,
     "categoria": "fertilizante",
@@ -6149,7 +6149,7 @@
     "imagem": "Deluxe_Fertilizer.png"
   },
   {
-    "nome": "Deluxe Retaining Soil",
+    "nome": "Solo Retentor Deluxe",
     "codigo": "920",
     "string_id": null,
     "categoria": "fertilizante",
@@ -6160,7 +6160,7 @@
     "imagem": "Deluxe_Retaining_Soil.png"
   },
   {
-    "nome": "Squid Ink Ravioli",
+    "nome": "Ravióli de Tinta de Lula",
     "codigo": "921",
     "string_id": null,
     "categoria": "artisan",

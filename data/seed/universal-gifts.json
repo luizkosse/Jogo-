@@ -1,0 +1,111 @@
+{
+  "fonte_url": "https://pt.stardewvalleywiki.com/Presentes_Universais",
+  "descricao": "Regras gerais que aplicam a todos os aldeões, com exceções por NPC.",
+  "niveis": [
+    {
+      "nivel": "amados",
+      "label": "Universal Loved",
+      "amizade": "+80",
+      "cor": "danger",
+      "descricao": "Quase todos os aldeões amam esses presentes (+80 amizade). Vale para qualquer NPC exceto exceções explícitas.",
+      "itens": [
+        "Prismatic Shard",
+        "Rabbit's Foot",
+        "Pearl",
+        "Stardrop"
+      ],
+      "excecoes": [
+        "Sebastian gosta apenas (não ama) de Pearl",
+        "Penny não gosta de Rabbit's Foot",
+        "Krobus odeia Pearl (item da luz)"
+      ]
+    },
+    {
+      "nivel": "apreciados",
+      "label": "Universal Liked",
+      "amizade": "+45",
+      "cor": "gold",
+      "descricao": "A maioria dos aldeões gosta. Inclui flores, frutas, vegetais (gold quality) e a maioria dos artisan goods.",
+      "itens": [
+        "Todas as flores (Tulip, Summer Spangle, Fairy Rose, Blue Jazz, Poppy, Sunflower)",
+        "Frutas (Apple, Apricot, Cherry, Orange, Peach, Pomegranate, Mango, Banana)",
+        "Vegetais qualidade ouro",
+        "Maioria dos artisan goods (Cheese, Wine, Cloth, Mead)",
+        "Ovos (exceto Void Egg)",
+        "Mel (Honey)",
+        "Geleia (Jelly)",
+        "Doces (Cookie, Chocolate Cake, Pink Cake)"
+      ],
+      "excecoes": [
+        "Haley não gosta da maioria de vegetais (lembre)",
+        "Algumas crianças (Vincent, Jas) odeiam mushrooms e alimentos picantes"
+      ]
+    },
+    {
+      "nivel": "neutros",
+      "label": "Universal Neutral",
+      "amizade": "+20",
+      "cor": "muted",
+      "descricao": "Reação morna. Itens que não impactam muito a amizade.",
+      "itens": [
+        "Algumas comidas simples (Fried Egg, Hashbrowns, Pancakes)",
+        "Plantio comum (Parsnip, Potato sem ser qualidade ouro)",
+        "Materiais variados",
+        "Driftwood",
+        "Maioria dos peixes pequenos"
+      ],
+      "excecoes": [
+        "Cada NPC pode mover itens específicos para Liked ou Disliked"
+      ]
+    },
+    {
+      "nivel": "nao_gostam",
+      "label": "Universal Disliked",
+      "amizade": "-20",
+      "cor": "water",
+      "descricao": "A maioria não gosta. Inclui forrageiros comuns, peixes pequenos e itens estranhos.",
+      "itens": [
+        "Forrageiros comuns (Daffodil, Holly, Salmonberry, Blackberry)",
+        "Maioria dos peixes pequenos (Anchovy, Sardine, Herring, Chub)",
+        "Algumas pedras (Quartz, Earth Crystal)",
+        "Slime",
+        "Bug Meat",
+        "Wild Bait"
+      ],
+      "excecoes": [
+        "Linus AMA forrageiros (Cactus Fruit, Coconut, Yam, Blueberry)",
+        "Dwarf gosta de pedras e minerais"
+      ]
+    },
+    {
+      "nivel": "odiados",
+      "label": "Universal Hated",
+      "amizade": "-40",
+      "cor": "danger",
+      "descricao": "Universalmente odiado. NUNCA dê esses itens para ganhar amizade.",
+      "itens": [
+        "Lixo (Trash, Driftwood, Broken Glasses, Broken CD, Soggy Newspaper)",
+        "Joja Cola",
+        "Wilted Bouquet (item para terminar relacionamento)",
+        "Rotten Plant",
+        "Sap",
+        "Bait",
+        "Tea Leaves cru",
+        "Algas (Seaweed, Green Algae, White Algae)",
+        "Carp (peixe)",
+        "Most artifacts (exceto Dwarf que adora)"
+      ],
+      "excecoes": [
+        "Krobus gosta de Void Egg, Void Mayonnaise, Wild Horseradish (segue regras únicas)",
+        "Linus gosta de Coleslaw, Yam mesmo sendo 'simples'"
+      ]
+    }
+  ],
+  "regras_extras": [
+    "Aniversário do NPC: presente dá 8x a amizade normal (presente Loved no aniversário = +640 ao invés de +80)",
+    "Limite de 2 presentes por semana por NPC (1 desde 1.6 para alguns?). Aniversário não conta no limite.",
+    "Qualidade do item NÃO altera categoria (Loved continua Loved), mas adiciona bônus: +30 ouro, +60 iridium",
+    "Itens em decay (Wilted Bouquet) revertem amizade — usar para 'romper' relacionamentos",
+    "Crianças (Vincent, Jas) e idosos têm restrições adicionais: não aceitam álcool, alguns alimentos"
+  ]
+}
