@@ -15,6 +15,10 @@ export const metadata: Metadata = {
   title: "Stardew Supremo — Macetes, Missões e Segredos",
 };
 
+// Pré-computado em nível de módulo: não depende de props/contexto
+// e roda uma única vez no build (SSG), nunca em runtime do cliente.
+const allSeasonDays = SEASONS.map((s) => buildCalendar(s, npcsData, eventosData));
+
 const quickLinks = [
   { href: "/macetes", icon: Zap, title: "Macetes", desc: "Truques, atalhos e estratégias de ouro.", color: "text-gold" },
   { href: "/bugs", icon: Bug, title: "Bugs", desc: "Falhas ativas e histórico de correções.", color: "text-berry" },
@@ -25,7 +29,6 @@ const quickLinks = [
 export default function Home() {
   const topMacetes = [...macetesData].sort((a, b) => b.popularidade - a.popularidade).slice(0, 3);
   const activeBugs = bugsData.filter((b) => b.status === "ativo").slice(0, 3);
-  const allSeasonDays = SEASONS.map((s) => buildCalendar(s, npcsData, eventosData));
 
   return (
     <div className="mx-auto max-w-7xl px-3 sm:px-6 py-4 sm:py-6">

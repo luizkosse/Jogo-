@@ -1,6 +1,11 @@
 import type { Season, SeasonalEvent, CalendarDay } from "@/types/calendar";
 
-/** Estrutura raw do eventos-sazonais.json */
+/**
+ * Estrutura raw do eventos-sazonais.json.
+ * `estacao` e `tipo` permanecem como `string` porque o TypeScript infere
+ * valores de JSON como string genérica, não como literais. A validação
+ * de domínio ocorre implicitamente no `buildCalendar` via comparação com Season.
+ */
 interface RawFestival {
   slug: string;
   nome: string;
@@ -57,7 +62,7 @@ export function buildCalendar(
   // Inicializar 28 dias vazios
   const dias: CalendarDay[] = Array.from({ length: 28 }, (_, i) => ({
     dia: i + 1,
-    eventos: [],
+    eventos: [] as SeasonalEvent[],
   }));
 
   // Adicionar aniversários dos NPCs
