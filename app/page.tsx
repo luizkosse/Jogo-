@@ -82,6 +82,17 @@ export default function Home() {
 
       <PixelDivider />
 
+      {/* Calendário de Estações */}
+      <section className="mb-6">
+        <div className="flex items-center justify-between mb-4 gap-2">
+          <span className="pixel-header">Calendário</span>
+          <span className="hidden sm:inline text-xs text-ink-soft italic">aniversários e festivais do Vale</span>
+        </div>
+        <SeasonalCalendar days={allSeasonDays} />
+      </section>
+
+      <PixelDivider />
+
       {/* Quick links */}
       <section className="mb-6">
         <div className="flex items-center justify-between mb-4">
@@ -136,17 +147,6 @@ export default function Home() {
             </Link>
           ))}
         </div>
-      </section>
-
-      <PixelDivider />
-
-      {/* Calendário de Estações */}
-      <section className="mb-6">
-        <div className="flex items-center justify-between mb-4 gap-2">
-          <span className="pixel-header">Calendário</span>
-          <span className="hidden sm:inline text-xs text-ink-soft italic">aniversários e festivais do Vale</span>
-        </div>
-        <SeasonalCalendar days={allSeasonDays} />
       </section>
 
       <PixelDivider />
