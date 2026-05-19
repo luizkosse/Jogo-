@@ -4,7 +4,6 @@ import { ArrowLeft, Cake, Heart, MapPin, ExternalLink, Sparkles, Calendar } from
 import { Card } from "@/components/ui/Card";
 import { NpcPortrait } from "@/components/features/NpcPortrait";
 import { GiftList } from "@/components/features/GiftList";
-import { HeartTracker } from "@/components/features/HeartTracker";
 import { HeartEventList } from "@/components/features/HeartEventList";
 import { MarriageInfo } from "@/components/features/MarriageInfo";
 import npcsData from "@/data/seed/npcs.json";
@@ -92,11 +91,6 @@ export default async function NpcDetail({ params }: Props) {
             {n.descricao && <p className="text-sm text-ink-soft">{n.descricao}</p>}
           </div>
         </div>
-      </div>
-
-      {/* Heart tracker — sempre visível */}
-      <div className="mb-6">
-        <HeartTracker slug={n.slug} romanceable={n.romanceable} />
       </div>
 
       {/* Listas de presentes */}

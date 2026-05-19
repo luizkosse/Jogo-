@@ -4,7 +4,6 @@ import { useState, useRef, useEffect, useCallback } from "react";
 import { MessageCircle, Send, Trash2, Zap, Bug, Map, Hash, Sparkles } from "lucide-react";
 import { Input } from "@/components/ui/Input";
 import { Button } from "@/components/ui/Button";
-import { Card } from "@/components/ui/Card";
 import { SearchResult } from "@/lib/search";
 import type { ItemId } from "@/types/db";
 
@@ -16,18 +15,7 @@ interface Message {
   streaming?: boolean;
 }
 
-const CHAT_KEY = "sds:chat";
-const SESSION_KEY = "sds:session";
-
-function getSessionId(): string {
-  if (typeof window === "undefined") return "";
-  let id = localStorage.getItem(SESSION_KEY);
-  if (!id) {
-    id = crypto.randomUUID();
-    localStorage.setItem(SESSION_KEY, id);
-  }
-  return id;
-}
+// Site público sem login — chat é efêmero, mensagens vivem apenas na sessão React.
 
 const SUGGESTIONS = [
   "Como fazer dinheiro rápido?",
@@ -58,16 +46,6 @@ const typeTitle = (r: SearchResult): string => {
   if (r.type === "id") return (r.item as ItemId).nome;
   return (r.item as { titulo: string }).titulo;
 };
-
-function loadHistory(): Message[] {
-  if (typeof window === "undefined") return [];
-  try {
-    const raw = localStorage.getItem(CHAT_KEY);
-    return raw ? JSON.parse(raw) : [];
-  } catch {
-    return [];
-  }
-}
 
 async function streamAIChat(
   message: string,
@@ -112,57 +90,14 @@ async function streamAIChat(
   }
 }
 
-async function saveToSupabase(sessionId: string, role: string, content: string, results?: SearchResult[]) {
-  try {
-    await fetch("/api/chat", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ session_id: sessionId, role, content, results: results ?? null }),
-    });
-  } catch {
-    // Supabase indisponível — localStorage já foi atualizado
-  }
-}
-
-async function loadFromSupabase(sessionId: string): Promise<Message[] | null> {
-  try {
-    const res = await fetch(`/api/chat?session_id=${encodeURIComponent(sessionId)}`);
-    if (!res.ok) return null;
-    const rows = await res.json() as Array<{ id: string; role: string; content: string; results?: SearchResult[] }>;
-    return rows.map((r, i) => ({ id: i, role: r.role as "user" | "assistant", text: r.content, results: r.results }));
-  } catch {
-    return null;
-  }
-}
-
 export default function ChatPage() {
   const [messages, setMessages] = useState<Message[]>([]);
   const [input, setInput] = useState("");
   const [loading, setLoading] = useState(false);
-  const [hydrated, setHydrated] = useState(false);
   const bottomRef = useRef<HTMLDivElement>(null);
-  const isMounted = useRef(false);
-  const [sessionId, setSessionId] = useState("");
-
-  // Carrega sessão + histórico no cliente
-  useEffect(() => {
-    const sid = getSessionId();
-    setSessionId(sid);
-    const local = loadHistory();
-    if (local.length > 0) setMessages(local);
-    setHydrated(true);
-    loadFromSupabase(sid).then((rows) => {
-      if (rows && rows.length > 0) setMessages(rows);
-    });
-  }, []);
 
   useEffect(() => {
     bottomRef.current?.scrollIntoView({ behavior: "smooth" });
-  }, [messages]);
-
-  useEffect(() => {
-    if (!isMounted.current) { isMounted.current = true; return; }
-    localStorage.setItem(CHAT_KEY, JSON.stringify(messages.slice(-50)));
   }, [messages]);
 
   const handleSend = useCallback(
@@ -174,7 +109,6 @@ export default function ChatPage() {
       setMessages((prev) => [...prev, userMsg, reply]);
       setInput("");
       setLoading(true);
-      saveToSupabase(sessionId, "user", text);
 
       // Histórico (sem a mensagem em streaming) — usado como contexto na IA
       const historyForAI = messages
@@ -183,13 +117,11 @@ export default function ChatPage() {
         .map((m) => ({ role: m.role, content: m.text }));
 
       let accText = "";
-      let accResults: SearchResult[] | undefined;
 
       await streamAIChat(
         text,
         historyForAI,
         (results) => {
-          accResults = results;
           setMessages((prev) => prev.map((m) => (m.id === replyId ? { ...m, results } : m)));
         },
         (chunk) => {
@@ -204,14 +136,12 @@ export default function ChatPage() {
 
       setMessages((prev) => prev.map((m) => (m.id === replyId ? { ...m, streaming: false } : m)));
       setLoading(false);
-      if (accText) saveToSupabase(sessionId, "assistant", accText, accResults);
     },
-    [loading, sessionId, messages]
+    [loading, messages]
   );
 
   const clearHistory = () => {
     setMessages([]);
-    localStorage.removeItem(CHAT_KEY);
   };
 
   return (
@@ -244,7 +174,7 @@ export default function ChatPage() {
             </div>
           </div>
 
-          {hydrated && messages.length > 0 && (
+          {messages.length > 0 && (
             <button
               onClick={clearHistory}
               className="mt-auto inline-flex items-center gap-1.5 text-xs font-semibold text-ink-soft hover:text-berry transition-colors"
@@ -262,7 +192,7 @@ export default function ChatPage() {
             <span className="inline-flex items-center gap-1 rounded-sm border-2 border-water/40 bg-water/15 px-1.5 py-0.5 text-[9px] font-bold uppercase tracking-wide text-water">
               <Sparkles size={9} /> IA
             </span>
-            {hydrated && messages.length > 0 && (
+            {messages.length > 0 && (
               <button
                 onClick={clearHistory}
                 className="ml-auto text-ink-soft hover:text-berry"

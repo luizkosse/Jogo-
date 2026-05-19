@@ -8,7 +8,6 @@ import macetesData from "@/data/seed/macetes.json";
 import type { Metadata } from "next";
 import type { Macete } from "@/types/db";
 import { catColor } from "@/lib/constants/macetes";
-import { VoteWidget } from "@/components/features/VoteWidget";
 
 interface Props {
   params: Promise<{ slug: string }>;
@@ -95,10 +94,6 @@ export default async function MaceteDetail({ params }: Props) {
           <div className="space-y-2">{lines}</div>
         </Card>
       )}
-
-      <div className="mb-6">
-        <VoteWidget slug={m.slug} />
-      </div>
 
       <div className="grid sm:grid-cols-2 gap-3 mb-6">
         <div className="wood-frame rounded-sm p-3">

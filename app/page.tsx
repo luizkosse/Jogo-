@@ -5,6 +5,10 @@ import { Card } from "@/components/ui/Card";
 import { PixelDivider } from "@/components/decor/PixelDivider";
 import macetesData from "@/data/seed/macetes.json";
 import bugsData from "@/data/seed/bugs.json";
+import npcsData from "@/data/seed/npcs.json";
+import eventosData from "@/data/seed/eventos-sazonais.json";
+import { buildCalendar, SEASONS } from "@/lib/calendar";
+import { SeasonalCalendar } from "@/components/features/SeasonalCalendar";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -21,6 +25,7 @@ const quickLinks = [
 export default function Home() {
   const topMacetes = [...macetesData].sort((a, b) => b.popularidade - a.popularidade).slice(0, 3);
   const activeBugs = bugsData.filter((b) => b.status === "ativo").slice(0, 3);
+  const allSeasonDays = SEASONS.map((s) => buildCalendar(s, npcsData, eventosData));
 
   return (
     <div className="mx-auto max-w-7xl px-3 sm:px-6 py-4 sm:py-6">
@@ -128,6 +133,17 @@ export default function Home() {
             </Link>
           ))}
         </div>
+      </section>
+
+      <PixelDivider />
+
+      {/* Calendário de Estações */}
+      <section className="mb-6">
+        <div className="flex items-center justify-between mb-4 gap-2">
+          <span className="pixel-header">Calendário</span>
+          <span className="hidden sm:inline text-xs text-ink-soft italic">aniversários e festivais do Vale</span>
+        </div>
+        <SeasonalCalendar days={allSeasonDays} />
       </section>
 
       <PixelDivider />

@@ -4,6 +4,7 @@ const links = [
   { href: "/macetes", label: "Macetes" },
   { href: "/bugs", label: "Bugs" },
   { href: "/missoes", label: "Missões" },
+  { href: "/bundles", label: "Bundles" },
   { href: "/personagens", label: "Personagens" },
   { href: "/ids", label: "IDs" },
   { href: "/chat", label: "Assistente" },

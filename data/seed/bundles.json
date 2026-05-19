@@ -1,0 +1,238 @@
+{
+  "_fonte": "https://pt.stardewvalleywiki.com/Centro_Comunit%C3%A1rio",
+  "_descricao": "Os 6 quartos do Centro Comunitário com seus bundles. Completar cada bundle libera uma recompensa e contribui para restaurar o CC, desbloqueando áreas e bônus na fazenda.",
+  "info_geral": {
+    "como_iniciar": "Após Spring 5 do Ano 1, encontre o Wizard (M. Rasmodius) — leia o pergaminho dourado no Community Center.",
+    "alternativa_joja": "Comprar Joja Community Development Form (5.000g) e pagar por upgrades (substitui CC bundles)."
+  },
+  "rooms": [
+    {
+      "id": "crafts-room",
+      "nome": "Crafts Room",
+      "cor": "grass",
+      "descricao": "Forrageiros e materiais por estação. Recompensa final: Greenhouse na fazenda.",
+      "bundles": [
+        {
+          "nome": "Spring Foraging",
+          "necessarios": "Todos (4)",
+          "itens": ["Wild Horseradish", "Daffodil", "Leek", "Dandelion"],
+          "recompensa": "30 Spring Seeds"
+        },
+        {
+          "nome": "Summer Foraging",
+          "necessarios": "Todos (3)",
+          "itens": ["Grape", "Spice Berry", "Sweet Pea"],
+          "recompensa": "30 Summer Seeds"
+        },
+        {
+          "nome": "Fall Foraging",
+          "necessarios": "Todos (4)",
+          "itens": ["Common Mushroom", "Wild Plum", "Hazelnut", "Blackberry"],
+          "recompensa": "30 Fall Seeds"
+        },
+        {
+          "nome": "Winter Foraging",
+          "necessarios": "Todos (4)",
+          "itens": ["Winter Root", "Crystal Fruit", "Snow Yam", "Crocus"],
+          "recompensa": "30 Winter Seeds"
+        },
+        {
+          "nome": "Construction",
+          "necessarios": "Todos (4)",
+          "itens": ["99 Wood", "99 Stone", "10 Hardwood", "1 Refined Quartz"],
+          "recompensa": "Charcoal Kiln"
+        },
+        {
+          "nome": "Exotic Foraging",
+          "necessarios": "5 de 9",
+          "itens": ["Coconut", "Cactus Fruit", "Cave Carrot", "Red Mushroom", "Purple Mushroom", "Maple Syrup", "Oak Resin", "Pine Tar", "Morel"],
+          "recompensa": "5 Autumn's Bounty"
+        }
+      ]
+    },
+    {
+      "id": "pantry",
+      "nome": "Pantry",
+      "cor": "gold",
+      "descricao": "Crops por estação + produtos animais e artisan. Recompensa final: ponte que conecta à Quarry.",
+      "bundles": [
+        {
+          "nome": "Spring Crops",
+          "necessarios": "Todos (4)",
+          "itens": ["Parsnip", "Green Bean", "Cauliflower", "Potato"],
+          "recompensa": "20 Speed-Gro"
+        },
+        {
+          "nome": "Summer Crops",
+          "necessarios": "Todos (4)",
+          "itens": ["Tomato", "Hot Pepper", "Blueberry", "Melon"],
+          "recompensa": "Bee House"
+        },
+        {
+          "nome": "Fall Crops",
+          "necessarios": "Todos (4)",
+          "itens": ["Corn", "Eggplant", "Pumpkin", "Yam"],
+          "recompensa": "Preserves Jar"
+        },
+        {
+          "nome": "Quality Crops",
+          "necessarios": "Todos (4) — qualidade gold",
+          "itens": ["5 Parsnip (gold)", "5 Melon (gold)", "5 Pumpkin (gold)", "5 Corn (gold)"],
+          "recompensa": "3 Deluxe Speed-Gro"
+        },
+        {
+          "nome": "Animal",
+          "necessarios": "5 de 6",
+          "itens": ["Large Milk", "Large Egg", "Large Goat Milk", "Wool", "Duck Egg", "Egg"],
+          "recompensa": "Cheese Press"
+        },
+        {
+          "nome": "Artisan",
+          "necessarios": "6 de 12",
+          "itens": ["Truffle Oil", "Cloth", "Goat Cheese", "Cheese", "Honey", "Jelly", "Apple", "Apricot", "Orange", "Peach", "Pomegranate", "Cherry"],
+          "recompensa": "Keg"
+        }
+      ]
+    },
+    {
+      "id": "fish-tank",
+      "nome": "Fish Tank",
+      "cor": "water",
+      "descricao": "Peixes por bioma (rio, lago, oceano) + Crab Pot. Recompensa final: bridge para acesso ao Quarry de pesca.",
+      "bundles": [
+        {
+          "nome": "River Fish",
+          "necessarios": "Todos (4)",
+          "itens": ["Sunfish", "Catfish", "Shad", "Tiger Trout"],
+          "recompensa": "30 Bait"
+        },
+        {
+          "nome": "Lake Fish",
+          "necessarios": "Todos (4)",
+          "itens": ["Largemouth Bass", "Carp", "Bullhead", "Sturgeon"],
+          "recompensa": "Dressed Spinner"
+        },
+        {
+          "nome": "Ocean Fish",
+          "necessarios": "Todos (4)",
+          "itens": ["Sardine", "Tuna", "Red Snapper", "Tilapia"],
+          "recompensa": "Crab Pot"
+        },
+        {
+          "nome": "Night Fishing",
+          "necessarios": "Todos (3)",
+          "itens": ["Walleye", "Bream", "Eel"],
+          "recompensa": "Small Glow Ring"
+        },
+        {
+          "nome": "Crab Pot",
+          "necessarios": "5 de 10",
+          "itens": ["Lobster", "Crayfish", "Crab", "Cockle", "Mussel", "Shrimp", "Snail", "Periwinkle", "Oyster", "Clam"],
+          "recompensa": "3 Crab Pots (recipe)"
+        },
+        {
+          "nome": "Specialty Fish",
+          "necessarios": "Todos (4)",
+          "itens": ["Pufferfish", "Ghostfish", "Sandfish", "Woodskip"],
+          "recompensa": "Dish O' The Sea (recipe)"
+        }
+      ]
+    },
+    {
+      "id": "boiler-room",
+      "nome": "Boiler Room",
+      "cor": "wood",
+      "descricao": "Minerais, forjaria e exploração das minas. Recompensa final: Minecarts conectando Vila/Praia/Mountain/Quarry.",
+      "bundles": [
+        {
+          "nome": "Blacksmith",
+          "necessarios": "Todos (3)",
+          "itens": ["Copper Bar", "Iron Bar", "Gold Bar"],
+          "recompensa": "Furnace (recipe + 25 Stone + 20 Copper Ore)"
+        },
+        {
+          "nome": "Geologist",
+          "necessarios": "Todos (4)",
+          "itens": ["Quartz", "Earth Crystal", "Frozen Tear", "Fire Quartz"],
+          "recompensa": "Omni Geode x 5"
+        },
+        {
+          "nome": "Adventurer",
+          "necessarios": "2 de 4",
+          "itens": ["Slime x 99", "Bat Wing x 10", "Solar Essence", "Void Essence"],
+          "recompensa": "Small Magnet Ring"
+        }
+      ]
+    },
+    {
+      "id": "bulletin-board",
+      "nome": "Bulletin Board",
+      "cor": "danger",
+      "descricao": "Pedidos pessoais dos aldeões. Recompensa final: amizade +1 com todos os NPCs do vilarejo.",
+      "bundles": [
+        {
+          "nome": "Chef's",
+          "necessarios": "6 de 11",
+          "itens": ["Fiddlehead Fern", "Truffle", "Maple Syrup", "Poppy", "Maki Roll", "Fried Egg", "Oil", "Wheat Flour", "Cookie", "Pizza", "Chocolate Cake"],
+          "recompensa": "3 Pink Cake (recipe)"
+        },
+        {
+          "nome": "Field Research",
+          "necessarios": "Todos (4)",
+          "itens": ["Purple Mushroom", "Nautilus Shell", "Chub", "Frozen Geode"],
+          "recompensa": "Recycling Machine"
+        },
+        {
+          "nome": "Enchanter's",
+          "necessarios": "Todos (4)",
+          "itens": ["Oak Resin", "Wine", "Rabbit's Foot", "Pomegranate"],
+          "recompensa": "Gold Bar x 5"
+        },
+        {
+          "nome": "Dye",
+          "necessarios": "6 de 6",
+          "itens": ["Red Mushroom", "Sea Urchin", "Sunflower", "Duck Feather", "Aquamarine", "Red Cabbage"],
+          "recompensa": "Seed Maker"
+        },
+        {
+          "nome": "Fodder",
+          "necessarios": "3 de 3",
+          "itens": ["10 Wheat", "10 Hay", "3 Apples"],
+          "recompensa": "Heater"
+        }
+      ]
+    },
+    {
+      "id": "vault",
+      "nome": "Vault",
+      "cor": "muted",
+      "descricao": "Bundles de ouro — basta entregar dinheiro. Recompensa final: Bus Stop reparado, acesso a Calico Desert.",
+      "bundles": [
+        {
+          "nome": "2.500g Bundle",
+          "necessarios": "2.500g",
+          "itens": ["2.500g (entregue)"],
+          "recompensa": "Lightning Rod"
+        },
+        {
+          "nome": "5.000g Bundle",
+          "necessarios": "5.000g",
+          "itens": ["5.000g (entregue)"],
+          "recompensa": "30 Quality Fertilizer"
+        },
+        {
+          "nome": "10.000g Bundle",
+          "necessarios": "10.000g",
+          "itens": ["10.000g (entregue)"],
+          "recompensa": "LOOM"
+        },
+        {
+          "nome": "25.000g Bundle",
+          "necessarios": "25.000g",
+          "itens": ["25.000g (entregue)"],
+          "recompensa": "Auto-Grabber"
+        }
+      ]
+    }
+  ]
+}

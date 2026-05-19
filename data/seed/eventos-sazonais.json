@@ -1,0 +1,101 @@
+[
+  {
+    "slug": "egg-festival",
+    "nome": "Festival do Ovo",
+    "estacao": "Primavera",
+    "dia": 13,
+    "descricao": "Competição de caça aos ovos na praça. Pierre vende sementes de morango exclusivas. Leve ovos de qualidade para se destacar.",
+    "localizacao": "Praça da Cidade",
+    "tipo": "festival"
+  },
+  {
+    "slug": "flower-dance",
+    "nome": "Dança das Flores",
+    "estacao": "Primavera",
+    "dia": 24,
+    "descricao": "Festival de primavera na floresta encantada. Você pode convidar um NPC com 4+ corações para dançar. Lojas fechadas.",
+    "localizacao": "Floresta Secreta",
+    "tipo": "festival"
+  },
+  {
+    "slug": "luau",
+    "nome": "Luau",
+    "estacao": "Verão",
+    "dia": 11,
+    "descricao": "Festival de verão na praia. Todos contribuem com ingredientes para a sopa do Governador. Qualidade do ingrediente afeta a reação.",
+    "localizacao": "Praia",
+    "tipo": "festival"
+  },
+  {
+    "slug": "dance-of-the-moonlight-jellies",
+    "nome": "Dança das Águas-Vivas",
+    "estacao": "Verão",
+    "dia": 28,
+    "descricao": "Festival noturno de verão. Os moradores se reúnem na praia para assistir à migração das águas-vivas luminosas.",
+    "localizacao": "Praia",
+    "tipo": "festival"
+  },
+  {
+    "slug": "stardew-valley-fair",
+    "nome": "Feira do Vale",
+    "estacao": "Outono",
+    "dia": 16,
+    "descricao": "Feira anual com competição de exibição. Monte sua vitrine com os melhores itens para ganhar pontos de estrela e prêmios raros.",
+    "localizacao": "Praça da Cidade",
+    "tipo": "festival"
+  },
+  {
+    "slug": "spirits-eve",
+    "nome": "Noite dos Espíritos",
+    "estacao": "Outono",
+    "dia": 27,
+    "descricao": "Festival de Halloween com labirinto assombrado. Explore o labirinto para encontrar um item raro escondido.",
+    "localizacao": "Praça da Cidade",
+    "tipo": "festival"
+  },
+  {
+    "slug": "festival-of-ice",
+    "nome": "Festival do Gelo",
+    "estacao": "Inverno",
+    "dia": 8,
+    "descricao": "Torneio de pesca no gelo no lago da cidade. O vencedor leva um troféu. Willy participa como juiz.",
+    "localizacao": "Lago da Cidade",
+    "tipo": "festival"
+  },
+  {
+    "slug": "night-market-15",
+    "nome": "Mercado Noturno",
+    "estacao": "Inverno",
+    "dia": 15,
+    "descricao": "Mercado especial na praia com vendedores únicos, barco de pesca e subcaverna misteriosa. Ocorre por 3 noites consecutivas.",
+    "localizacao": "Praia",
+    "tipo": "festival"
+  },
+  {
+    "slug": "night-market-16",
+    "nome": "Mercado Noturno",
+    "estacao": "Inverno",
+    "dia": 16,
+    "descricao": "Mercado especial na praia com vendedores únicos, barco de pesca e subcaverna misteriosa. Ocorre por 3 noites consecutivas.",
+    "localizacao": "Praia",
+    "tipo": "festival"
+  },
+  {
+    "slug": "night-market-17",
+    "nome": "Mercado Noturno",
+    "estacao": "Inverno",
+    "dia": 17,
+    "descricao": "Mercado especial na praia com vendedores únicos, barco de pesca e subcaverna misteriosa. Ocorre por 3 noites consecutivas.",
+    "localizacao": "Praia",
+    "tipo": "festival"
+  },
+  {
+    "slug": "feast-of-the-winter-star",
+    "nome": "Festa da Estrela do Inverno",
+    "estacao": "Inverno",
+    "dia": 25,
+    "descricao": "Festival de inverno com troca de presentes. Você é sorteado para dar um presente a um morador específico. Todos se reúnem na praça.",
+    "localizacao": "Praça da Cidade",
+    "tipo": "festival"
+  }
+]
